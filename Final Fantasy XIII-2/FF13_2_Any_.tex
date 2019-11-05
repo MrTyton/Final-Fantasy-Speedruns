@@ -1,0 +1,157 @@
+\documentclass[dvipsnames]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{xstring}
+\usepackage{xifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\pagenumbering{gobble}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\makeatletter
+\def\@makechapterhead#1{%
+  %\vspace*{5\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \large\bfseries #1
+%        \newline
+        \par\nobreak
+%        \vskip 10\p@
+        \rule{\columnwidth}{.1pt}%
+%        \vskip 10\p@
+    \fi
+    \interlinepenalty\@M
+%    \large \bfseries \MakeUppercase{#1}\par\nobreak
+%    \vskip 5\p@
+  }}
+\makeatother
+
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
+\title{FF13-2 Any\%}
+\author{MrTyton; desa3579}
+
+\begin{document}
+\singlespacing
+\maketitle
+\tableofcontents
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+\newcommand{\syn}{\textbf{\textcolor{purple}{SYN}}}
+\newcommand{\sab}{\textbf{\textcolor{gray}{SAB}}}
+\newcommand{\com}{\textbf{\textcolor{red}{COM}}}
+\newcommand{\rav}{\textbf{\textcolor{blue}{RAV}}}
+\newcommand{\sen}{\textbf{\textcolor{BurntOrange}{SEN}}}
+\newcommand{\med}{\textbf{\textcolor{green}{MED}}}
+\newcommand{\gah}{\textbf{\textcolor{purple}{Gahongas}}}
+\newcommand{\chu}{\textbf{\textcolor{red}{Chichu}}}
+\newcommand{\nek}{\textbf{\textcolor{blue}{Nekton}}}
+\newcommand{\X}{\textbf{X}}
+\newcommand{\W}{\textbf{W}}
+\newcommand{\nada}{\textbf{-}}
+\newcommand{\comb}{\com-buffered into}
+
+\newenvironment{battle}[1]{\begin{tcolorbox}[title=\begin{center}#1\end{center},colbacktitle=red!50!white]}{\end{tcolorbox}}
+
+\newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=blue!50!white]}{\end{tcolorbox}}
+
+\newenvironment{upgrade}{\begin{tcolorbox}[title=\begin{center}UPGRADE\end{center},colbacktitle=purple!50!white]}{\end{tcolorbox}}
+
+\newenvironment{menu}{\begin{tcolorbox}[title=\begin{center}MENU\end{center},colbacktitle=black!50!white]}{\end{tcolorbox}}
+
+\newcommand{\first}{1}
+\newcommand{\second}{2}
+\newcommand{\third}{3}
+\newcommand{\fourth}{4}
+\newcommand{\fifth}{5}
+\newcommand{\sixth}{6}
+
+\newcommand{\paradigm}{\item \textbf{Paradigm}}
+\newcommand{\crystarium}{\item \textbf{Crystarium}}
+\newcommand{\equip}{\item \textbf{Equipment}}
+\newcommand{\skill}{\item \textbf{Fragment Skills}}
+
+
+\newcommand{\stagger}{\textbf{STAGGER}}
+
+\newcommand{\paradigmline}[5][]{\ifthenelse{\equal{#1}{}}{#2 & #3 & #4 & \ifthenelse{\equal{#5}{}}{\nada}{#5}}{#2 & #3 & #4 & \ifthenelse{\equal{#5}{}}{\nada}{\textit{#5}}& \textit{Default}}}
+
+
+\newcommand{\paradigmdeck}[7]{\begin{tabularx}{.6\columnwidth}{c|c|c|XX} #1 \\ \cline{1-5} #2 \\ #3 \\ #4 \\ #5 \\ #6 \\ #7 \\ \end{tabularx}}
+
+\newcommand{\paradigmdeckfour}[5]{\begin{tabular}{c|c|c|cc} #1 \\ \cline{1-4} #2 \\ #3 \\ #4 \\ #5 \\  \end{tabular}}
+
+\newcommand{\stagebonus}[1]{Unlock the {#1} Stage Bonus}
+
+\newcommand{\pickup}[2]{Pick up the \textbf{#1} located #2.}
+
+\newcommand{\itemdrop}[2]{#1\% chance of a \textbf{#2}}
+
+\newcommand{\throw}[2]{Throw Mog for \textbf{#1} located #2.}
+
+\newcommand{\livet}[1]{Press {#1} on the Live Trigger}
+
+\newcommand{\QTE}[1]{\textbf{Press {#1} on the QTE}}
+\newcommand{\QTEE}[2]{\textbf{Press {#1}, then {#2} on the QTE}}
+\newcommand{\QTEEE}[3]{\textbf{Press {#1}, then {#2} and {#3} on the QTE}}
+
+\setlength{\columnsep}{.5cm}
+
+\section*{Acknowledgements}
+Everyone in the FF13 Discord. In no particular order: \textbf{Roostalol}, \textbf{LewdDolphin}, \textbf{Flux}, \textbf{Yeswally1}, \textbf{LilSharkie}, \textbf{xJakeDreamerx}, \textbf{TehMonkey\_},  \textbf{xP3ndulum},  \textbf{NijiBashira}, \textbf{Mrzwanzig}, \textbf{QazPlm9000}, \textbf{Hoishin}, \textbf{Tiornys}, \textbf{MLSTRM}, and anyone else I forgot.
+
+\pagebreak
+
+
+\begin{multicols}{2}
+\input{Chapters/prologue.tex}
+\input{Chapters/neobodhum003af.tex}
+\input{Chapters/bresharuins005af.tex}
+\input{Chapters/neobodhum003af-2.tex}
+\input{Chapters/bresharuins005af-2.tex}
+\input{Chapters/yaschasmassif010af.tex}
+\input{Chapters/sunlethwaterscape300af.tex}
+\input{Chapters/colosseumaf.tex}
+\input{Chapters/sunlethwaterscape300af-2.tex}
+\input{Chapters/archlytesteppeaf.tex}
+\input{Chapters/sunlethwaterscape300af-3.tex}
+\input{Chapters/oerba200af.tex}
+\input{Chapters/yaschasmassif01xaf.tex}
+\input{Chapters/augustatower300af.tex}
+\input{Chapters/yaschasmassif01xaf-2.tex}
+\input{Chapters/voidbeyond.tex}
+\input{Chapters/serendipity.tex}
+\input{Chapters/archlytesteppeaf-2.tex}
+\input{Chapters/academia400af.tex}
+\input{Chapters/augustatower200af.tex}
+\input{Chapters/academia400af-2.tex}
+\input{Chapters/yaschasmassif100af.tex}
+\input{Chapters/academia4xxaf.tex}
+\input{Chapters/voidbeyond-2.tex}
+\input{Chapters/dyingworld700af.tex}
+\input{Chapters/newbodhum700af.tex}
+\input{Chapters/serendipity-2.tex}
+\input{Chapters/academia500af.tex}
+\end{multicols}
+
+\end{document}
