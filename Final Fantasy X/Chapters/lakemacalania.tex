@@ -39,6 +39,7 @@
 		\item Str+4
 		\item Tidus should have 1320 Max HP
 	\end{itemize}
+	\includegraphics[width=.8\columnwidth]{graphics/Tidus_post_crawler}
 \end{itemize}
 \end{spheregrid}
 \begin{enumerate}[resume]
@@ -48,13 +49,12 @@
 	\begin{itemize}
 		\item Walk into the wall to the right of Tromell
 		\item Move slightly to the right, turn around and Talk to Tromell while moving Right.
-		\item If successful, walk forward whil emashing Shelinda's dialogue.
+		\item If successful, walk forward while mashing Shelinda's dialogue.
 		\item When done, walk up the stairs and push the man and go through.
 		\item If Shelinda is not saying her dialogue, talk to one of the musicians
 	\end{itemize}
 	\item \sd, walk to Fayth room, \cs[2:10]
 \end{enumerate}
-\vfill
 \begin{battle}[3000]{Seymour}
 \begin{itemize}
 	\tidusf Switch to Brotherhood
@@ -65,6 +65,7 @@
 	\kimahrif Defend. If Shremedy landed, Remedy/Attack the afflicted target. If \yuna\ is dead, Phoenix Down
 	\switch{\yuna}{\auron}
 	\auronf Defend
+	\tidusf Talk to Seymour
 	\tidusf \od\ Spiral Cut Seymour
 \end{itemize}
 \end{battle}
@@ -92,16 +93,27 @@
 \begin{battle}[6000]{Seymour}
 \begin{itemize}
 	\tidusf Swap Weapon to \textbf{Sonic Steel}
-	\tidusf Attack x2/3
-	\rikkuf \textit{On Blitz Win:} Phoenix Down Lulu
+	\tidusf Defend until after Multi-Thundara to build \rikku\ \od
 	\rikkuf Defend
+	\tidusf Attack x2/3
 \end{itemize}
 \end{battle}
 \begin{enumerate}[resume]
-	\item Name \shiva, \save, exit Fayth room.
+	\item Name \shiva
 \end{enumerate}
+\begin{spheregrid}
+\begin{itemize}
+	\tidusf
+	\begin{itemize}
+		\item Move Left
+		\item HP+200, Str+4, Agi+2
+	\end{itemize}
+	\includegraphics[width=.8\columnwidth]{graphics/Tidus_Post_Seymour}
+\end{itemize}
+\end{spheregrid}
 \begin{trial}
 \begin{itemize}
+	\item \save, exit Fayth room.
 	\item Slide pedestal to the right
 	\item Take sphere from the right, place into pedestal
 	\item Push pedestal up
@@ -113,15 +125,6 @@
 	\item Place in pillar
 \end{itemize}
 \end{trial}
-\begin{spheregrid}
-\begin{itemize}
-	\tidusf
-	\begin{itemize}
-		\item Move Left
-		\item HP+200, Str+4, Agi+2
-	\end{itemize}
-\end{itemize}
-\end{spheregrid}
 \begin{enumerate}[resume]
 	\item Equip Sonic Steel if not done
 	\item \formation{\tidus}{\rikku}{\yuna}
@@ -134,7 +137,7 @@
 	\item Guado Fight:
 	\begin{itemize}
 		\tidusf Attack
-		\rikkuf Silence Grande
+		\rikkuf Silence Grenade
 		\yunaf Defend
 	\end{itemize}
 \end{itemize}
@@ -148,11 +151,12 @@
 	\tidusf Attack Wendigo
 	\yunaf Defend/Heal \tidus/Phoenix Down Dead Ally
 	\rikkuf Defend/Heal \tidus/Steal Guado/Phoenix Down Dead Ally
-	\item Make sure that \yuna survives in the end
+	\switch{\yuna}{\auron}
+	\item Make sure that \yuna\ survives in the end
 \end{itemize}
 \end{battle}
 \begin{enumerate}[resume]
 	\item Run up to \rikku, \sd, walk up to \yuna, \sd, \save, run past \kimahri\ and go to the hidden area to \pickup{Level 2 Key Sphere}
-	\item Run up to \auron\ and speak with him, \sd, walk bac, \cs+\skippablefmv[1:00], \sd\ in Dream Sequence
+	\item Run up to \auron\ and speak with him, \sd, walk back, \cs+\skippablefmv[1:00], \sd\ in Dream Sequence
 \end{enumerate}
 
