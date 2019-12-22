@@ -196,12 +196,13 @@
     \paradigm
     \begin{itemize}
         \item Move the first paradigm to the second slot
+        \item Move the second paradigm to the fourth slot
         \item \paradigmdeck{%
 \paradigmline{Sazh}{Vanille}{Snow}}%
 {\paradigmline{(\syn)}{\sab}{\rav}}%
-{\paradigmline{\com}{\med}{\com}}%
-{\paradigmline{\syn}{\med}{\com}}%
 {\paradigmline{\com}{\sab}{\com}}%
+{\paradigmline{\syn}{\med}{\com}}%
+{\paradigmline{\com}{\med}{\com}}%
 {\paradigmline[5]{\textit{\syn}}{\textit{\sab}}{\textit{\com}}}%
 {\paradigmline{\com}{\rav}{\com}}
     \end{itemize}
@@ -284,9 +285,9 @@
 \end{menu}
 
 \renewcommand{\first}{[1] }
-\renewcommand{\second}{[2] Tireless Charge (\com/\med/\com)}
+\renewcommand{\second}{[2] Devastation (\com/\sab/\com)}
 \renewcommand{\third}{[3] Hero's Charge (\syn/\med/\com)}
-\renewcommand{\fourth}{[4] }
+\renewcommand{\fourth}{[4] Tireless Charge (\com/\med/\com)}
 \renewcommand{\fifth}{[5] Bully (\syn/\sab/\com)}
 \renewcommand{\sixth}{[6] Aggression (\com/\rav/\com)}
 \newpage
@@ -303,7 +304,7 @@
         \item Repeat Sazh
         \item Shift after Snow's fourth Attack
     \end{itemize}
-    \item \second
+    \item \fourth
     \begin{itemize}
         \item Blitz-Blitz
         \item Shift after Snow's fourth Attack
@@ -388,9 +389,9 @@
 \end{battle}
 
 \renewcommand{\first}{[1] Guerilla (\syn/\sab/\rav)}
-\renewcommand{\second}{[2] Tireless Charge (\com/\med/\com)}
+\renewcommand{\second}{[2] Devastation (\com/\sab/\com)}
 \renewcommand{\third}{[3] Hero's Charge (\syn/\med/\com)}
-\renewcommand{\fourth}{[4] Devastation (\com/\sab/\com)}
+\renewcommand{\fourth}{[4] Tireless Charge (\com/\med/\com)}
 \renewcommand{\fifth}{[5] Bully (\syn/\sab/\com)}
 \renewcommand{\sixth}{[6] Aggression (\com/\rav/\com)}
 \begin{multicols}{2}
@@ -421,24 +422,20 @@ Elevator to \textbf{Second Tier}.
 \begin{itemize}
     \paradigm
     \begin{itemize}
-        \item Battle Team
-        \begin{itemize}
-            \item Switch Sazh with Vanille (1 $\leftrightarrow$ 2)
-            \item Set the last paradigm as default
-        \end{itemize}
+        \item Switch Sazh with Vanille (1 $\leftrightarrow$ 2)
+        \item Set the second paradigm as default and change to Relentless Assault (\rav/\com/\rav)
     \end{itemize}
 \end{itemize}
 \end{menu}
+\renewcommand{\second}{[2]Relentless Assault (\rav/\com/\rav)}
 \vfill
-\renewcommand{\sixth}{[6] Aggression (\rav/\com/\com)}
 \begin{battle}{Mission 22: Ambling Bellows \& Cryptos x2 Pre-Empt}
 \begin{itemize}
-    \item \sixth
+    \item \second
     \begin{itemize}
-        \item Aerora Ambling Bellows ($\downarrow$)
-        \item Summon either when Sazh's Blitz connects with Ambling Bellows or a physical is about to hit Vanille (cancel Aerora if he charges for Vanille)
-        \item Aerora if not done already
-        \item Aerora-Fira
+        \item Auto-chain single spell on Ambling Bellows ($\downarrow$)
+        \item Summon when he staggers (Auto-chain again to interrupt if Vanille is interrupted)
+        \item Auto-chain 4 ATB worth of spells (Lv.1 x4, Fira + Lv.1 x2, or Aerora + Lv.1 x1)
         \item X - Gestalt
         \item B 4 times
         \item Y
@@ -502,8 +499,9 @@ Take the elevator to the \textbf{Fifth Tier}.
     \item \fourth
     \begin{itemize}
         \item Blitz-Blitz Mushussu
+        \item Repeat until safe
     \end{itemize}
-    \item \second
+    \item \sixth
     \begin{itemize}
         \item Repeat until victory
     \end{itemize}
@@ -522,9 +520,9 @@ Take the elevator on the other side to the \textbf{Sixth Tier}.
         \item \paradigmdeck{%
 \paradigmline{Sazh}{Vanille}{Snow}}%
 {\paradigmline[1]{\textit{\syn}}{\textit{\sab}}{\textit{\rav}}}%
-{\paradigmline{\com}{\med}{\com}}%
+{\paradigmline{\com}{\rav}{\rav}}%
 {\paradigmline{\syn}{\med}{\com}}%
-{\paradigmline{\com}{\sab}{\com}}%
+{\paradigmline{\com}{\med}{\com}}%
 {\paradigmline{(\rav)}{\sab}{(\rav)}}%
 {\paradigmline{\com}{\rav}{\com}}
     \end{itemize}
@@ -544,9 +542,13 @@ Take the elevator on the other side to the \textbf{Sixth Tier}.
                 \item \textit{If you didn't before:}
                 \item 2 nodes, Role Level 2
             \end{itemize}
-            \item Saboteur
+            \item (Optional) Saboteur
             \begin{itemize}
                 \item 12 nodes, HP +55
+            \end{itemize}
+            \item (If skipped above nodes) Medic
+            \begin{itemize}
+                \item 1 node, 1 side HP +100
             \end{itemize}
         \end{itemize}
         \item Snow
@@ -701,7 +703,7 @@ Activate \textbf{Ethersol}.
         \item Repeat Sazh
         \item Shift after Vetala has Deprotect
     \end{itemize}
-    \item \second
+    \item \fourth
     \begin{itemize}
         \item Blitz-Blitz
         \item Repeat until victory
@@ -716,7 +718,7 @@ Activate \textbf{Ethersol}.
         \item \paradigmdeck{%
 \paradigmline{Sazh}{Vanille}{Snow}}%
 {\paradigmline{\syn}{(\rav)}{(\sen)}}%
-{\paradigmline[2]{\textit{\com}}{\textit{(\rav)}}{\textit{(\rav)}}}%
+{\paradigmline[2]{\textit{\com}}{\textit{\rav}}{\textit{\rav}}}%
 {\paradigmline{(\rav)}{(\rav)}{(\sen)}}%
 {\paradigmline{\com}{(\rav)}{\com}}%
 {\paradigmline{\rav}{\sab}{(\sen)}}%
@@ -871,8 +873,9 @@ Take the elevator to the \textbf{Apex}.
         \begin{itemize}
             \item Medic
             \begin{itemize}
-                \item 1 node left 2, HP +100 out of ring twice
-                \item 5 nodes, Magic +18
+                \item 1 node
+                \item (If you got SAB in Taejins) left 2, HP +100 out of ring twice
+                \item 5 nodes, Magic +18 (until out)
             \end{itemize}
         \end{itemize}
     \end{itemize}
