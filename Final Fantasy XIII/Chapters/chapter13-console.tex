@@ -27,8 +27,6 @@
         \item Battle Team
         \begin{itemize}
             \item Switch Sazh with Vanille (1 $\leftrightarrow$ 3)
-        \end{itemize}
-        \item Snow:
         \item \paradigmdeck{%
 \paradigmline{Vanille}{Snow}{Sazh}}%
 {\paradigmline{(\med)}{\com}{(\com)}}%
@@ -37,16 +35,8 @@
 {\paradigmline{(\rav)}{(\rav)}{(\syn)}}%
 {\paradigmline[5]{\textit{(\sab)}}{\textit{(\rav)}}{\textit{\rav}}}%
 {\paradigmline{\rav}{\rav}{\rav}}
-	\item Lightning:
-        \item \paradigmdeck{%
-\paradigmline{Vanille}{Snow}{Sazh}}%
-{\paradigmline{(\rav)}{(\rav)}{(\syn)}}%
-{\paradigmline{\rav}{\rav}{\rav}}
-{\paradigmline{(\sab)}{\sen}{(\syn)}}%
-{\paradigmline{(\sab)}{\com}{\com}}%
-{\paradigmline{(\med)}{\com}{(\com)}}%
-{\paradigmline[6]{\textit{(\sab)}}{\textit{(\rav)}}{\textit{\rav}}}
-    \end{itemize}
+        \end{itemize}
+        \end{itemize}
     \crystarium
     \begin{itemize}
         \item Vanille
@@ -88,22 +78,23 @@ Activate \textbf{Fortisol, Aegisol} before the statue.
 \vfill
 
 
-\renewcommand{\second}{[2]/[4] Devastation (\sab/\com/\com)}
-\renewcommand{\fifth}{[5]/[6] Smart Bomb (\sab/\rav/\rav)}
-\renewcommand{\sixth}{[6]/[2] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\second}{[2] Devastation (\sab/\com/\com)}
+\renewcommand{\fifth}{[5] Smart Bomb (\sab/\rav/\rav)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 \begin{battle}{Bandersnatch \& Jabberwocky}
 \begin{itemize}
     \item \fifth
     \begin{itemize}
         \item Imperil x5 Bandersnatch
-        \item Repeat if didn't inflict
+        \item Repeat until Imperil is inflicted
     \end{itemize}
     \item \sixth
     \begin{itemize}
-        \item Summon
-        \item Fira-Aerora Bandersnatch
-        \item Repeat until Jabberwocky takes an action, then X - Gestalt
-        \item B - Force Blasters
+        \item Aerora-Fira Bandersnatch
+        \item Summon when Bandersnatch is at 410\%
+        \item Repeat
+        \item X - Gestalt
+        \item {\it If below 485\% chain:} B - Force Blasters
         \item Y - Gaian Salvo
         \item Retry if not dead
         \item Auto-chain
@@ -111,14 +102,15 @@ Activate \textbf{Fortisol, Aegisol} before the statue.
     \end{itemize}
     \item \fifth
     \begin{itemize}
-        \item Use Renew/Potion to prevent interruption if needed
-        \item Deprotect-Poison-Deprotect-Poison-Deprotect
+        \item If Breath of the Beast, shift to [3]/[1] until the attack is done
+        \item Deprotect-Poison-Deprotect-Poison-Poison
+        \item Cancel and repeat if the second Deprotect doesn't land
         \item Shift when Snow finishes his second string
     \end{itemize}
     \item \sixth
     \begin{itemize}
-        \item Auto-chain
-        \item If Breath of the Beast shift to [3] and hope
+        \item Fire-Water-Aerora
+        \item Auto-chain 2-3 spells for interruption
         \item Shift to cancel Snow's ready animation
     \end{itemize}
     \item \fifth
@@ -127,12 +119,13 @@ Activate \textbf{Fortisol, Aegisol} before the statue.
     \end{itemize}
     \item \second
     \begin{itemize}
-        \item Repeat as needed to maintain interruption until victory
+        \item Repeat \textit{if no Deprotect else }Poison x5
+        \item Repeat until victory
     \end{itemize}
 \end{itemize}
 \itemdrop{0.13}{Aegisol}
 \end{battle}
-\decep{while jumping}{back of the Megrim Thresher} If had 3 Deceptisols, skip the cancel.
+\decep{while jumping}{nothing}
 
 \begin{menu}
 \begin{itemize}
@@ -146,12 +139,11 @@ Activate \textbf{Fortisol, Aegisol} before the statue.
 \newpage
 Activate \textbf{Ethersol, Fortisol, Aegisol}.
 
-\renewcommand{\second}{[2]/[4] Devastation (\sab/\com/\com)}
-\renewcommand{\fifth}{[5]/[6] Smart Bomb (\sab/\rav/\rav)}
-\renewcommand{\sixth}{[6]/[2] Tri-Disaster (\rav/\rav/\rav)}
-
-\renewcommand{\third}{[3]/[3] Premeditation (\sab/\sen/\syn)}
-\renewcommand{\first}{[1]/[5] Tireless Charge (\med/\com/\com)}
+\renewcommand{\second}{[2] Devastation (\sab/\com/\com)}
+\renewcommand{\fifth}{[5] Smart Bomb (\sab/\rav/\rav)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\third}{[3] Premeditation (\sab/\sen/\syn)}
+\renewcommand{\first}{[1] Tireless Charge (\med/\com/\com)}
 
 \begin{battle}{Wladislaus}
 \begin{itemize}
@@ -187,10 +179,8 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
 \end{battle}
 
 Take the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol} while it rises. On the jumps, activate \textbf{Fortisol}, \textbf{Aegisol}, Menu.
-\vfill
 \begin{menu}
 \begin{itemize}
-        \begin{multicols}{2}
     \crystarium
     \begin{itemize}
         \item Sazh
@@ -209,6 +199,13 @@ Take the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol} while it 
             \item Commando
             \begin{itemize}
                 \item 6 nodes, Str +30
+            \end{itemize}
+        \end{itemize}
+        \item \textit{(Optional)} Vanille
+        \begin{itemize}
+            \item Medic
+            \begin{itemize}
+                \item 3/6 nodes, HP +200 x2
             \end{itemize}
         \end{itemize}
     \end{itemize}
@@ -230,17 +227,12 @@ Take the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol} while it 
             \item Optimize: Balanced
         \end{itemize}
     \end{itemize}
-\end{multicols}
     \paradigm
     \begin{itemize}
         \item Battle Team
         \begin{itemize}
             \item Switch Vanille with Sazh (1 $\leftrightarrow$ 3)
-        \end{itemize}
-        \end{itemize}
-        \begin{center}Snow\end{center}
-        
-        \paradigmdeck{%
+\item \paradigmdeck{%
 \paradigmline{Sazh}{Snow}{Vanille}}%
 {\paradigmline{\com}{\com}{\med}}%
 {\paradigmline[2]{\textit{\com}}{\textit{\com}}{\textit{(\rav)}}}%
@@ -248,27 +240,17 @@ Take the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol} while it 
 {\paradigmline{\syn}{\rav}{\rav}}%
 {\paradigmline{\rav}{\rav}{\sab}}%
 {\paradigmline{\rav}{\rav}{\rav}}
-
-
-	\begin{center}Lightning\end{center}
-	
-        \paradigmdeck{%
-\paradigmline{Sazh}{Snow}{Vanille}}%
-{\paradigmline{\syn}{\rav}{\rav}}%
-{\paradigmline{\rav}{\rav}{\rav}}	%
-{\paradigmline{(\sen)}{\sen}{(\med)}}%
-{\paradigmline[4]{\textit{\com}}{\textit{\com}}{\textit{(\rav)}}}%
-{\paradigmline{\com}{\com}{\med}}%
-{\paradigmline{\rav}{\rav}{\sab}}
+        \end{itemize}
+        \end{itemize}
 \end{itemize}
 
 \end{menu}
-\renewcommand{\first}{[1]/[5] Tireless Charge ((\com)/\com/\med)}
-\renewcommand{\second}{[2]/[4] Aggression (\com/\com/\rav)}
-\renewcommand{\third}{[3]/[3] Consolidation (\sen/\sen/\med)}
-\renewcommand{\fourth}{[4]/[1] Malevolence (\syn/(\rav)/\rav)}
-\renewcommand{\fifth}{[5]/[6] Smart Bomb (\rav/\rav/\sab)}
-\renewcommand{\sixth}{[6]/[2] Tri-Disaster (\rav/\rav/\rav)}
+\renewcommand{\first}{[1] Tireless Charge ((\com)/\com/\med)}
+\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
+\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
+\renewcommand{\fourth}{[4] Malevolence (\syn/(\rav)/\rav)}
+\renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 \begin{battle}{Tiamat Eliminator}
 \begin{itemize}
     \item \second
@@ -330,15 +312,9 @@ Take the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol} while it 
     \end{itemize}
 \end{itemize}
 \end{shop}
-\end{multicols}
 \pickup{Ethersol}{in the final hallway}
 Activate all shrouds.
-\renewcommand{\first}{[1]/[5] Tireless Charge (\com)/\com/\med)}
-\renewcommand{\second}{[2]/[4] Aggression (\com/\com/\rav)}
-\renewcommand{\third}{[3]/[3] Consolidation (\sen/\sen/\med)}
-\renewcommand{\fourth}{[4]/[1] Malevolence (\syn/(\rav)/\rav)}
-\renewcommand{\fifth}{[5]/[6] Smart Bomb (\rav/\rav/\sab)}
-\renewcommand{\sixth}{[6]/[2] Tri-Disaster (\rav/\rav/\rav)}
+\end{multicols}
 
 \begin{battle}{Barthandelus 3}
 \begin{multicols}{2}
