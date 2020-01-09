@@ -7,10 +7,10 @@
 \begin{battle}{Lancet Tutorial}
   \begin{itemize}
     \item \sd
-          \kimahrif Lancet
+    \kimahrif Lancet
+          \switch{\kimahri}{\yuna}
+          \yunaf Defend
           \tidusf Attack
-          \switch{anyone}{\yuna}
-          \yunaf Attack
           \luluf Fire
   \end{itemize}
 \end{battle}
@@ -20,13 +20,22 @@
 \end{enumerate}
 \begin{spheregrid}
   \begin{itemize}
-    \tidusf Go to Flee, learn Flee and Agility +1
+    \tidusf
+    \begin{itemize}
+    \item Move $\leftarrow\leftarrow$
+    \item Flee, Agi+1
+    \end{itemize}
   \end{itemize}
   \includegraphics{graphics/tidusflee}
 \end{spheregrid}
 \begin{equip}
   \begin{itemize}
     \wakkaf Scout
+    \item \textit{If you have them:}
+    	\begin{itemize}
+    	\wakkaf Ice Ball
+    	\wakkaf Armguard
+    	\end{itemize}
     \item \textit{If you got the Ice Brand:}
           \begin{itemize}
             \tidusf Ice Brand
@@ -35,23 +44,66 @@
 \end{equip}
 \begin{enumerate}[resume]
   \item \formation{\tidus}{\yuna}{\wakka}
-  \item Continue up the hidden path, following the map.
+  \item Continue up the hidden path, following the map. Fill up \valefor\ \od\ with the first set, then do the rest of the encounters with the second set.
+  \item Need 16 Speed Spheres from this point on. Need 45-55 AP on \tidus, which is about 5-7 kills.
 \end{enumerate}
+\vfill
+\begin{encounters}
+On Pre-Empts, Defend on Everyone.
+\begin{itemize}
+	\item Killer Bee + Yellow Element:
+	\begin{itemize}
+		\tidusf Defend
+		\summon{\valefor}
+		\valeforf Boost
+		\item Thunder Killer Bee
+		\valeforf Water Yellow Element
+	\end{itemize}
+	\item Dinonix + Yellow Element
+	\begin{itemize}
+		\tidusf Attack Dinonix
+		\summon{\valefor}
+		\valeforf Boost x2
+		\valeforf Water Yellow Element
+	\end{itemize}
+	\item Killer Bee + Dinonix + Yellow Element
+	\begin{itemize}
+		\tidusf Attack Dinonix
+		\summon{\valefor}
+		\valeforf Boost
+		\item Thunder Killer Bee
+		\valeforf Water Yellow Element
+	\end{itemize}
+	\item Ragora (Bad Encounter)
+	\begin{itemize}
+		\tidusf Defend
+		\summon{\valefor}
+		\valeforf Boost
+		\valeforf Sonic Wings
+		\valeforf Fire x2
+	\end{itemize}
+	\item 2x Ragora (Super Bad Encounter)
+	\begin{itemize}
+		\tidusf Defend
+		\summon{\valefor}
+		\valeforf Boost
+		\valeforf Dismiss
+		\wakkaf Defend
+		\item Flee
+	\end{itemize}
+\end{itemize}
+\end{encounters}
 \begin{encounters}
   \begin{itemize}
-    \item Killer Bee:
-          \begin{itemize}
-            \wakkaf Attack
-            \luluf Blizzard
-          \end{itemize}
+    \item Killer Bee: \wakkaf Attack
     \item Dinonix: \tidus\ Attack
-    \item Yellow Element: \lulu\ Water
+    \yunaf Defend
     \item Ragora: Flee
+    \item Flee whatever is left.
   \end{itemize}
-  Keep track of Speed Spheres, need 17 over the course of the run. Need about 45-55 AP on \tidus, which is about 6 kills these encounters.
 \end{encounters}
 \begin{enumerate}[resume]
-  \item\save,  \sd
+  \item \sd
   \item \formation{\tidus}{\yuna}{\wakka}
   \item \save
 \end{enumerate}

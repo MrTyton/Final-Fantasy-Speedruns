@@ -7,6 +7,7 @@
   \item \sd, run to the cafe. \sd, \skippablefmv+\cs[1:20], \sd
   \item Run left to next screen, then left to the docks. Run north to the next screen.
 \end{enumerate}
+\vfill
 \begin{battle}{Machina}
   \begin{itemize}
     \item \textit{For the first two encounters:}
@@ -34,7 +35,7 @@
             \item \textit{Third Wave}
                   \begin{itemize}
                     \tidusf Attack
-                    \kimahrif Attack
+                    \kimahrif Attack or \od\ Seed Canon
                     \luluf Thunder a different Machina
                   \end{itemize}
           \end{itemize}
@@ -42,65 +43,102 @@
 \end{battle}
 \begin{enumerate}[resume]
   \item If anyone is Critical HP, use Potions.
-  \item Run right.
+  \item Run right. Do the below Sphere Grid if \tidus\ has 5 S.Levels.
 \end{enumerate}
 \begin{battle}[3000]{Oblitzerator}
-  \begin{itemize}
+ \begin{itemize}
     \kimahrif Defend
-    \tidusf Defend
+    \tidusf Defend \textit{If No Early Haste Else} Haste \lulu
     \luluf Thunder Crane x3
     \tidusf Use Crane after \lulu's string
     \kimahrif Defend
     \luluf Thunder
-    \tidusf Defend
+    \tidusf Attack
   \end{itemize}
   Check for \textbf{Lightning Steel, Thunder Ball}
 \end{battle}
 \begin{enumerate}[resume]
   \item \cs[2:00], \sd\ during and after Blitzball game.
 \end{enumerate}
-\vfill
 \begin{spheregrid}
   \begin{itemize}
-    \tidusf Jump straight to Str Node
-    \tidusf +1 Str, Haste, +20 MP
+    \tidusf (5 S.Lvl)
+    \begin{itemize}
+	    \item Move $\downarrow \searrow\searrow$
+	    \item +1 Str, Haste, +20 MP
+  \end{itemize}
   \end{itemize}
   \includegraphics{graphics/haste}
 \end{spheregrid}
+\begin{enumerate}[resume]
+  \item Auto-Sort items
+  \end{enumerate}
 \begin{equip}
   \begin{itemize}
     \item \textit{If you got Lightning Steel}
           \begin{itemize}
-            \tidusf Equip Lightning Steel
+            \tidusf Lightning Steel
           \end{itemize}
+   \item \textit{If you got Thunder Ball}
+   		\begin{itemize}
+   		\wakkaf Thunder Ball
+   		\end{itemize}
   \end{itemize}
 \end{equip}
 \begin{enumerate}[resume]
-  \item Auto-Sort items
   \item Run South for the next two screens. \save. Go up the stairs to the locker room, \sd
   \item Go back into locker room, speak to \wakka, \sd, \cs[1:20]. \sd\ after \lulu\ scene. \cs[1:40] on Auron Entrance.
 \end{enumerate}
 \begin{trial}
   \textbf{Blitzball}
   \begin{itemize}
+  \item \textbf{First Half:}
+  \begin{itemize}
     \item \textit{If Luca wins the Blitzoff:}
           \begin{itemize}
-            \item Triangle, switch the mode to \textbf{Mark Mode}
+            \item Triangle, switch the mode to \textbf{Mark Mode}, and then \textbf{Left Side}
             \item When Graav is close to your central player, return to \textbf{Normal Mode}
           \end{itemize}
     \item \textit{When you get the ball:}
           \begin{itemize}
             \item Change to \textbf{Manual A} and \textbf{Normal Mode}
+            \item down some, pass the ball to \tidus
+            \tidusf Swim next to Jassu, pass to Jassu
             \item Hide behind the Goalie
-            \item Alternatively pass to Jassu and swim around
-            \item Only try to score when the time is almost up
-            \item If losing, don't try to score
+            \item If you aggrod a Goer, Swim Around
           \end{itemize}
-    \item \sd\ during half time, \sd\ during \wakka\ protest, \sd\ end of game.
+          \end{itemize}
+    \item \sd\ during half time
+    \item \textbf{Second Half:}
+    	\begin{itemize}
+    \item \textit{If Luca wins the Blitzoff:}
+          \begin{itemize}
+            \item Triangle, switch the mode to \textbf{Mark Mode}, and then \textbf{Right Side}
+            \item When Graav is close to your central player, return to \textbf{Normal Mode}
+          \end{itemize}
+    \item \textit{When you get the ball:}
+    	\item Pass to Jassu if he doesn't have it
+    	\item Swim to the Bottom Middle
+    	\item Wait until 2:20, if Abus Aggros then Break
+    	\item Swim to the Left, aggro Balgerda (bottom player), then swim back some
+    	\item Pass to \tidus\ before Balgerda gets in range to block
+    	\tidusf Swim close to the Goal and Sphere Sphot before anyone is close enough to block
+    	\begin{itemize}
+    		\item If 1 Defender and 2:49, Sphere Shot over the Defender
+    		\item Otherwise, Break and Sphere Shot
+    		\item If 2 Defenders, Break 1, Sphere Shot
+	\end{itemize}
+	\item \sd\ during \wakka\ \cs
+	\item If you need to Score or it's 1-1, then do the same as above with Jassu
+	\item Wait until 4:20 then aggro Balgerda, Pass to \wakka
+	\wakkaf swim close and Venom Shot, or Break, Venom Shot
+	\end{itemize}
+  \item Don't try to score in the First Half
+  \item If you're losing, Change to \textbf{Mark Mode} and lose the game.
   \end{itemize}
 \end{trial}
 \begin{enumerate}[resume]
-  \item \cs[1:00], Don't Save
+  \item \sd, \cs[1:00], Don't Save
 \end{enumerate}
 \begin{battle}{Sahagin Chief}
   \begin{itemize}
@@ -109,7 +147,7 @@
             \tidusf Haste \tidus
             \wakkaf Attack one Sahagin for the first two waves, defend on the third wave
             \tidusf Attack the other Sahagin
-            \wakkaf Potion if \tidus\ has less than 150 HP
+            \wakkaf Potion if \tidus\ has less than 156 HP
           \end{itemize}
     \item{If Lightning Steel:}
           \begin{itemize}
@@ -119,19 +157,23 @@
             \tidusf Attack
           \end{itemize}
   \end{itemize}
+Each Overkill is +1 Power Sphere
 \end{battle}
 \begin{enumerate}[resume]
-  \item \sd, \skippablefmv
+  \item \sd, \skippablefmv. Overkill on Vouivre is +1 Power Sphere
 \end{enumerate}
 \begin{battle}[1800]{Garuda}
   \begin{itemize}
     \tidusf Haste \auron
     \auronf Attack x3
-    \wakkaf Defend
-    \tidusf Defend until \auron\ finishes his string, then Attack
+    \wakkaf Defend, Potion if \tidus\ is less than 312 HP
+    \tidusf Attack
+    \tidusf Defend
+    \wakkaf Defend, Potion if \auron\ is less than 202 HP
     \auronf Attack x3
     \item Don't revive non-\auron\ party members
   \end{itemize}
+Overkill is +1 Power Sphere
 \end{battle}
 \begin{enumerate}[resume]
   \item \cs+\skippablefmv[1:30]. Don't save. \sd\ the Auroch scene
