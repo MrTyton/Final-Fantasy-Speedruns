@@ -10,14 +10,14 @@
     \rikkuf Lightning Marble Crawler
     \kimahrif Lightning Marble Crawler
     \luluf Phoenix Down \rikku
-    \item \textit{If Blitz Win or have Lunar Curtain:}
+    \item \textit{If \blitzwin or have Lunar Curtain:}
     \begin{itemize}
     \switch{\kimahri}{\yuna} \textit{If \kimahri\ didn't die}
     \yunaf Defend
     \rikkuf Lightning Marble Crawler
     \luluf Phoenix Down \rikku \textit{If \kimahri\ didn't die else} Swap for \yuna\ and \yuna\ Phoenix Down \rikku
     \end{itemize}
-    \textit{If Blitz Loss and No Lunar Curtain:}
+    \textit{If \blitzloss and No Lunar Curtain:}
     \begin{itemize}
     \kimahrif Steal
     \rikkuf Lightning Marble Crawler
@@ -41,13 +41,13 @@
       \item HP+200
       \item Move $\rightarrow\rightarrow\uparrow$
       \item HP+200, Str+4, Agi+2
-      \item \textit{Blitz Win:}
+      \item \textit{\blitzwin:}
       \begin{itemize}
       \item Move $\rightarrow$
       \item Use Strength Sphere, Activate it
       \item Move $\uparrow\leftarrow\leftarrow$ or $\nwarrow\nwarrow$
       \end{itemize}
-      \textit{Blitz Loss:}
+      \textit{\blitzloss:}
       \begin{itemize}
       \item Move $\uparrow\nwarrow$
       \end{itemize}
@@ -67,13 +67,16 @@
           \item Walk into the wall to the right of Tromell
           \item Move slightly to the right, turn around and Talk to Tromell while moving Right.
           \item If successful, walk forward while mashing Shelinda's dialogue.
-          \item When dialogue finishes, walk up the stairs and push the man and go through.
+          \item When dialogue finishes, walk up the stairs, push the man, and go through.
           \item If Shelinda is not saying her dialogue, talk to one of the musicians
         \end{itemize}
   \item \sd, walk to Fayth room, \cs[2:10]
 \end{enumerate}
 \begin{battle}[3000]{Seymour}
   \begin{itemize}
+  \item \textit{If you \wonblitz:}
+  \begin{itemize}
+  
     \tidusf Switch to Brotherhood
     \tidusf Haste \tidus
     \enemyf Seymour Blizzara
@@ -85,37 +88,58 @@
     \auronf Defend
     \tidusf \od\ Spiral Cut Seymour
   \end{itemize}
+  \item \textit{If you \lostblitz:}
+  \begin{itemize}
+  \tidusf Haste \tidus
+  \tidusf Cheer
+  \tidusf Talk to Seymour
+  \yunaf Change Weapon
+  \switch{\kimahri}{\rikku}
+  \rikkuf Defend. If Shremedy landed, Remedy/Attack the afflicted target.
+  \switch{\yuna}{\kimahri}
+  \kimahrif Defend. If Shremedy landed, Remedy/Attack the afflicted target.
+  \tidusf Switch to Brotherhood
+    \tidusf \od\ Spiral Cut Seymour
+  \end{itemize}
+  \end{itemize}
 \end{battle}
+\vfill
 \begin{battle}[18000]{Anima}
+\begin{itemize}
+\item \textit{If you \wonblitz:}
   \begin{itemize}
     \switch{\tidus}{\wakka}
     \wakkaf Change Weapon
-    \item \textit{If you lost Blitz:}
-          \begin{itemize}
-            \kimahrif Lightning Marble/Bomb Core/Arctic Wind
-          \end{itemize}
-    \item \textit{Else:}
-          \begin{itemize}
             \kimahrif Steal
-          \end{itemize}
           \enemyf Pain
           \switch{first survivor}{\tidus}
           \tidusf Attack x4
           \switch{second survivor}{\rikku}
-          \rikkuf Steal
-          \rikkuf Phoenix Down \yuna\ if she's dead
-          \rikkuf \textit{Blitz Loss:} Use lightning Marble/Bomb Core/Arctic Wind
+          \rikkuf Steal/Phoenix Down \yuna\ if she's dead
   \end{itemize}
+  \item \textit{If you \lostblitz:}
+  \begin{itemize}
+  \rikkuf Use Lightning Marble/Bomb Core/Arctic Wind
+  \switch{\tidus}{\wakka}
+  \kimahrif Use Lightning Marble/Bomb Core/Arctic Wind
+  \enemyf Pain
+  \switch{\wakka}{\tidus}, if \wakka\ died then switch \rikku\ instead.
+  \tidusf Attack x4
+  \switch{\kimahri}{\rikku} \textit{if you had to switch out \rikku\ before}
+  \rikkuf Steal/Phoenix Down \yuna\ if she's dead.
+  \end{itemize}
+ \tidus\ and \yuna\ need AP.
+\end{itemize}
 \end{battle}
 \begin{battle}[6000]{Seymour}
   \begin{itemize}
-  \item \textit{If you won Blitz:}
+  \item \textit{If you \wonblitz:}
   \begin{itemize}
-    \tidusf Defend x2 Phoenix Down \rikku\ if she died.
+    \tidusf Defend x2, Phoenix Down \rikku\ if she died.
     \rikkuf Defend
     \tidusf Attack x2
     \end{itemize}
-    \item \textit{If you lost Blitz:}
+    \item \textit{If you \lostblitz:}
     \begin{itemize}
     \tidusf Attack
     \rikkuf Defend
@@ -142,6 +166,7 @@
     \includegraphics[width=.8\columnwidth]{graphics/Tidus_Post_Seymour}
   \end{itemize}
 \end{spheregrid}
+\vfill
 \begin{trial}
   \begin{itemize}
     \item \save, exit Fayth room.
@@ -160,7 +185,7 @@
   \item \formation{\rikku}{\tidus}{\yuna}
   \item Go to temple entrance, \sd
   \item Move south and go down the left path.
-  \item If Blitz Loss, do one of the following encounters:
+  \item If \blitzloss, do one of the following encounters:
 \end{enumerate}
 \begin{encounters}
   \begin{itemize}
@@ -191,7 +216,7 @@
     \rikkuf Defend/Elixir \tidus/Steal Guado/Phoenix Down Dead Ally
     \switch{\yuna}{\lulu}
   \end{itemize}
-\yuna, \tidus\ need AP. Helpful is \lulu\ gets it.
+\yuna, \tidus\ need AP. Helpful if \lulu\ gets it.
 \end{battle}
 \begin{enumerate}[resume]
   \item Run up to \rikku, \sd, walk up to \yuna, \sd, \save, run past \kimahri\ and go to the hidden area to \pickup{Level 2 Key Sphere}
