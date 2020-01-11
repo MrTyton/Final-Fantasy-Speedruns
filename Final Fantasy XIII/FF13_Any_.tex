@@ -59,7 +59,7 @@
 \newcommand{\sen}{\textbf{\textcolor{BurntOrange}{SEN}}}
 \newcommand{\med}{\textbf{\textcolor{green}{MED}}}
 
-\newenvironment{battle}[1]{\begin{tcolorbox}[title=\begin{center}#1\end{center},colbacktitle=red!50!white]}{\end{tcolorbox}}
+\newenvironment{battle}[2][]{\begin{tcolorbox}[title=\begin{center}#2 \ifthenelse{\isempty{#1}}{}{- #1}\end{center},colbacktitle=red!50!white]}{\end{tcolorbox}}
 
 \newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=blue!50!white]}{\end{tcolorbox}}
 
