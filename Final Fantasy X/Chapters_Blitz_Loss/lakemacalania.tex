@@ -71,9 +71,9 @@
 		\tidusf Talk to Seymour
 		\yunaf Change Weapon
 		\switch{\kimahri}{\rikku}
-		\rikkuf Defend. If Shremedy landed, Remedy/Attack the afflicted target.
+		\rikkuf Defend. If Shremedy landed, Remedy the afflicted target.
 		\switch{\yuna}{\kimahri}
-		\kimahrif Defend. If Shremedy landed, Remedy/Attack the afflicted target.
+		\kimahrif Defend. If Shremedy landed, Remedy the afflicted target.
 		\tidusf Switch to Brotherhood
 		\tidusf \od\ Spiral Cut Seymour
 	\end{itemize}
@@ -83,6 +83,7 @@
 	\begin{itemize}
 		\rikkuf Use Lightning Marble/Bomb Core/Arctic Wind
 		\switch{\tidus}{\wakka}
+		\wakkaf Switch Weapon
 		\kimahrif Use Lightning Marble/Bomb Core/Arctic Wind
 		\enemyf Pain
 		\switch{\wakka}{\tidus}, if \wakka\ died then switch \rikku\ instead.
@@ -94,8 +95,9 @@
 \end{battle}
 \begin{battle}[6000]{Seymour}
 	\begin{itemize}
-		\tidusf Attack
-		\rikkuf Defend
+	      \tidusf Defend x2, Phoenix Down \rikku\ if she died.
+	      \rikkuf Defend
+	      \tidusf Attack x2
 	\end{itemize}
 \end{battle}
 \begin{enumerate}[resume]
