@@ -22,6 +22,7 @@ There are many ways that you can get an FPS counter to be displayed on your stre
 ### DX-Tory
 1. Download [DX-Tory](https://dxtory.en.lo4d.com/windows)
 2. Install it, following all of the setup instructions
+3. You do NOT have to pay anything in order to use the FPS counter that comes with the program.
 
 ### After enabling FPS Counter
 1. Make sure that you enable capturing third-party overlays in whatever capture software you are using.
