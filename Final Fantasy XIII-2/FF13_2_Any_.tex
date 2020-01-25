@@ -14,6 +14,7 @@
 \pagenumbering{gobble}
 \setlength{\columnsep}{1.5cm}
 \setlength{\columnseprule}{0.2pt}
+\usepackage{latexsym}
 \usepackage{hyperref}
 \usepackage[none]{hyphenat}
 \hypersetup{
@@ -51,7 +52,9 @@
 \begin{document}
 \singlespacing
 \maketitle
+\begin{multicols}{2}
 \tableofcontents
+\end{multicols}
 
 \makeatletter
 \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
@@ -111,9 +114,19 @@
 
 \newcommand{\livet}[1]{Press {#1} on the Live Trigger}
 
+\newcommand{\tri}{$\bigtriangleup/Y$}
+\newcommand{\x}{$X/A$}
+\newcommand{\rightc}{$\rightarrow$}
+\newcommand{\leftc}{$\leftarrow$}
+\newcommand{\upc}{$\uparrow$}
+\newcommand{\downc}{$\downarrow$}
+\newcommand{\squarec}{$\Box/X$}
+\newcommand{\circlec}{$\bigcirc/B$}
+
 \newcommand{\QTE}[1]{\textbf{Press {#1} on the QTE}}
 \newcommand{\QTEE}[2]{\textbf{Press {#1}, then {#2} on the QTE}}
 \newcommand{\QTEEE}[3]{\textbf{Press {#1}, then {#2} and {#3} on the QTE}}
+\newcommand{\QTEEEE}[4]{\textbf{Press {#1}, then {#2}, {#3} and {#4} on the QTE}}
 
 \setlength{\columnsep}{.5cm}
 
@@ -135,6 +148,7 @@ Everyone in the FF13 Discord. In no particular order: \textbf{Roostalol}, \textb
 	\input{Chapters/sunlethwaterscape300af-2.tex}
 	\input{Chapters/archlytesteppeaf.tex}
 	\input{Chapters/sunlethwaterscape300af-3.tex}
+	\input{Chapters/voidbeyond-0.tex}
 	\input{Chapters/oerba200af.tex}
 	\input{Chapters/yaschasmassif01xaf.tex}
 	\input{Chapters/augustatower300af.tex}
