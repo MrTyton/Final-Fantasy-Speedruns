@@ -1,0 +1,176 @@
+\documentclass[a4paper]{report}
+\usepackage[group-separator={,},group-minimum-digits={3}]{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage[margin=0.2in]{geometry}
+\usepackage{xstring}
+\usepackage{xifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\pagenumbering{gobble}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{etoolbox}
+
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\makeatletter
+\def\@makechapterhead#1{%
+  %\vspace*{5\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \large\bfseries #1
+        \par\nobreak
+%        \vskip 10\p@
+        \rule{\columnwidth}{.1pt}%
+%        \vskip 10\p@
+    \fi
+    \interlinepenalty\@M
+%    \large \bfseries \MakeUppercase{#1}\par\nobreak
+%    \vskip 5\p@
+  }}
+\makeatother
+
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
+\title{FFX Any\%}
+\author{Mr.Tyton}
+\begin{document}
+\singlespacing
+\maketitle
+\tableofcontents
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+
+\newenvironment{battle}[2][]{\begin{tcolorbox}[title=\begin{center}#2 \ifthenelse{\isempty{#1}}{}{- \num{#1} HP}\end{center},colbacktitle=red!50!white]}{\end{tcolorbox}}
+
+\newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=blue!50!white]}{\end{tcolorbox}}
+
+\newenvironment{spheregrid}{\begin{tcolorbox}[title=\begin{center}SPHERE GRID\end{center},colbacktitle=purple!50!white]}{\end{tcolorbox}}
+
+\newenvironment{encounters}{\begin{tcolorbox}[title=\begin{center}ENCOUNTERS\end{center},colbacktitle=VioletRed!50!white]}{\end{tcolorbox}}
+
+\newenvironment{trial}{\begin{tcolorbox}[title=\begin{center}Cloister of Trials\end{center},colbacktitle=Bittersweet!50!white]}{\end{tcolorbox}}
+
+\newenvironment{blitzball}{\begin{tcolorbox}[title=\begin{center}Blitzball\end{center},colbacktitle=Maroon!50!white]}{\end{tcolorbox}}
+
+\newenvironment{equip}{\begin{tcolorbox}[title=\begin{center}EQUIPMENT\end{center},colbacktitle=Gray!50!white]}{\end{tcolorbox}}
+
+\newcommand{\save}{\textbf{Touch the Save Sphere}}
+
+\newcommand{\pickup}[1]{open the chest for the \textbf{#1}}
+
+\newcommand{\sd}{\textbf{SD}}
+
+\newcommand{\cs}[1][]{\textbf{CS}%
+	\ifthenelse{\isempty{#1}}{}{ (#1)}%
+}
+
+\newcommand{\skippablecs}[1][]{\textbf{Skippable CS}%
+	\ifthenelse{\isempty{#1}}{}{ (#1)}%
+}
+
+\newcommand{\fmv}[1][]{\textbf{FMV}%
+	\ifthenelse{\isempty{#1}}{}{ (#1)}%
+}
+
+\newcommand{\skippablefmv}[1][]{\textbf{Skippable FMV}%
+	\ifthenelse{\isempty{#1}}{}{ (#1)}%
+}
+
+\newcommand{\od}{\textbf{Overdrive}}
+
+\newcommand{\formation}[3]{\textcolor{Mulberry}{\textbf{Formation: }}#1, #2, #3}
+
+
+\newcommand{\lulu}{\textbf{\textcolor{purple}{Lulu}}}
+\newcommand{\yuna}{\textbf{\textcolor{gray}{Yuna}}}
+\newcommand{\auron}{\textbf{\textcolor{red}{Auron}}}
+\newcommand{\tidus}{\textbf{\textcolor{blue}{Tidus}}}
+\newcommand{\wakka}{\textbf{\textcolor{BurntOrange}{Wakka}}}
+\newcommand{\rikku}{\textbf{\textcolor{ForestGreen}{Rikku}}}
+\newcommand{\kimahri}{\textbf{\textcolor{Tan}{Kimahri}}}
+
+\newcommand{\luluf}{\item \textbf{\textcolor{purple}{Lulu}}: }
+\newcommand{\yunaf}{\item \textbf{\textcolor{gray}{Yuna}}: }
+\newcommand{\auronf}{\item \textbf{\textcolor{red}{Auron}}: }
+\newcommand{\tidusf}{\item \textbf{\textcolor{blue}{Tidus}}: }
+\newcommand{\wakkaf}{\item \textbf{\textcolor{BurntOrange}{Wakka}}: }
+\newcommand{\rikkuf}{\item \textbf{\textcolor{ForestGreen}{Rikku}}: }
+\newcommand{\kimahrif}{\item \textbf{\textcolor{Tan}{Kimahri}}: }
+\newcommand{\enemyf}{\item \textbf{\textcolor{RubineRed}{Enemy}}: }
+\newcommand{\valeforf}{\item \textbf{\textcolor{Salmon}{Valefor}}: }
+\newcommand{\bahamutf}{\item \textbf{\textcolor{RoyalPurple}{Bahamut}}: }
+\newcommand{\ixilonf}{\item \textbf{\textcolor{Lavender}{Ixion}}: }
+\newcommand{\ifritf}{\item \textbf{\textcolor{OrangeRed}{Ifrit}}: }
+\newcommand{\shivaf}{\item \textbf{\textcolor{Cyan}{{Shiva}}}: }
+\newcommand{\switch}[2]{\item Switch #1 for #2}
+\newcommand{\summon}[1]{\yunaf Summon #1}
+
+\newcommand{\valefor}{\textbf{\textcolor{Salmon}{Valefor}}}
+\newcommand{\ixilon}{\textbf{\textcolor{Lavender}{Ixion}}}
+\newcommand{\shiva}{\textbf{\textcolor{Cyan}{Shiva}}}
+\newcommand{\bahamut}{\textbf{\textcolor{RoyalPurple}{Bahamut}}}
+\newcommand{\ifrit}{\textbf{\textcolor{OrangeRed}{Ifrit}}}
+
+\newcommand{\blitzloss}{\textbf{\textcolor{Magenta}{Blitz Loss}}}
+\newcommand{\lostblitz}{\textbf{\textcolor{Magenta}{lost Blitz}}}
+
+\newcommand{\blitzwin}{\textbf{\textcolor{OliveGreen}{Blitz Win}}}
+\newcommand{\wonblitz}{\textbf{\textcolor{OliveGreen}{won Blitz}}}
+
+
+\setlength{\columnsep}{.5cm}
+
+\section*{Acknowledgements}
+
+CloseToWar, Flobberworm, Roosta, Keeano, TheMixedHerb
+\newpage
+
+	\input{Chapters_Single_Column/zanarkand.tex}
+	\input{Chapters_Single_Column/baajtemple.tex}
+	\input{Chapters_Single_Column/besaid.tex}
+	\input{Chapters_Single_Column/ssliki.tex}
+	\input{Chapters_Single_Column/kilika.tex}
+	\input{Chapters_Single_Column/sswinno.tex}
+	\input{Chapters_Single_Column/luca.tex}
+	\input{Chapters_Single_Column/miihenhighroad.tex}
+	\input{Chapters_Single_Column/mushroomrockroad.tex}
+	\input{Chapters_Single_Column/djose.tex}
+	\input{Chapters_Single_Column/moonflow.tex}
+	\input{Chapters_Single_Column/guadosalam.tex}
+	\input{Chapters_Single_Column/thunderplains.tex}
+	\input{Chapters_Single_Column/macalaniawoods.tex}
+	\input{Chapters_Single_Column/lakemacalania.tex}
+	\input{Chapters_Single_Column/bikaneldesert.tex}
+	\input{Chapters_Single_Column/home.tex}
+	\input{Chapters_Single_Column/airship.tex}
+	\input{Chapters_Single_Column/bevelle.tex}
+	\input{Chapters_Single_Column/viapurifico.tex}
+	\input{Chapters_Single_Column/highbridge.tex}
+	\input{Chapters_Single_Column/calmlands.tex}
+	\input{Chapters_Single_Column/mtgagazet.tex}
+	\input{Chapters_Single_Column/zanarkand2.tex}
+	\input{Chapters_Single_Column/airship2.tex}
+	\input{Chapters_Single_Column/insidesin.tex}
+
+\end{document}
