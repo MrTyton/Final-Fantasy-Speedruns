@@ -1,0 +1,159 @@
+\documentclass[dvipsnames]{report}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{xstring}
+\usepackage{xifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\pagenumbering{gobble}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+\usepackage{latexsym}
+\usepackage{hyperref}
+\usepackage{pgffor}
+\usepackage[none]{hyphenat}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\makeatletter
+\def\@makechapterhead#1{%
+  %\vspace*{5\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \large\bfseries #1
+%        \newline
+        \par\nobreak
+%        \vskip 10\p@
+        \rule{\columnwidth}{.1pt}%
+%        \vskip 10\p@
+    \fi
+    \interlinepenalty\@M
+%    \large \bfseries \MakeUppercase{#1}\par\nobreak
+%    \vskip 5\p@
+  }}
+\makeatother
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
+
+
+\newcommand{\flee}{\textbf{Flee}}
+\newcommand{\cs}{\textbf{Cutscene Skip}}
+\newcommand{\south}{\textbf{South}}
+\newcommand{\north}{\textbf{North}}
+\newcommand{\east}{\textbf{East}}
+\newcommand{\west}{\textbf{West}}
+\newcommand{\pickup}[2]{Pick up the \textbf{#1} located #2.}
+\newcommand{\squarec}{$\Box/X$}
+\newcommand{\rabanastre}{\textbf{Rabanastre}}
+\newcommand{\lowtown}{\textbf{Lowtown}}
+\newcommand{\westersand}{\textbf{Westersand}}
+\newcommand{\waterway}{\textbf{Garamsythe Waterway}}
+
+\newcommand{\save}{\textbf{Touch the Save Crystal}}
+
+\newcommand{\balthier}{\textbf{\textcolor{PineGreen}{Balthier}}}
+\newcommand{\basch}{\textbf{\textcolor{BrickRed}{Basch}}}
+\newcommand{\fran}{\textbf{\textcolor{violet}{Fran}}}
+\newcommand{\vaan}{\textbf{\textcolor{MidnightBlue}{Vaan}}}
+\newcommand{\ashe}{\textbf{\textcolor{SkyBlue}{Ashe}}}
+\newcommand{\penelo}{\textbf{\textcolor{WildStrawberry}{Penelo}}}
+
+\newcommand{\balthierf}{\item \textbf{\textcolor{PineGreen}{Balthier}}: }
+\newcommand{\baschf}{\item \textbf{\textcolor{BrickRed}{Basch}}: }
+\newcommand{\franf}{\item \textbf{\textcolor{violet}{Fran}}: }
+\newcommand{\vaanf}{\item \textbf{\textcolor{MidnightBlue}{Vaan}}: }
+\newcommand{\ashef}{\item \textbf{\textcolor{SkyBlue}{Ashe}}: }
+\newcommand{\penelof}{\item \textbf{\textcolor{WildStrawberry}{Penelo}}: }
+
+\newcommand{\leader}[1]{Set #1 as Leader}
+
+\newenvironment{equip}{\begin{tcolorbox}[title=\begin{center}EQUIPMENT\end{center},colbacktitle=Gray!50!white]}{\end{tcolorbox}}
+\newenvironment{gambit}{\begin{tcolorbox}[title=\begin{center}GAMBIT\end{center},colbacktitle=Gray!50!white]}{\end{tcolorbox}}
+\newenvironment{liscense}{\begin{tcolorbox}[title=\begin{center}LISCENCE\end{center},colbacktitle=Gray!50!white]}{\end{tcolorbox}}
+\newenvironment{battle}[2][]{\begin{tcolorbox}[title=\begin{center}#2 \ifthenelse{\isempty{#1}}{}{- \num{#1} HP}\end{center},colbacktitle=red!50!white]}{\end{tcolorbox}}
+\newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=MidnightBlue!50!white]}{\end{tcolorbox}}
+\newenvironment{menu}{\begin{tcolorbox}[title=\begin{center}MENU\end{center},colbacktitle=black!50!white]}{\end{tcolorbox}}
+
+\newcommand{\gambitline}[3][]{\ifthenelse{\equal{#1}{}}{\textcolor{CadetBlue}{#2} & \textcolor{CadetBlue}{#3}}{\textcolor{Mahogany}{#2} & \textcolor{Mahogany}{#3}}}
+\newcommand{\gambitdelete}{----------------- & -----}
+\newcommand{\charactergambit}[4][]{\item #2:  \ifthenelse{\equal{#1}{}}{\textbf{ON}}{\textbf{OFF}} \begin{itemize} \item \begin{tabular}{c|c} #3 \\ #4 \\ \end{tabular}\end{itemize}}
+
+\newcommand{\ashegambit}[1]{\charactergambit{\ashe}{\gambitline{Ally: \ \ashe\ \ }{Reflect}}{\gambitline{Ally: \ \ashe\ \ }{(#1)}}}
+\newcommand{\penelogambit}[1]{\charactergambit{\penelo}{\gambitline{Ally: \penelo}{Reflect}}{\gambitline{Ally: \penelo}{(#1)}}}
+
+\newcommand{\upl}[1]{\item $\uparrow$: #1}
+\newcommand{\downl}[1]{\item $\downarrow$: #1}
+\newcommand{\leftl}[1]{\item $\leftarrow$: #1}
+\newcommand{\rightl}[1]{\item $\rightarrow$: #1}
+
+\newcommand*{\sell}[2][]{%
+\begin{itemize}
+  \item Sell\ifthenelse{\equal{#1}{}}{}{ Everything But}:
+  \begin{itemize}
+  \foreach \superscript/\entry in {#2} {%
+    \item \entry%
+  }%
+  \end{itemize}
+  \end{itemize}
+}
+
+\newcommand*{\buy}[1]{%
+\begin{itemize}
+  \item Buy:
+  \begin{itemize}
+  \foreach \superscript/\entry in {#1} {%
+    \item \entry%
+  }%
+  \end{itemize}
+  \end{itemize}
+}
+
+\title{FF12 Any\%}
+\author{Mr.Tyton}
+
+\begin{document} 
+\singlespacing
+\maketitle
+\tableofcontents
+\newpage
+
+\input{Sections/roguetomato.tex}
+\input{Sections/firemane.tex}
+\input{Sections/mimicqueen.tex}
+\input{Sections/judges.tex}
+\input{Sections/vossler.tex}
+\input{Sections/tiamat.tex}
+\input{Sections/mateus.tex}
+\input{Sections/mandragoras.tex}
+\input{Sections/ahriman.tex}
+\input{Sections/cid.tex}
+\input{Sections/rafflesia.tex}
+\input{Sections/daedalus.tex}
+\input{Sections/tyrant.tex}
+\input{Sections/shemhazai.tex}
+\input{Sections/hydro.tex}
+\input{Sections/pandemonium.tex}
+\input{Sections/slyt.tex}
+\input{Sections/fenrir.tex}
+\input{Sections/hashmal.tex}
+\input{Sections/theundying.tex}
+\end{document}
