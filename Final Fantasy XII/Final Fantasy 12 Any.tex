@@ -95,7 +95,7 @@
 
 \newcommand{\gambitline}[3][]{\ifthenelse{\equal{#1}{}}{\textcolor{CadetBlue}{#2} & \textcolor{CadetBlue}{#3}}{\textcolor{Mahogany}{#2} & \textcolor{Mahogany}{#3}}}
 \newcommand{\gambitdelete}{----------------- & -----}
-\newcommand{\charactergambit}[4][]{\item #2:  \ifthenelse{\equal{#1}{}}{\textbf{ON}}{\textbf{OFF}} \begin{itemize} \item \begin{tabular}{c|c} #3 \\ #4 \\ \end{tabular}\end{itemize}}
+\newcommand{\charactergambit}[4][]{\item #2:  \ifthenelse{\equal{#1}{}}{\textbf{ON}}{\textbf{OFF}} \begin{itemize} \item \begin{tabular}{rc|c} 1: & #3 \\ 2: & #4 \\ \end{tabular}\end{itemize}}
 
 \newcommand{\ashegambit}[1]{\charactergambit{\ashe}{\gambitline{Ally: \ \ashe\ \ }{Reflect}}{\gambitline{Ally: \ \ashe\ \ }{(#1)}}}
 \newcommand{\penelogambit}[1]{\charactergambit{\penelo}{\gambitline{Ally: \penelo}{Reflect}}{\gambitline{Ally: \penelo}{(#1)}}}

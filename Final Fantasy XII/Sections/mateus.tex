@@ -6,10 +6,16 @@
 \end{shop}
 \begin{gambit}
 \begin{itemize}
-\vaanf: Protect/Smelling Salt on Any if Brigadeen, otherwise Steal
-\penelof Aero to Fira
-\ashef Aero to Fira
-\item Everyone On
+\item \textit{If you have Brigadeen:}
+\begin{itemize}
+\charactergambit{\vaan}{\gambitline{(Ally: Any)}{(Protect/Smelling Salt)}}{\gambitdelete}
+\end{itemize}
+\item \textit{Else:}
+\begin{itemize}
+\vaanf \textbf{ON}
+\end{itemize}
+\penelogambit{Fira}
+\charactergambit{\ashe}{\gambitline{Ally: \ashe}{(Fira)}}{\gambitline[enemy]{Enemy: Nearest Visible}{Attack}}
 \end{itemize}
 \end{gambit}
 \begin{battle}{Jellies}
@@ -29,7 +35,7 @@ Acc5,7,8				R1	R1
 \end{shop}
 \begin{enumerate}
 \item Need 50k Gil after jellies 2. Can use calculator to determine how many jellies you need, usually about 6~ the second time. Need 5 Teleport Stones afterwards, 4 Float Motes
-\item After jellies, set \ashe\ to Blizzara, \penelo\ to Immobilize
+\item After jellies, set cursor for \ashe\ to Blizzara, \penelo\ to Immobilize
 \item Float Mote on \vaan\ to go over the traps.
 \end{enumerate}
 \begin{liscense}
@@ -60,17 +66,17 @@ Don't do Quickening X2
 \item Bring in \penelo in the second switch room. Leave her by the door, Swap \vaan\ for \balthier\, put the Dawn Shard on him, activate the switch. \leader{\penelo}, swap out \penelo\ for \vaan.
 \balthierf Phoenix Downs on himself to slow him down for movement warps.
 \item Make the statue face to the left.
+\item Party	Vaan	Ashe	Penelo		
+\item Config	Battle Speed	Fastest		
+\item Cursor	Prep Reflect (Vaan)	
 \end{enumerate}
 
 \begin{gambit}
-Party	Vaan	Ashe	Penelo		
-Config	Battle Speed	Fastest			
-Gambit	Vaan (1)	Turn Off			
-	Penelo (1)	Ally: Penelo			Reflect
-	Penelo (2)	Ally: Penelo			Fira
-	Ashe (1)	Ally: Ashe			Reflect
-	Ashe (2)	Ally: Ashe			Fira
-Cursor	Prep Reflect (Vaan)				
+\begin{itemize}
+\vaanf \textbf{OFF}
+\penelof \textbf{OFF}
+\charactergambit[Off]{\ashe}{\gambitline{(Ally: \ \ashe\ \ )}{(Reflect)}}{\gambitline{(Ally: \ \ashe\ \ )}{(Fira)}}	
+\end{itemize}		
 \end{gambit}
 \begin{enumerate}
 \item Can swap leaders to the immobilized characters to despawn enemies.
@@ -78,7 +84,7 @@ Cursor	Prep Reflect (Vaan)
 \begin{battle}{Vinsukur}
 \begin{itemize}
 \vaanf Reflect \ashe, \penelo\ at the stairs
-\vaan Flee to the corner and stay.
+\vaanf Flee to the corner and stay.
 \end{itemize}
 \end{battle}
 \begin{enumerate}
