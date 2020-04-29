@@ -30,16 +30,21 @@
 \end{shop}
 \begin{enumerate}
 	\item Go to the \textbf{Southern Plaza} straight in front of you, then go straight \west\ to the \textbf{Westgate}. Go to the \westersand, \cs
-	\item Go to the first \north\east\ exit, then hit yourself down to below 10\% HP. Flee when ATB is at 2/3
-	      19	25	Punch+Armor
-	      26	26	Wolf/YOLO Punch+No Armor
-	      27	33	Punch+No Armor
-	      34	38	Sword+Armor
-	      39	40	Punch+Armor x2
-	      41	46	Punch+Armor, Decide
-	      47	51	Sword+No Armor
-	      52	56	Punch+No Armor x2
+	\item Go to the first \north\east\ exit, then hit yourself down to below 10\% HP. Flee when ATB is at 2/3.
 \end{enumerate}
+\begin{center}
+	\begin{tabular}{|c|c|c|} \hline
+	Min HP & Max HP & Action \\ \hline
+	      19	& 25&	Punch+Armor\\ \hline
+	      26	&26	&Wolf/YOLO Punch+No Armor\\ \hline
+	      27	&33	&Punch+No Armor\\ \hline
+	      34	&38	&Sword+Armor\\ \hline
+	      39	&40	&Punch+Armor x2\\ \hline
+	      41	&46	&Punch+Armor, Decide\\ \hline
+	      47	&51	&Sword+No Armor\\ \hline
+	      52	&56&	Punch+No Armor x2\\ \hline
+	\end{tabular}
+	\end{center}
 \begin{battle}{Dustia}
 	\begin{itemize}
 		\item Run over the load line
@@ -84,14 +89,6 @@
 	\item Go down stairs, \cs
 \end{enumerate}
 \begin{battle}{Guard Fight}
-	\begin{itemize}
-		\franf Fire a guard that isn't the default, targeting whoever is futhest from \ashe
-		\vaanf Same as \fran
-	\end{itemize}
-\end{battle}
-\begin{enumerate}
-	\item \cs
-\end{enumerate}
 \begin{liscense}
 	\begin{itemize}
 		\vaanf
@@ -108,8 +105,14 @@
 		\charactergambit[Off]{\fran}{\gambitdelete}{\gambitline[enemy]{Foe: Party Leader's Target}{(Fire)}}
 	\end{itemize}
 \end{gambit}
+	\begin{itemize}
+		\franf Fire a guard that isn't the default, targeting whoever is futhest from \ashe
+		\vaanf Same as \fran
+	\end{itemize}
+\end{battle}
 \begin{enumerate}
-	\item Use \balthier\ first aid to keep him in place, then use \fran\ to go grab a chest. \leader{\balthier} to trigger the Flan Fight, then \leader{\fran}
+	\item \cs
+	\item Use \balthier\ first aid to keep him in place, then use \fran\ to \pickup{Leather Shield}{around the corner}. \leader{\balthier} to trigger the Flan Fight, then \leader{\fran}
 \end{enumerate}
 \begin{battle}{Flan}
 	\begin{itemize}
@@ -118,6 +121,7 @@
 	\end{itemize}
 \end{battle}
 \begin{enumerate}
+	\item \cs.
 	\item Steal from the toards with Balthier and have Vaan kill the toads - have \fran keep on running
 	\item \leader{\balthier}, \fran\ gambit on
 \end{enumerate}
