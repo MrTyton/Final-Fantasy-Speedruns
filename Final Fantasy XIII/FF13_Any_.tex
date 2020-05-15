@@ -17,6 +17,7 @@
 \usepackage[none]{hyphenat}
 \usepackage{graphicx}
 \usepackage{titlepic}
+\usepackage[normalem]{ulem}
 
 
 \hypersetup{
@@ -32,10 +33,10 @@
   %\vspace*{5\p@}%
   {\parindent \z@ \raggedleft \normalfont
     \ifnum \c@secnumdepth >\m@ne
-        \large\bfseries #1
+        \huge \bfseries \textcolor{Magenta}{#1}
         \par\nobreak
 %        \vskip 10\p@
-        \rule{\columnwidth}{.1pt}%
+        \uwave{\hspace{\columnwidth}}%{.1pt}%
 %        \vskip 10\p@
     \fi
     \interlinepenalty\@M
