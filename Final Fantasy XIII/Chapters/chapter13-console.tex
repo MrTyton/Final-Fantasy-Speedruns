@@ -1,5 +1,5 @@
-\chapter[Chapter 13]{}
-\begin{multicols}{2}
+\chapter{Chapter 13}
+
 	\begin{shop}{162\,000}
 		\begin{itemize}
 			\item Eden Pharmaceuticals
@@ -31,7 +31,7 @@
 						            \paradigmline{Vanille}{Snow}{Sazh}}%
 					            {\paradigmline{(\med)}{\com}{(\com)}}%
 					            {\paradigmline{(\sab)}{\com}{\com}}%
-					            {\paradigmline{(\sab)}{\sen}{(\syn)}}%
+					            {\paradigmline{\rav}{\sen}{\rav}}%
 					            {\paradigmline{(\rav)}{(\rav)}{(\syn)}}%
 					            {\paradigmline[5]{\textit{(\sab)}}{\textit{(\rav)}}{\textit{\rav}}}%
 					            {\paradigmline{\rav}{\rav}{\rav}}
@@ -76,8 +76,6 @@
 	Activate \textbf{Deceptisol} during the jump to the left, don't cancel.
 	Activate \textbf{Fortisol, Aegisol} before the statue.
 	\vfill
-
-
 	\renewcommand{\second}{[2] Devastation (\sab/\com/\com)}
 	\renewcommand{\fifth}{[5] Smart Bomb (\sab/\rav/\rav)}
 	\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
@@ -97,7 +95,7 @@
 				      \item {\it If below 485\% chain:} B - Force Blasters
 				      \item Y - Gaian Salvo
 				      \item Retry if not dead
-				      \item Auto-chain
+				      \item Auto-Chain
 				      \item Shift after Snow's fifth Attack
 			      \end{itemize}
 			\item \fifth
@@ -110,7 +108,7 @@
 			\item \sixth
 			      \begin{itemize}
 				      \item Fire-Water-Aerora
-				      \item Auto-chain 2-3 spells for interruption
+				      \item Auto-Chain 2-3 spells for interruption
 				      \item Shift to cancel Snow's ready animation
 			      \end{itemize}
 			\item \fifth
@@ -130,14 +128,21 @@
 	\begin{menu}
 		\begin{itemize}
 			\paradigm
-			\begin{itemize}
-				\item Set the third paradigm as default
-			\end{itemize}
+				      \begin{itemize}
+					      \item \paradigmdeck{%
+						            \paradigmline{Vanille}{Snow}{Sazh}}%
+					            {\paradigmline{\med}{\com}{\com}}%
+					            {\paradigmline{\sab}{\com}{\com}}%
+					            {\paradigmline[3]{\textit{(\sab)}}{\textit{\sen}}{\textit{(\syn)}}}%
+					            {\paradigmline{\rav}{\rav}{\syn}}%
+					            {\paradigmline{\sab}{\rav}{\rav}}%
+					            {\paradigmline{\rav}{\rav}{\rav}}
+				      \end{itemize}
 		\end{itemize}
 	\end{menu}
-	\vfill
-	\newpage
+	
 	Activate \textbf{Ethersol, Fortisol, Aegisol}.
+	\vfill
 
 	\renewcommand{\second}{[2] Devastation (\sab/\com/\com)}
 	\renewcommand{\fifth}{[5] Smart Bomb (\sab/\rav/\rav)}
@@ -177,7 +182,6 @@
 			      \end{itemize}
 		\end{itemize}
 	\end{battle}
-
 	Take the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol} while it rises. On the jumps, activate \textbf{Fortisol}, \textbf{Aegisol}, Menu.
 	\begin{menu}
 		\begin{itemize}
@@ -205,7 +209,7 @@
 				      \begin{itemize}
 					      \item Medic
 					            \begin{itemize}
-						            \item 3 nodes, HP +200 x2
+						            \item 3 nodes, HP +200
 					            \end{itemize}
 				      \end{itemize}
 			\end{itemize}
@@ -243,8 +247,8 @@
 				      \end{itemize}
 			\end{itemize}
 		\end{itemize}
-
 	\end{menu}
+	\vfill
 	\renewcommand{\first}{[1] Tireless Charge ((\com)/\com/\med)}
 	\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
 	\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
@@ -261,7 +265,7 @@
 			      \begin{itemize}
 				      \item Cold Blood
 				      \item Libra
-				      \item Auto-chain if Tail Hammer
+				      \item Auto-Chain if Tail Hammer
 				      \item Repeat just before Stagger, shift after Sazh fires the first bullet
 			      \end{itemize}
 			\item \fourth
@@ -314,17 +318,8 @@
 	\end{shop}
 	\pickup{Ethersol}{in the final hallway}
 	Activate all shrouds.
-\end{multicols}
-
-\renewcommand{\first}{[1] Tireless Charge ((\com)/\com/\med)}
-\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
-\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
-\renewcommand{\fourth}{[4] Malevolence (\syn/(\rav)/\rav)}
-\renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
-\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
-
+\vfill
 \begin{battle}[1:24]{Barthandelus 3}
-	\begin{multicols}{2}
 		\begin{itemize}
 			\item \second
 			      \begin{itemize}
@@ -390,7 +385,6 @@
 			      \begin{itemize}
 				      \item Repeat until victory or stagger end
 			      \end{itemize}
-			      \columnbreak
 			\item \textit{If stagger ends}:
 			\item \third
 			      \begin{itemize}
@@ -418,8 +412,14 @@
 				            \end{itemize}
 			      \end{itemize}
 		\end{itemize}
-	\end{multicols}
 \end{battle}
+	\end{multicols}
+	\renewcommand{\first}{[1] Tireless Charge (\com)/\com/\med)}
+\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
+\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
+\renewcommand{\fourth}{[4] Malevolence (\syn/(\rav)/\rav)}
+\renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 \begin{battle}{Orphan 1}
 	\begin{multicols}{2}
 		\begin{itemize}

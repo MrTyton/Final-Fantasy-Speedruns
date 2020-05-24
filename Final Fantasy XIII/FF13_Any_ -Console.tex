@@ -17,6 +17,8 @@
 \usepackage[none]{hyphenat}
 \usepackage{graphicx}
 \usepackage{titlepic}
+\usepackage[normalem]{ulem}
+
 
 \hypersetup{
     colorlinks,
@@ -31,10 +33,10 @@
   %\vspace*{5\p@}%
   {\parindent \z@ \raggedleft \normalfont
     \ifnum \c@secnumdepth >\m@ne
-        \large\bfseries \MakeUppercase{\@chapapp}\space \thechapter
+        \huge \bfseries \textcolor{Magenta}{#1}
         \par\nobreak
 %        \vskip 10\p@
-        \rule{\textwidth}{.1pt}%
+        \uwave{\hspace{\columnwidth}}%{.1pt}%
 %        \vskip 10\p@
     \fi
     \interlinepenalty\@M
@@ -43,16 +45,9 @@
   }}
 \makeatother
 
-\usepackage{enumitem}
-\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
-\usepackage{graphicx}
-\title{FF13 Any\% - Console}
-\author{Mr.Tyton}
-\titlepic{\includegraphics[width=\textwidth]{final_fantasy_xiii_logo_by_eldi13_d42h0oc}}
-\begin{document}
-\singlespacing
-\maketitle
-\tableofcontents
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
 
 \newcommand{\syn}{\textbf{\textcolor{purple}{SYN}}}
 \newcommand{\sab}{\textbf{\textcolor{gray}{SAB}}}
@@ -102,10 +97,24 @@
 
 \setlength{\columnsep}{.5cm}
 
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
+\title{FF13 Any\% - Console}
+\author{Mr.Tyton}
+\titlepic{\includegraphics[width=\textwidth]{final_fantasy_xiii_logo_by_eldi13_d42h0oc}}
+\begin{document}
+\singlespacing
+\maketitle
+\tableofcontents
+
+
 \section*{Acknowledgements}
 Everyone in the FF13 Discord. In no particular order: \textbf{Roosta}, \textbf{LewdDolphin}, \textbf{Flux}, \textbf{Yeswally1}, \textbf{LilSharkie}, \textbf{xJakeDreamer}, \textbf{TehMonkey\_},  \textbf{xP3ndulum},  \textbf{NijiBashira}, \textbf{Mrzwanzig}, \textbf{QazPlm9000}, \textbf{Hoishin}, \textbf{tiornys}, \textbf{MLSTRM}, \textbf{Kayarune} and anyone else I forgot.
 
+\newpage
 
+\begin{multicols}{2}
 \input{Chapters/chapter1.tex}
 
 \input{Chapters/chapter2.tex}
