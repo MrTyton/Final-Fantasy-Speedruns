@@ -31,7 +31,7 @@
 						            \paradigmline{Vanille}{Snow}{Sazh}}%
 					            {\paradigmline{(\med)}{\com}{(\com)}}%
 					            {\paradigmline{(\sab)}{\com}{\com}}%
-					            {\paradigmline{(\sab)}{\sen}{(\syn)}}%
+					            {\paradigmline{\rav}{\sen}{\rav}}%
 					            {\paradigmline{(\rav)}{(\rav)}{(\syn)}}%
 					            {\paradigmline[5]{\textit{(\sab)}}{\textit{(\rav)}}{\textit{\rav}}}%
 					            {\paradigmline{\rav}{\rav}{\rav}}
@@ -128,9 +128,16 @@
 	\begin{menu}
 		\begin{itemize}
 			\paradigm
-			\begin{itemize}
-				\item Set the third paradigm as default
-			\end{itemize}
+				      \begin{itemize}
+					      \item \paradigmdeck{%
+						            \paradigmline{Vanille}{Snow}{Sazh}}%
+					            {\paradigmline{\med}{\com}{\com}}%
+					            {\paradigmline{\sab}{\com}{\com}}%
+					            {\paradigmline[3]{\textit{(\sab)}}{\textit{\sen}}{\textit{(\syn)}}}%
+					            {\paradigmline{\rav}{\rav}{\syn}}%
+					            {\paradigmline{\sab}{\rav}{\rav}}%
+					            {\paradigmline{\rav}{\rav}{\rav}}
+				      \end{itemize}
 		\end{itemize}
 	\end{menu}
 	
@@ -175,7 +182,6 @@
 			      \end{itemize}
 		\end{itemize}
 	\end{battle}
-
 	Take the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol} while it rises. On the jumps, activate \textbf{Fortisol}, \textbf{Aegisol}, Menu.
 	\begin{menu}
 		\begin{itemize}
@@ -241,8 +247,8 @@
 				      \end{itemize}
 			\end{itemize}
 		\end{itemize}
-
 	\end{menu}
+	\vfill
 	\renewcommand{\first}{[1] Tireless Charge ((\com)/\com/\med)}
 	\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
 	\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
@@ -312,17 +318,8 @@
 	\end{shop}
 	\pickup{Ethersol}{in the final hallway}
 	Activate all shrouds.
-	\end{multicols}
-
-\renewcommand{\first}{[1] Tireless Charge (\com)/\com/\med)}
-\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
-\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
-\renewcommand{\fourth}{[4] Malevolence (\syn/(\rav)/\rav)}
-\renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
-\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
-
+\vfill
 \begin{battle}[1:24]{Barthandelus 3}
-	\begin{multicols}{2}
 		\begin{itemize}
 			\item \second
 			      \begin{itemize}
@@ -388,7 +385,6 @@
 			      \begin{itemize}
 				      \item Repeat until victory or stagger end
 			      \end{itemize}
-			      \columnbreak
 			\item \textit{If stagger ends}:
 			\item \third
 			      \begin{itemize}
@@ -416,8 +412,14 @@
 				            \end{itemize}
 			      \end{itemize}
 		\end{itemize}
-	\end{multicols}
 \end{battle}
+	\end{multicols}
+	\renewcommand{\first}{[1] Tireless Charge (\com)/\com/\med)}
+\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
+\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
+\renewcommand{\fourth}{[4] Malevolence (\syn/(\rav)/\rav)}
+\renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 \begin{battle}[2:55]{Orphan 1}
 	\begin{multicols}{2}
 		\begin{itemize}
