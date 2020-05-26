@@ -36,8 +36,8 @@
     * Save 15: Right past the Ninurta Chest
     * Save 16: Succubus & Incubus x2
     * Save 17: Dreadnought
-    * Save 18: Pulsework Soldiers
-    * Save 19: Pulsework Soldiers x2
+    * Save 18: PSICOM Soldiers
+    * Save 19: PSICOM Soldiers x2
     * Save 20: Odin
     * Save 21: Ulhan x2
     * Save 22: End of Chapter Fights, before the Shop
