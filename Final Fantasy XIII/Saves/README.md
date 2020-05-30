@@ -79,10 +79,10 @@
 	* Save 51: Hecatoncheir
 	* Save 52: Gelatitan
 	* Save 53: Ambling Bellows
-	* Save 54: Gurganatch
+	* Save 54: Guranatch
 	* Save 55: Mushussu & Yakshini
 	* Save 56: Vetala
-	* Save 57: Penangalan
+	* Save 57: Penanggalan
 	* Save 58: Dahaka
 	* Save 59: Barthandelus 2
 12. Chapter 12:
