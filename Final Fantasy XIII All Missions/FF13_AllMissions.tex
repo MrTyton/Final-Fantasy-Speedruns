@@ -1,0 +1,133 @@
+\documentclass[dvipsnames]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage[margin=0.2in]{geometry}
+\usepackage{xstring}
+\usepackage{xifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage{amsmath}
+\pagenumbering{gobble}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{titlepic}
+\usepackage[normalem]{ulem}
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\makeatletter
+\def\@makechapterhead#1{%
+  %\vspace*{5\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \huge \bfseries \textcolor{Magenta}{#1}
+        \par\nobreak
+%        \vskip 10\p@
+        \uwave{\hspace{\columnwidth}}%{.1pt}%
+%        \vskip 10\p@
+    \fi
+    \interlinepenalty\@M
+%    \large \bfseries \MakeUppercase{#1}\par\nobreak
+%    \vskip 5\p@
+  }}
+\makeatother
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+\newcommand{\syn}{\textbf{\textcolor{purple}{SYN}}}
+\newcommand{\sab}{\textbf{\textcolor{gray}{SAB}}}
+\newcommand{\com}{\textbf{\textcolor{red}{COM}}}
+\newcommand{\rav}{\textbf{\textcolor{blue}{RAV}}}
+\newcommand{\sen}{\textbf{\textcolor{BurntOrange}{SEN}}}
+\newcommand{\med}{\textbf{\textcolor{green}{MED}}}
+
+\newenvironment{battle}[2][]{\begin{tcolorbox}[title=\begin{center}#2 \ifthenelse{\isempty{#1}}{}{- #1}\end{center},colbacktitle=red!50!white]}{\end{tcolorbox}}
+
+\newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=blue!50!white]}{\end{tcolorbox}}
+
+\newenvironment{upgrade}{\begin{tcolorbox}[title=\begin{center}UPGRADE\end{center},colbacktitle=purple!50!white]}{\end{tcolorbox}}
+
+\newenvironment{menu}{\begin{tcolorbox}[title=\begin{center}MENU\end{center},colbacktitle=black!50!white]}{\end{tcolorbox}}
+
+\newcommand{\first}{1}
+\newcommand{\second}{2}
+\newcommand{\third}{3}
+\newcommand{\fourth}{4}
+\newcommand{\fifth}{5}
+\newcommand{\sixth}{6}
+
+\newcommand{\paradigm}{\item \textbf{Paradigm}}
+\newcommand{\crystarium}{\item \textbf{Crystarium}}
+\newcommand{\equip}{\item \textbf{Equipment}}
+
+\newcommand{\stagger}{\textbf{STAGGER}}
+
+\newcommand{\paradigmline}[4][]{#2 & #3 & #4 & \ifthenelse{\equal{#1}{}}{}{$\leftarrow$ \textit{Default}}}
+
+\newcommand{\paradigmdeck}[7]{\begin{tabular}{c|c|cc} #1 \\ \cline{1-3} #2 \\ #3 \\ #4 \\ #5 \\ #6 \\ #7 \\ \end{tabular}}
+
+\newcommand{\paradigmdeckthree}[4]{\begin{tabular}{c|c|cc} #1 \\ \cline{1-3} #2 \\ #3 \\ #4 \\ \end{tabular}}
+
+\newcommand{\paradigmdeckfour}[5]{\begin{tabular}{c|c|cc} #1 \\ \cline{1-3} #2 \\ #3 \\ #4 \\ #5 \\  \end{tabular}}
+
+\newcommand{\paradigmdeckfive}[6]{\begin{tabular}{c|c|cc} #1 \\ \cline{1-3} #2 \\ #3 \\ #4 \\ #5 \\ #6 \\ \end{tabular}}
+
+\newcommand{\save}[1]{Save prompt after cut-scene \##1}
+
+\newcommand{\pickup}[2]{Pick up the \textbf{#1} located #2.}
+
+\newcommand{\itemdrop}[2]{#1\% chance of a \textbf{#2}}
+
+\newcommand{\decep}[2]{\textbf{Deceptisol} on the #1, cancel on the #2.}
+
+\setlength{\columnsep}{.5cm}
+
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
+\title{FFXIII All Missions}
+\author{Community\texttrademark}
+\titlepic{\includegraphics[width=\textwidth]{final_fantasy_xiii_logo_by_eldi13_d42h0oc}}
+\begin{document}
+\singlespacing
+\maketitle
+\tableofcontents
+
+\section*{Acknowledgements}
+MrTyton for allowing me to use his \LaTeX~script.
+Based on notes by Raijincloud and guide by TheScruffington (edited by Daspharaoh and Raijincloud).
+Everything based on original notes and routing by Mrzwanzig and MLSTRM.
+Love to everyone in the FFXIII Series Discord not mentioned here.
+\newpage
+
+\begin{multicols}{2}
+\input{sections/01_beginning.tex}
+\input{sections/02_archylte_pt1.tex}
+\input{sections/03_vallis_yaschas.tex}
+\input{sections/04_archylte_pt2.tex}
+\input{sections/05_mahhabara.tex}
+\input{sections/06_taejins.tex}
+\input{sections/07_oerba.tex}
+\input{sections/08_chapter12.tex}
+\input{sections/09_cradle.tex}
+\input{sections/10_return.tex}
+\input{sections/11_faultwarrens.tex}
+\input{sections/12_cleanup.tex}
+\input{sections/13_finale.tex}
+\end{multicols}
+
+\end{document}
