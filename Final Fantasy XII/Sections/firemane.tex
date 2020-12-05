@@ -3,9 +3,8 @@
 	\item Go back to the \textbf{Eastgate}, talk to \textbf{Kytes}, \cs, \cs, \cs
 	\item Head straight \east\ to \lowtown
 	\item Go \south\ to the \textbf{South Sprawl}
-	\item PD chest somewhere?
 	\item Go \south\ to \textbf{Old Dalan's Place} on the right, near the next exit, \cs
-	\item Exit \south\ to the \textbf{Southgate}, then \south\ to \textbf{Giza}
+	\item Exit \south\ to the \textbf{Southgate}, then \south\ to \textbf{Giza}. Pickup \textbf{Potion} from the first chest you see.
 	\item \cs, go straight south to the Nomad Villiage.
 	\item Talk to the Nomad on the right, near the chest. \cs. Exit through the \south\west.
 	\item Head \south\ to the next zone, then \east\ to speak to \textbf{Nomad Youth}
@@ -32,6 +31,7 @@
 	\item Go to the \textbf{Southern Plaza} straight in front of you, then go straight \west\ to the \textbf{Westgate}. Go to the \westersand, \cs
 	\item Go to the first \north\east\ exit, then hit yourself down to below 10\% HP. Flee when ATB is at 2/3.
 \end{enumerate}
+
 \begin{center}
 	\begin{tabular}{|c|c|c|} \hline
 	Min HP & Max HP & Action \\ \hline
@@ -44,7 +44,15 @@
 	      47	&51	&Sword+No Armor\\ \hline
 	      52	&56&	Punch+No Armor x2\\ \hline
 	\end{tabular}
-	\end{center}
+\end{center}
+\begin{enumerate}
+	\item Set Battle Speed to Slow
+\end{enumerate}
+\begin{equip}
+	\begin{itemize}
+		\vaanf Optimize
+	\end{itemize}
+\end{equip}
 \begin{battle}{Dustia}
 	\begin{itemize}
 		\item Run over the load line
@@ -64,31 +72,8 @@
 	\item Try to get past the guard, then talk to the \textbf{Palace Servant}. Run around the guard, go up the stairs through the door.
 	\item Describe shouting stuff to lure guards? \south\west, shout. Back to the entrance, call, then loop around tio the lion - go a bit further, call the guards, then show the sigil to the wall.
 	\item In the \textbf{Secret Pasageway}, go straight forward, activate the switch, then go through the suspicious wall.
-	\item \cs, mash, \cs. Set battle speed to Fast
-	\item \leader{\fran}
+	\item \cs, mash, \cs.
 \end{enumerate}
-\begin{gambit}
-	\begin{itemize}
-		\vaanf \textbf{OFF}
-		\franf \textbf{OFF}
-		\balthierf \textbf{ON}
-	\end{itemize}
-\end{gambit}
-\begin{enumerate}
-	\item Steal from 2 bats and 2 toads with \vaan, \balthier\ while running.
-	\item \save,
-\end{enumerate}
-\begin{gambit}
-	\begin{itemize}
-		\vaanf \textbf{OFF}
-		\franf \textbf{OFF}
-		\balthierf \textbf{OFF}
-	\end{itemize}
-\end{gambit}
-\begin{enumerate}
-	\item Go down stairs, \cs
-\end{enumerate}
-\begin{battle}{Guard Fight}
 \begin{liscense}
 	\begin{itemize}
 		\vaanf
@@ -105,32 +90,53 @@
 		\charactergambit[Off]{\fran}{\gambitdelete}{\gambitline[enemy]{Foe: Party Leader's Target}{(Fire)}}
 	\end{itemize}
 \end{gambit}
+\begin{enumerate}
+	\item \leader{\fran}, \save. Make sure that you fight 2 Ggiantoads.
+\end{enumerate}
+\begin{battle}{Gigantoad}
+\begin{itemize}
+\vaanf Fire
+\franf Fire
+\end{itemize}
+\end{battle}
+\begin{enumerate}
+	\item Go down stairs, \cs
+\end{enumerate}
+\begin{battle}{Guard Fight}
 	\begin{itemize}
+		\item \leader{\vaan}
 		\franf Fire a guard that isn't the default, targeting whoever is futhest from \ashe
 		\vaanf Same as \fran
+		\item Make sure that Amalia doesn't get any kills
 	\end{itemize}
 \end{battle}
 \begin{enumerate}
 	\item \cs
-	\item Use \balthier\ first aid to keep him in place, then use \fran\ to \pickup{Leather Shield}{around the corner}. \leader{\balthier} to trigger the Flan Fight, then \leader{\fran}
+	\item Use \balthier\ first aid to keep him in place, and \fran\ potion \vaan. Use \vaan\ to \pickup{Leather Shield}{around the corner}. \leader{\fran} to trigger the Flan Fight.
 \end{enumerate}
 \begin{battle}{Flan}
 	\begin{itemize}
-		\franf Fire a Flan that isn't the default, targeting whoever is futhest from \ashe
+		\franf Fire a Flan that isn't the default, by targeting the Flans that are close to Amalia but that she isn't targeting.
 		\vaanf Same as \fran
 	\end{itemize}
 \end{battle}
 \begin{enumerate}
-	\item \cs.
-	\item Steal from the toards with Balthier and have Vaan kill the toads - have \fran keep on running
-	\item \leader{\balthier}, \fran\ gambit on
+	\item \cs. \pickup{Phoenix Down/Red Fang}{next screen}
+	\item If Amalia stole a kill, then kill 2 Gigantoads. Otherwise, steal from them with \balthier\ if money is bad, have \fran\ keep on running
 \end{enumerate}
-
+\begin{gambit}
+	\begin{itemize}
+		\vaanf \textbf{OFF}
+		\franf \textbf{ON}
+		\balthierf \textbf{OFF}
+	\end{itemize}
+\end{gambit}
 \begin{battle}{Firemane}
 	\begin{itemize}
 		\vaanf Attack
 		\balthierf Attack
 		\item When Firemane uses bushfire, use a potion to stall. He takes 20\% more damage in the water, but he will teleport to use Bushfire, so you can try to lure him away.
+		\item Try to lure and keep Firemane in the water. Can steal with \balthier\ if you need money.
 		\item Queue up Fire, by putting the cursor on Black Magic, before the next fight
 	\end{itemize}
 \end{battle}
