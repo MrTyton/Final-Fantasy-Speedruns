@@ -1,6 +1,6 @@
 \chapter{Mateus}
 \begin{menu}
-	\item Party: \vaan, \ashe, \penelo
+Party: \vaan, \ashe, \penelo
 \end{menu}
 \begin{equip}
 	\begin{itemize}
@@ -11,101 +11,175 @@
 	\end{itemize}
 \end{equip}
 \begin{shop}{3\,000}
-	\sell[everything]{Cherry Staff, Equipped Flame Staves, Teleport Stones}
-	\buy{Fira, 10-15 Phoenix Down; Max of 1 less than you can afford, Smelling Salts x Max}
+	\sell[everything]{Cherry Staff, Flame Staves, Equipped Armor, Teleport Stones}
+	\buy{Fira, Golden Amulet (if can afford), 10-15 Phoenix Down; Max of 1 less than you can afford, Smelling Salts x Max}
 \end{shop}
 \begin{gambit}
 	\begin{itemize}
-		\item \textit{If you have Brigadeen:}
-		      \begin{itemize}
-			      \charactergambit{\vaan}{\gambitline{(Ally: Any)}{(Protect/Smelling Salt)}}{\gambitdelete}
-		      \end{itemize}
-		\item \textit{Else:}
-		      \begin{itemize}
-			      \vaanf \textbf{ON}
-		      \end{itemize}
-		      \penelogambit{Fira}
-		      \charactergambit{\ashe}{\gambitline{Ally: \ashe}{(Fira)}}{\gambitline[enemy]{Enemy: Nearest Visible}{Attack}}
+		      \charactergambit{\vaan}{\gambitline{(Ally: Any)}{(Protect/Smelling Salt)}}{\gambitline[enemy]{(Foe: Nearest Visible)}{(Steal)}}
+		      \charactergambit{\penelo}{\gambitline{Ally: \penelo}{Reflect (OFF)}}{\gambitline[enemy]{Enemy: Nearest Visible}{(Fira)}}
+		      \charactergambit{\ashe}{\gambitline{Ally: \ashe}{(Aero) (OFF)}}{\gambitline[enemy]{Enemy: Nearest Visible}{(Fira)}}
 	\end{itemize}
 \end{gambit}
 \begin{battle}{Jellies}
 	\begin{itemize}
-		\item 3-4 rooms for Jellies 1, until you have 30 liquids. To respawn go out of 2 areas. Can toggle \ashe\ gambit on and off to have it target different Jellies. Each room has about 15-20 Jellies. Need 2 Teleport Stones.
+		\item 3-4 rooms for Jellies 1, until you have 34 liquids. Reduce this number by 9 per Golden Amulet. To respawn go out of 2 areas. Can toggle \ashe\ gambit on and off to have it target different Jellies. Each room has about 15-20 Jellies. Need 2 Teleport Stones.
+		\item If you have Golden Amulet, License and equip on \vaan\ as soon as he has LP for it, usually by the end of the second room.
 	\end{itemize}
 \end{battle}
 \begin{liscense}
-	Once 95 LP on Penelo, do the liscense menu
-
-	Quick, Acc8
-	Acc7, Acc8
-	Acc5,7,8				R1	R1
+	Once 95 LP on Penelo, do the license menu
+	\begin{itemize}
+		\penelof
+		\begin{itemize}
+			\rightl {Intercession/Quickening}
+			\rightl{Accessories 8}
+		\end{itemize}
+		\ashef \leftb
+		\begin{itemize}
+			\item{Accessories 7}
+			\upl{Accessories 8}
+		\end{itemize}
+		\vaanf ($\rightarrow\rightarrow$)
+		\begin{itemize}
+			\item $\downarrow\downarrow$: Accessories 4
+			\upl{Accessories 7}
+			\upl{Accessories 8}
+		\end{itemize}
+		\end{itemize}
 \end{liscense}
 \begin{shop}{123312}
-	\buy{Golden Amulet x3; Equip on to \ashe\ + \vaan\ + \penelo, 15 Hi Potions, 10 Phoenix Down, Confuse, Decoy, Blizzara, Warp}
+	\sell{Water Magicites, Yellow Liquids}
+	\buy{Golden Amulet up to 3; Equip on to \ashe\ + \vaan\ + \penelo, Warp, Confuse, Decoy, Blizzara, 15 Hi-Potions, 10 Phoenix Down}
 \end{shop}
 \begin{enumerate}
-	\item Need 50k Gil after jellies 2. Can use calculator to determine how many jellies you need, usually about 6~ the second time. Need 5 Teleport Stones afterwards, 4 Float Motes
-	\item After jellies, set cursor for \ashe\ to Blizzara, \penelo\ to Immobilize
-	\item Float Mote on \vaan\ to go over the traps.
+	\item Need 50k Gil after Jellies 2, and 152 LP on \penelo. Can use calculator to determine how many jellies you need, usually about 6~ the second time. Need 5 Teleport Stones afterwards, 1 Float Motes. There are uses for 4 bonus Float Motes.
+	\item After jellies, set cursor for \ashe\ to Blizzara, \penelo\ to Immobilize. Turn off \vaan, \ashe, \penelo\ Gambits.
+	\item \textit{If you have at least 4 Float Motes:} Float Mote on \vaan\ to go over the traps.
 \end{enumerate}
-\begin{liscense}
-	Check the spreadsheet
-
-	TM2 - AM3
-	R1	EL1
-	ML40 - GM4
-	EL1, ML40
-	First Aid, Poach					R1
-	Traveler
-	RL1->SplBnd
-	L1					MA3, MA5
-	MA3, MA5	L1
-	(NA Armor)	L1
-	\balthier\ get GM1-3, (NA Armor)
-	Don't do Quickening X2
-\end{liscense}
 \begin{shop}{7\,500}
-	\buy{2x Mage's Hat; Equip, Red Cap \textit{if you didn't buy it before}; Equip}
+	\sell{Water Magicite, Yellow Liquid}
+	\buy{2x Mage's Hat; Equip, Red Cap \textit{if you didn't buy it before}; Equip, Briandine or Shielded Armor; whichever you didn't buy before}
+	Should have about 40k Gil remaining
 \end{shop}
+\begin{menu}
+Party: \vaan, \basch
+\end{menu}
+\begin{liscense}
+\begin{itemize}
+	\ashef
+	\begin{itemize}
+		\item $\leftarrow\leftarrow$: Time Magick 2
+		\leftl{Time Magick 3}
+	\end{itemize}
+	\vaanf \rightbb
+	\begin{itemize}
+		\item $\rightarrow\downarrow\downarrow$: Green Magick 1
+		\leftl{Green Magick 2}
+		\leftl{Green Magick 3}
+	\end{itemize}
+	\penelof \leftb
+	\begin{itemize}
+		\item $\downarrow\downarrow$: Ether Lore 1
+		\leftl{Magick Lore}
+		\upl{White Magick 5}
+	\end{itemize}
+	\vaanf \rightb
+	\begin{itemize}
+		\item First Aid
+		\item $\uparrow\rightarrow$: Libra
+		\rightl{Belias}
+		\item $\downarrow\downarrow\leftarrow\leftarrow$: Poach
+		\downl{Traveler}
+		\leftl{Shield Block}
+	\end{itemize}
+	\ashef \leftbb
+	\begin{itemize}
+		\item Mystic Armor 2, on bottom left board
+		\upl{Mystic Armor 3}
+	\end{itemize}
+	\penelof \rightb
+	\begin{itemize}
+		\item Mystic Armor 3
+		\rightl{Mystic Armor 5}
+	\end{itemize}
+	\ashef \leftb
+	\begin{itemize}
+		\item Mystic Armor 5
+	\end{itemize}
+\end{itemize}
+\end{liscense}
+\begin{equip}
+\begin{itemize}
+\item Optimize \vaan, \penelo, \ashe, \basch
+\baschf Dawn Shard
+\end{itemize}
+\end{equip}
 \begin{enumerate}
 	\item \save\ before leaving
-	\item \save\ when you get to the Stillshrine
-	      \ashef Blizzara \penelo
-	      \penelof Immobilize \penelo
-	      \vaanf Run Away, then Protect \vaan, equip Dawn Shard. Check Traveler, cast it on the Guardian after the Switch.
-	\item Bring in \penelo in the second switch room. Leave her by the door, Swap \vaan\ for \balthier\, put the Dawn Shard on him, activate the switch. \leader{\penelo}, swap out \penelo\ for \vaan.
-	      \balthierf Phoenix Downs on himself to slow him down for movement warps.
-	\item Make the statue face to the left.
-	\item Party	Vaan	Ashe	Penelo
-	\item Config	Battle Speed	Fastest
+	\item Dismount Chocobo before opening door, \leader{\basch}
+	\item Turn off \basch\ Gambits
+	\item Use Pedestal, with Dawn Shard on your leader
+	\vaanf Traver on Guardian. \basch\ \pickup{Megalixir/Elixer}{nearby}. Check the Traveler Step Count, set Battle Speed to slowest.
+	\item In the next room: \vaan\ Potion \vaan, \basch\ Run Away, \vaan\ Potion \basch\ (should never go off). Run a little wide so that \vaan\ stays still, \basch\ touch the Pedestal (With the Dawn Shard equipped). \leader{\vaan}, leave room.
+	\item Can heal in the room with the Fake Crystal
+	\item In the room after: \basch\ use Phoenix Down x2, Flee once he starts to use the second one. \vaan\ touch the sword, \leader{\basch}
+	\item Run past the Bats and the Guardian in the following room.s
+\end{enumerate}
+\begin{menu}
+\begin{itemize}
+\item Party: \vaan, \ashe, \penelo
+\item Config: Battle Speed Fastest
+\end{itemize}
+\end{menu}
+\begin{gambit}
+\begin{itemize}
+
+\vaanf \textbf{OFF}
+\ashegambit{Fira}
+\penelogambit{Fira}
+\item Set all the gambits to OFF %Tyton fix this later
+\end{itemize}
+\end{gambit}
+\begin{enumerate}
+	\ashef Blizzara \penelo
+	\penelof Immobilize \ashe
 	\item Cursor	Prep Reflect (Vaan)
 \end{enumerate}
-
-\begin{gambit}
-	\begin{itemize}
-		\vaanf \textbf{OFF}
-		\penelof \textbf{OFF}
-		\charactergambit[Off]{\ashe}{\gambitline{(Ally: \ \ashe\ \ )}{(Reflect)}}{\gambitline{(Ally: \ \ashe\ \ )}{(Fira)}}
-	\end{itemize}
-\end{gambit}
 \begin{enumerate}
 	\item Can swap leaders to the immobilized characters to despawn enemies.
 \end{enumerate}
 \begin{battle}{Vinsukur}
 	\begin{itemize}
-		\vaanf Reflect \ashe, \penelo\ at the stairs
+		\vaanf Reflect \ashe, \penelo\ at the stairs, turn on their gambits
 		\vaanf Flee to the corner and stay.
+		\item At the end of the fight, turn off \ashe\ and \penelo's Gambits
+		\item If Vinuskar pushes the girls, move them away from \vaan.
 	\end{itemize}
 \end{battle}
 \begin{enumerate}
-	\item Freeze \penelo\ with a cure on \vaan, then warp back to her after the statue.
-	      \vaan Decoy and Reflect \vaan
-	\item Swap out everyone for \balthier, \basch, and use them to run to the next boss. Set the battle speed to slow.
+	\item If \ashe\ doesn't have Arcane Magick 3 yet, Liscense it immediately, along with Green Magick 4 on \penelo
+	\penelof Action on \vaan (Potion or cure, shouldn't ever go off).
+	      \ashef Decoy \vaan
+	      \vaanf Touch the statue, then Reflect \vaan
+\item \leader{penelo}, Flee. Once \vaan\ is untargeted:
 \end{enumerate}
+\begin{menu}
+\begin{itemize}
+\item Party: \basch, \balthier
+\item Config: Battle Speed Slow
+\item If \penelo\ doesn't have Green Magick 4, then license it now.
+\end{itemize}
+\end{menu}
 \begin{battle}{Mateus}
 	\begin{itemize}
 		\item Flee up to Mateus, set the cursor to Green Magic
+		\item Party: \vaan, \ashe, \penelo
+		\item Equip Dawn Shard onto \vaan
 		      \penelof Oil \penelo
-		      \vaanf Hi-Potion \vaan, Remove everything from \basch, equip the Dawn Shard to \vaan. Right before the end of the fight, equip the Golden Amulet.
+		      	\item Turn on \ashe, \penelo\ Gambits
+		      \vaanf Hi-Potion \vaan, turn on Gambits
+		      \item Right before Mateus dies, equip Golden Amulet onto \vaan
+		      \item If \ashe\ and \penelo\ have enough MP for another cast, turn off their Gambits
 	\end{itemize}
 \end{battle}
