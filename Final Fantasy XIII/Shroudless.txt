@@ -1,0 +1,1353 @@
+﻿Battle: Anima
+* Select Blitz and hover over the Right Manipulator (to the left).
+   * After Snow and Sazh start attacking, execute the Blitz on Anima.
+* One auto on right manip 
+* Keep one Manipulator alive
+* 2x Attack Anima
+
+Chapter 3
+
+Post-Manasvin Menu
+* Paradigms
+ COM RAV RAV ← default
+ COM MED RAV
+[RAV]RAV RAV
+[RAV]RAV RAV
+[COM]RAV RAV
+	
+* Crystarium
+   * Lightning
+      * Commando
+         * Lifesiphon.
+   * Vanille
+      * Ravager
+         * Water
+
+Frogs (x, dodged, 0)
+* Blitz Breshan Bass (green frogs)
+
+Battle Bike + Watchdrone (34, killed, 34)
+* Blitz the bike
+
+Watchdrones (30, killed, 64)
+* Blitz +Refresh
+
+(all of these CAN be dodged, but fight them if caught)
+
+Chapter 4
+
+Menu with Light & Hope
+* Paradigms
+   Generate
+    [5] Offensive
+	
+* Crystarium
+   * Lightning
+      * Commando
+         * Powerchain
+      * Ravager
+         * Strength +10 OOR
+         * Water (might not have enough, get it later if that’s the case)
+   * Hope
+      * Ravager
+         * Until out.
+
+Fight Watchdrone fights if caught.
+
+Battle: Watchdrones (30, killed, 94)
+* [1] Slash and Burn (COM/RAV)
+   * Blitz Watchdrone A. 1x down
+   * Blitz
+* [2] Supersoldier (COM/SYN)
+   * Blitz until 2x Protect.
+* [1] Slash and Burn (COM/RAV)
+   * Blitz with ATB Refresh, heal when needed.
+
+Similar for Watchdrones + Thexteron. (36, dodged, 94)
+ -This dodge isn't too bad; everything charges in the direction they face.
+
+Any% for the rest of the chapter
+ -Birds after birds fight can be nightmare to dodge, can be killed quickly with similar strat (46, killed, 140)
+ -Do Gauntlet in order: Soldier+Bomb, Bomb x2, Bomb+Soldier, Soldier x2 for better pathing
+
+Chapter 5
+
+Any% menu except Crystarium
+
+* Crystarium
+   * Hope
+      * (1) Ravager
+         * Water. (+1 node if you can afford)
+   * Lightning
+      * (2) Ravager
+         * Aquastrike.
+
+Battle: Milvus Velocycle
+* [1] Slash & Burn (COM/RAV)
+   * Attack x4, shift after 3 (i.e. shift after Hope's string)
+* [4] Dualcasting (RAV/RAV)
+   * Auto-chain.
+   * Potion from here on once if needed (attack does ~100 damage).
+   * Repeat 3 strikes.
+* [5] Dualcasting (RAV/RAV)
+      * Try to COM-buffer the last -strike.
+* [1] Slash & Burn (COM/RAV)
+   * Attack x4.
+
+Battle: Corps Marksman x2 & Milvus Velocycle
+* [1] Slash & Burn (COM/RAV)
+   * Attack x4.
+* [3] Archmage (RAV/SYN)
+   * Auto-chain.
+   * Potion.
+* [4] Dualcasting (RAV/RAV)
+   * Auto-chain.
+* etc.
+
+Activate the elevator.
+
+Menu
+* Paradigms
+ COM RAV
+ COM MED
+ RAV SYN
+ RAV RAV
+ RAV RAV
+ COM(MED)
+
+* Crystarium
+   * Lightning
+      * (2) RAV
+         * Fire
+      * (1) COM
+         * Magic +6 OOR
+         * Until out (either HP+25 or Magic+10)
+   * Hope
+      * (1) RAV
+         * Fearsiphon
+      * (2) SYN
+         * Until out (Shell) (Not sure this is strictly necessary? Only helps seed)
+* Equipment
+   * Lightning
+         * Accessory: Magician’s Mark (2)
+
+Battle: Aster Protoflorian
+ - 
+* [1] Slash & Burn (COM/RAV)
+   * Ruin x4.
+* [3] Archmage (RAV/SYN)
+   * Libra.
+   * Fire-Thunder-Fire-Thunder.
+   * Potion
+   * Repeat until Shell on both
+* [1] Slash & Burn (COM/RAV)
+   * Repeat (throw Potions as needed)
+* [4] Dualcasting (RAV/RAV)
+   * Repeat build chain until 185%
+* [6] War & Peace (COM/MED)
+   * Auto-battle with refreshes until exo-strikeable and <110xxx HP
+* [4] Dualcasting (RAV/RAV)
+   * Strikes with refreshes (10 strikes/refresh), then summon at some point to kill with Zantet
+
+Chapter 6
+
+Pretty much any%
+
+* Crystarium
+   * Vanille
+      * (1) RAV
+         * Fire out of ring.
+      * (2) SAB
+         * Poison.
+      * (3) MED
+         * Two nodes(or until out).
+   * Sazh
+      * (3) SYN
+         * Enwater
+      * (2) RAV
+         * Two nodes
+
+Grab Librascope
+
+Chapter 7
+
+Get Fiber-Optic Cables.
+
+Menu with Snow on rooftop
+* Paradigms
+ COM  RAV ← default
+ COM (RAV)
+(COM) MED
+(COM) SYN
+(RAV) RAV
+(RAV) RAV
+	
+* Crystarium
+   * Snow
+      * (1) COM
+         * Adrenaline out of ring.
+         * Strength: +10 before the Role Level.
+   * Hope
+      * (2) RAV
+         * Thundara
+      * (3) SYN
+         * Barfire
+* Equipment
+   * Snow
+      * Equip
+         * Accessory: Power Wristband*. (1)
+
+Shop
+  * Sell
+      * Accessories
+         * 4 bottom items.
+      * 2 Incentive chips
+      * Phoenix Downs?
+      * Fiber-optic Cables
+* Lenora’s Garage
+   * Buy
+      * Turbojet x16
+
+Upgrade
+* Upgrade
+   * Weapons
+      * Wild Bear
+         * Sturdy Bone x36
+         * Turbojet x16
+
+Battle: Bike
+* Stagger and kill
+
+(probably try the bike + Aerial Sniper dodge till you get it)
+
+Battle: 3 Aerial Snipers (172, killed)
+* [1] Slash & Burn
+   * Attack x4
+* [4] Supersoldier
+   * Repeat until buffs and heal.
+* Kill stuff
+
+Battle: Bike + soldier(s)
+ * Chain
+ * Summon
+ * Stagger bike and kill
+
+Shop
+* Lenora's Garage
+   * Sell
+      * Weapons
+         * Vidofnir
+   * Buy
+      * Turbojet x11
+* Creature Comforts
+      * Sturdy Bones to x45
+
+Upgrade BF
+
+Battle: Ushumgal Subjugator (1)
+* [1] Slash & Burn (COM/RAV)
+   * Attack x4.
+* [4] Supersoldier (COM/SYN)
+   * Repeat, Potion, Repeat
+   * Shift while mid-air (after protect)
+* Try to Potion to stay on the ground for Tail Hammers. Keep Hope alive.
+
+* Ushus 2 menu, paradigms as any%
+* Crystarium
+      * Fang
+         * Any%
+      * Lightning
+         * Ravager
+            * Thundara
+         * Medic
+            * As far as possible
+      * Hope
+         * (2) Synergist
+            * Accessory out of ring, until out
+   * Equipment
+      * Lightning
+         * Remove 
+            * Magician’s Mark .
+      * Hope
+         * Equip
+            * Magician’s Mark (2)
+            * Silver Bangle (2)
+      * Fang
+            * Power Wristband
+      * Lightning
+            * Shaman’s Mark (4)
+
+* Skytank menu, paradigms as any%
+* Crystarium
+   * Lightning
+      * Medic
+         * Accessory out of ring.
+      * Commando (HOLD UP)
+         * Strength out of ring
+         * Until out
+* Equipment
+   * Lightning
+      * Equip
+         * Shaman’s Mark  → Brawler’s Wristband Lv. 1.  (6)
+   * Fang
+         * Power Wristband ★ → Shaman’s Mark (4)
+   * Lightning
+      * Equip
+         * Power Wristband (5)
+
+Chapter 8
+
+Paradigms as any%
+
+Menu
+* Crystarium
+   * Sazh
+      * Any%
+      * Ravager
+         * Aero
+         * As close to Overwhelm as you can get
+   * Vanille
+      * Any%
+      * Medic
+         * Until out (HP+10).
+
+Equips as any%
+
+Chapter 9
+
+Any% until bridge, except dont buy the Shamans Mark or bother 
+with the DC upgrade yet
+
+Bridge
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Paradigms
+ * COM  SYN (COM)<--default
+ * RAV  RAV  RAV
+ *(RAV)(RAV)(RAV)
+ * COM  SYN (COM)
+ * COM  COM  COM 
+ * COM  COM  COM 
+
+Crystarium
+* Lightning
+   * COM --Quake out of ring, until out (end of ring)
+* Snow
+   * COM --Role Lv2
+   * SEN --Backtrack to Fringeward, Accessory
+   * RAV --All OOR (not on stage 1), Role Lv2
+
+Equipment
+* Fang
+   * Unequip
+* Hope
+   * Unequip
+* Lightning
+   *  Shaman’s Mark   →    (4) Warrior's Wristband
+* Sazh
+   * Power Wristband    →    (3) Magician's Mark
+   * Shield Talisman    →    (4) Shaman's Mark
+* Snow
+   * Power Wristband-* (1)
+   * Power Wristband-* (3)
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Bart
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+Crystarium:
+* Lightning
+   * COM -- Until out
+* Sazh (2)
+   * SYN--Enfire
+   * COM--Quake OOR, HP+10 at the end of ring
+* Snow (3)
+   * RAV--As far as possible
+* Fang (4)
+   * HP
+* Vanille (6)
+   * SAB--Accessory
+   * MED--Until out
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Barthandelus (1)=========================
+Note: Use Potions liberally in this fight. Using them after every string of commands is acceptable.
+* [1] Strike Team
+   * Select Auto-battle and change target to Right Pauldron. (DO NOT SELECT TARGET.)
+   * Librascope
+   * Auto-chain
+
+* [3] Strike Team
+   * Attack x3
+   * Potion
+   * Attack x4
+
+* [1] Strike Team
+   * Attack x3
+   * (Potion)
+   * Attack x4
+
+* [5] Cerberus
+   * Attack until dead
+
+* [1] Strike Team
+   * Potion
+   * Attack x4
+
+* [5] Cerberus
+   * Attack until dead
+
+etc.
+===================================================
+
+Chapter 10
+
+Yay more any% except for this menu being slightly different
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Equipment 
+* Lightning
+   * Unequip
+* Snow
+   * Unequip Power Wristband
+* Sazh
+   * Magician's Mark→ Power Wristband
+   * Shaman's Mark→Warrior's Wristband
+* Lightning
+   * Magician’s Mark
+   * Shaman's Mark
+* Fang
+   * Doctor's Code
+   * Tetradic Crown
+* Vanille
+   * Shield Talisman
+   * Soulfont Talisman
+* Hope
+   * Tungsten Bangle
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+Chapter 11
+
+Unequip people after Alex
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Equipment
+* Vanille
+   * Unequip all
+* Fang
+   * Unequip all
+* Hope
+   * Unequip all
+* Lightning
+   * Unequip all
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+Mah'habara
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+Sell 
+* Weapons
+   * Alicanto
+   * Feymark
+   * Hauteclaire
+* Accessories
+   * Magician’s Mark
+   * Entite Ring
+   * Tetradic Crown
+* Components
+   * Everything BUT: Barbed Tails and Superconductors (if any)
+
+* Lenora's Garage
+   * Superconductor x92
+
+* Creature Comforts
+   * Barbed Tail x72
+
+* B&W Outfitters
+   * Warrior's Wristband x2
+   * Black Belt 
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+
+U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
+Accessories
+   * Vega 42s Lv19 
+      * Barbed Tail x36
+      * Superconductor x6
+   * Wild Boar Lv21
+      * Barbed Tail x36
+      * Superconductor x4
+   * Warrior's Wristband Lv1 (1)
+      * Barbed Tail x36
+      * Superconductor x37
+   * Warrior’s Wristband lvl1 (2)
+      * Barbed Tail x36
+      * Superconductor x37
+   * Black Belt
+      * Superconductor x7
+U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Paradigms as any%
+
+Crystarium
+* Sazh
+   * COM--Jeopardize OOR Scourge OOR, Role Lv3
+   * RAV--Until out (magic+5)
+* Vanille
+   * MED--ATB Level
+* Snow
+   * RAV--Overwhelm, Str+5 after double HP+80 on stage 7
+   * SEN--Role Lv2, Deathward OOR, Challenge OOR
+
+Equipment
+* Fang
+   * (4) Silver Bangle
+   * (6) Black Belt
+* Snow
+   * Warrior’s Wristband *
+   * Warrior's Wristband *
+* Vanille
+   * Tungsten Bangle
+   * Doctor's Code
+* Sazh
+   * Power Wristband-->Shield Talisman
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+Any% up to Gelatitan
+
+Can use the party swap trick to dodge the big bird
+
+After Gelatitan:
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Sazh/Snow/Vanille
+* SYN  RAV  SAB
+* COM  RAV  RAV
+* SYN  COM  MED
+* COM  COM (RAV)
+* SYN  COM  SAB <--default
+* COM  COM  RAV
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+This Ambling Bellows strat is a bit janky, but needed to save TP to summon and save an entire BK+M fight.
+
+==Battle: Ambling Bellows & Pals============
+Use Libra to move cursor to AB, but Quake instead of Libra
+Faith-Enspell Snow, shift to [1] Geurilla
+Repeat on Sazh, shift to [4] Aggression
+Ruin x4 on Bellows, Refresh, repeat with refreshes to kill
+ -It is possible for him to kill Vanille before staggering him. Just retry.
+============================================
+
+Can do Penanggalan now if you want. I think it makes the menu a bit better,
+since there's a special paradigm setup to save the Renew on Vetala. There is
+TP for a Renew, but if you use it, you won't have one for Dahaka.
+
+Pre-Vetala
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+* SYN  SAB (SEN)<--default
+* COM  MED (SEN)
+*(RAV)(RAV)(SEN)
+* COM  SAB (SEN)
+*(RAV) SAB (SEN)
+* COM  RAV  COM
+
+Crystarium
+* Sazh
+   * RAV--Until out (magic +5)
+* Vanille
+   * SAB--Jinx OOR (Important for debuff duration on later fights
+* Snow
+   * SEN- Until start of last stage
+
+Equip
+* Fang
+   * Unequip
+* Snow
+   * Warrior’s Wristband→ Soulfont Talisman
+* Vanille
+   * Shaman's Mark
+   * Tungsten/Diamond Bangle
+* Sazh
+   * Shield Talisman → Warrior’s Wristband*
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+Sell 
+   * Everything BUT: 	Particle Accelerators, Doctor's Codes, Warriors Wristband,
+						Silver Bangle, Shield Talisman
+
+* Lenora's Garage
+   * Superconductor x37+2
+
+* Creature Comforts (This is split up with next menu, could be combined?)
+   * Sturdy Bone x36
+
+* B&W Outfitters
+   * Sorcerer's Mark
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+
+U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
+Upgrade
+Accessories
+* Warriors Wristband Lv1
+   * Sturdy Bones x36
+   * Superconductor x37
+* Doctor's Code Lv1
+   * Superconductor x1
+* Doctor's Code Lv1
+   * Superconductor x1
+Dismantle
+* Doctors Code* x2
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Penanggalan & Chonchon x4================
+Any%
+===================================================
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Battle Team
+ * (Sazh)/(Snow)/(Vanille)
+
+Paradigms
+ * SYN  SEN  RAV
+ * COM  RAV  RAV  <--set default
+ * RAV  SEN  RAV
+ * COM  COM  RAV 
+ * RAV  SEN  SAB
+ * COM  COM  RAV 
+
+Equipment
+* Snow
+   * Warrior’s Wristband*
+   * Warrior’s Wristband Lv8
+* Vanille
+   * Diamond Bangle
+   * Sorcerer’s Mark
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Dahaka===================================
+Any% but Librascope and use strikes for safety
+
+OR
+
+* [4] Aggression
+   * Blitz, buffer into--
+
+* [3] Mystic Tower RAV/SEN/RAV
+   * Flamestrike x4
+
+* [1] Riot Shield SYN/SEN/RAV
+   * Auto-support (Haste) Sazh
+   * Renew
+   * Librascope
+   * Auto-support (Haste) Vanille (3x down)
+
+* etc. (old strat basically, might be sketchy though with 1 Renew)
+===================================================
+
+Perovskite at the left
+
+Pleiades Hi-Powers+Moogle puppet at the roof
+
+Seekers:
+ -Draw left, then dodge on the right.
+ -Wait for the birds to fly away.
+
+Bridge Vetala:
+ -DaspharaohToday at 11:50 AM
+ -hug the left wall and pray
+ -also console
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Paradigms
+ *(COM) SEN  RAV  
+ * COM (SEN) RAV  
+ * SYN  SEN (MED)  <--Set default
+ *(RAV)(SEN) RAV
+ * RAV  SEN  SAB
+ * COM (SEN)(MED)
+
+Crystarium
+* Sazh
+   * RAV -- Until out
+* Snow
+   * RAV -- Until out
+* Vanille
+   * MED--Curasa (Helps heal Snow when he's low)
+
+Equipment
+* Vanille
+   * Diamond Bangle → Shaman’s Mark
+* Snow
+   * Black Belt
+   * Diamond Bangle
+* Sazh
+   * Pleiades Hi-Powers
+   * Warrior Wristband*
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+Sell
+* Accessories
+   * Tetradic Tiara
+   * Soulfont Talisman
+* Components
+   * Everything BUT: Perfect Conductors, Particle Accelerators, Perovskite
+
+Creature Comforts
+* Sturdy Bone x91
+
+Lenora's Garage
+* Superconductor xMAX
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+
+U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
+Upgrade
+Weapons
+* Pleiades Hi-Powers
+   * Sturdy Bones x36
+   * Superconductor x17
+   * Perovskite
+   * Sturdy Bones x55
+   * Particle Accelerator x3
+   * Superconductor xAll (56/62/68 are Lv34/35/36)
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Barthandelus (2)=========================
+* [1] Protection
+   * Haste-Bravery Sazh
+   * Haste-Faith Vanille
+   * (Haste Snow, I noticed it can decrease his down time)
+* [1/6] COM/SEN/X
+   * Attack-Blitz ---
+* [5] Matador
+   * Flamestrike x4
+   * Improvise
+Notes:
+ -Try to get Snow's HP high before stagger, to spend more time in COM/SEN/RAV
+ -Attack-Blitz and Flamestrikes help you back up, but Blitz-Blitz for damage
+ -Heal Pain as fast as possible, as it prevents snow from Challenging
+ -Renew any time, as it is not needed during Laughter (Fringeward)
+ -
+===================================================
+
+Chapter 12
+
+Use party swap trick to dodge birds if necessary
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Battle Team
+ *(Vanille)/ Snow /(Sazh)
+
+Paradigms
+ * MED  SEN  COM  
+ * RAV (COM) COM
+ * SYN  SEN  MED
+ * SAB  RAV (SYN)
+ *(RAV)(SEN)(RAV)  <--set default
+ *(RAV)(SEN)(RAV)
+
+Crystarium
+* Vanille
+   * COM --  Ruin
+   * MED-- Accessory, HP +100
+* Snow
+   * RAV -- Accessory
+   * SEN -- Towards ATB Level
+* Sazh
+   * RAV -- Towards Cold Blood
+
+Equipment
+* Snow
+   * Unequip
+* Vanille
+   * Silver Bangle 
+   * Black Belt
+   * Shield Talisman
+* Snow
+   * Warrior’s Wristband
+   * Warrior’s Wristband
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Bulwarker & Sanctum Seraph x2============
+* [1] Mystic Tower
+   * Target Bulwarker
+   * Quake
+   * Fira-Aerora Bulwarker
+
+* [2] Mystic Tower
+   * Repeat x2
+   * Quake
+   * Summon
+   * Repeat
+
+* [1] Mystic Tower
+   * Repeat
+   * Gestalt
+   * Force Blasters on everything
+   * Finisher
+===================================================
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Battle Team
+ *(Sazh) / Snow/ (Vanille)
+
+Paradigms
+ * COM  COM  MED  
+ * COM  COM  COM  <--set default
+ * SYN  SEN  SAB
+ * SYN  RAV  SAB
+ * RAV  RAV  MED 
+ * RAV  RAV  RAV
+
+Crystarium
+* Snow
+   * SEN - ATB
+
+Equipment
+* Vanille
+   * Black Belt -> Sorcerer's Mark
+* Sazh
+   * Black Belt*
+   * Diamond Bangle
+* Snow
+   * Warrior's Wristband* x3
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Behemoth King============================
+Any%
+Don't need as much chain, as Sazh is stronger
+===================================================
+
+Vanille lead for dodges (Orobons won't hit her if charging from straight behind)
+
+Some dodge notes:
+Orobons+Behemoth
+  -Can go through the rubble on the left if it helps
+Bird
+  -Can be dodged by charging in, retrying, and charging again
+Dog x2
+  -Very hard. Can lure them forward, then get behind them
+  -Can also be fought in about 30-40s with Sazh lead:
+   -
+Dogs+Soldiers
+  -Lure the dogs to the left side, then enter right and curve around the rocks
+  -Dogs don't have a good turn radius and have trouble tracking around the rocks
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Battle Team
+Any%
+
+Paradigms
+ Any% but with Tireless
+
+Equipment
+* Sazh
+   * Unequip
+* Snow
+   * Warriors Wristband*
+   * Warriors Wristband*
+   * Warriors Wristband*
+* Sazh
+   * Diamond Bangle
+   * Black Belt
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: The Proudclad (1)========================
+Any% but heal more (have more damage)
+
+Old shit:
+* [1] Decimation 
+   * Haste-Bravery Sazh
+   * Repeat Snow (up-down)
+   * Haste-Faith Lightning (1x down)
+
+* [2] Mystic Tower
+   * Fire-Thunder-Fire-Thunder
+   * Librascope
+   * Repeat
+   * Renew
+   * Repeat
+   * Cold Blood. Shift after Lightnings string (quick)
+
+* [3] Relentless Assault
+   * Cold Blood. Shift after Lightnings string
+
+* [4] Cerberus
+   * Blitz-Blitz
+   * Shift after Snow’s attack
+
+* [5] Tireless Charge
+   * Repeat
+   * ATB refresh with Cerberus to kill with Blitzes
+===================================================
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Battle Team
+ *Snow lead
+
+Paradigms
+Change 5th and 6th to Tri-Disaster and default
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Adamanchelid=============================
+* [2] Tri-Disaster
+   * Blizzard x5 (Cancel if interrupted)
+   * Summon
+   * Repeat
+
+* [3] 
+   * Repeat Blizzard x4 (320%)
+   * Gestalt
+   * Down+X
+   * Side+X until out
+   * Finisher
+===================================================
+
+Grab Gil and Perfect Conductors.
+
+Make COM/COM/SAB (default), COM/COM/RAV, SYN/RAV/SAB
+
+==Battle: Vernal Harvestor & Tyrant================
+* [1] Devastation
+   * Attack-Blitz Tyrant
+   * Shift after Snow's 4th Attack
+
+* [3] Geurilla
+   * Auto-battle (Haste) Sazh
+   * Bravery-Haste Snow
+   * Bravery-Enthunder Sazh
+
+* [2] Aggression
+   * Blitzes on Tyrant, then Vernal Harvestor
+===================================================
+
+The goal here is to dump everything into the magnums.
+It is probably worth splitting up the Goddess' Favor dismantle,
+so that the components may be sold for more superconductors.
+
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+Sell
+* Weapons
+   * Rebel Heart
+   * Mistleteinn
+   * Punisher
+* Accessories
+   * Everything not necessary (sell the PG1)
+* Components
+   * All but Perfect Conductor and Particle Accelerator
+Buy
+* B&W Outfitters
+   * Black Belt x2
+* Creature Comforts
+   * Sturdy Bone x72
+* Lenora’s Garage
+   * Superconductors xMAX
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+
+U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
+Accessories
+* Goddess’s Favor
+   * Perfect Conductor x3
+* Power Glove Lv1
+   * Not worth upgrading compared to the Magnums
+* Black belts
+   * Superconductor x7
+* Dismantle
+   * Goddess’s Favor
+   * Ribbon
+* Upgrade
+   * Warrior’s Wristband
+      * Scarletite
+
+<Buy some more Superconductors if desired>
+
+* Hyades Magnums
+   * Sturdy Bones x54
+   * Perfect Conductors
+   * Particle Accelerator
+   * Superconductors
+U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Crystarium
+* Snow
+   * SYN -- Protect
+   * COM--Until out, Smite 
+* Sazh
+   * COM--Until out
+* Vanille
+   * SAB- HP
+
+Battle Team
+* (Sazh)/(Snow)/Vanille
+
+Paradigms
+* COM  COM  MED
+* COM  COM  COM
+* SYN (SYN)(MED)  <-Set default
+* RAV  COM (RAV)
+* RAV  RAV  RAV
+*(COM)(SEN)(MED)
+
+Equipment
+* Vanille
+   * Double Black Belt
+* Snow
+   * Power Glove
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: The Proudclad (2)========================
+
+* [6] Recuperation
+   * Haste-Bravery Sazh
+   * Repeat Snow
+   * Haste-Faith Vanille
+
+* [5] Solidarity
+   * Librascope
+   * Attack-Blitz into--
+
+* [3] Tri-Disaster
+   * Fire-Thunder-Fire-Thunder
+
+* [5] Solidarity
+   * Attack Blitz into--
+
+* [3] Tri-Disaster
+   * Cold Blood
+   * Shift to Relentless Assault to maximize Launches
+
+* [2] Relentless Assault
+   * Repeat
+
+* [1] Cerberus
+   * Attack x3 to keep him juggled.
+   * Elixir
+   * Keep attacking until out of stagger, hit the Scourge
+
+--- aerial phase ----
+* [6] Recuperation
+   * Haste-Vigilance everyone
+
+* [4] Tireless Charge
+   * Attack-Blitz into ---
+
+* [3] Tri-Disaster
+   * Fire-Thunder-Fire-(Thunder)
+   * Reason for 3 spells is that it ensure you won’t stagger early. You’ll have less chain in the end so try to learn the timing and judge.
+
+* [6] Tireless Charge
+   * Repeat into- 
+
+* [3] Tri-Disaster
+   * Cold Blood
+
+* [2] Relentless Assault
+   * Renew
+   * Cold Blood
+
+* [1] or [4] Cerberus or Tireless Charge
+   * Blitzes with ATB Refreshes.
+   * Possibly shift to Relentless Assault in time for stagger extend
+
+* [5] Cerberus
+   * Shift to this to maximize damage and pray he dies
+===================================================
+
+Chapter 13
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Battle Team
+ *(Vanille)/Snow/(Sazh)
+
+Paradigms
+*(SAB) COM  COM
+*(SAB)(RAV)(RAV) <--Set default
+*(SAB)(SEN) SYN
+* RAV (SEN) RAV
+* MED  SEN (SYN)
+* RAV  RAV  RAV
+
+Crystarium
+* Vanille
+   * MED - Curaja, Role lvl
+   * Sab-> Towards Fog
+* Snow
+   * Rav -- lvl 4
+   * Sen -- lvl 4
+   * Com -- Until out
+* Sazh
+   * COM -- HP OOR, Adrenaline OOR, Accessory
+   * SYN-Until out
+
+Equipment
+* Sazh
+   * Warrior’s Wristband
+	
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Bandersnatch & Jabberwocky===============
+* [5] Smart Bomb
+   * Imperil x5 Bandersnatch
+   * Shift once Imperil is inflicted, after Vanille's fifth cast
+
+* [6] Tri-Disaster RAV/RAV/RAV
+   * Summon
+   * Fira-Aerora Bandersnatch, Extra Firas to stall until Jabberwockys action
+   * Gestalt when Jabberwocky is taking an action
+   * Force Blasters
+   * Finisher
+   * Auto-chain
+   * Shift after Snow's fifth -strike (cancel his ready animation)
+
+* [6] Premeditation
+   * Spam Imperils
+   * Shift after Haste x3 and Imperil
+
+* [5] Mystic Tower
+   * Auto-chain until near-stagger
+
+* [3] Tri-Disaster
+   * Thunder-Aerora-Aero
+
+* [2] Smart Bomb
+   * Spam Poisons, ATB Refresh with [1] till kill 
+===================================================
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Battle team
+* (Sazh)/Snow/(Vanille)
+
+ * COM (SEN) SAB
+ *(COM)(SEN)(MED)
+ * SYN  SEN  SAB  <--Set default
+ *(COM) SEN  RAV
+ *(COM) SEN  MED
+ * RAV (SEN)(SAB)
+
+Crystarium
+* Sazh
+   * SYN -- Until out
+* Vanille
+   * Med -- HP
+
+Equipment
+* Snow
+   * Remove all
+* Sazh
+   * Power Glove
+   * Warrior's Wristband
+   * Shield Talisman
+* Vanille
+   * Sorcerer’s Mark
+* Snow
+   * Black Belt
+   * Black Belt
+   * Black Belt
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+BUY PHOENIX DOWNS
+==Battle: Wladislaus===============================
+Note: Sazh should barely survive a single attack
+
+* [1] Premeditation
+   * Auto-support
+   * Auto-support Vanille (Up)
+   * Bravery-Enfire Sazh
+   * Repeat Vanille 1x down
+
+* [2] Dirty Fighting
+   * Blitz-Blitz or Attacks depending on distance (until deprotect)
+
+* [4] Delta Attack
+   * Repeat with ATB refreshes, can use Solidarity to heal up to full
+===================================================
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Paradigms
+* COM  SEN  SAB
+*(RAV) SEN (SAB)
+* SYN  SEN  SAB  <--Default
+* COM  SEN (SAB)
+* COM  SEN  MED
+* RAV  SEN  SAB
+
+Crystarium
+* Sazh
+   * SYN -- ATB
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+Sell the Royal Armlet and buy two Librascopes
+
+This fight *can* be dodged with the party swap trick
+
+Battle: Sanctum Templars (2:00-2:30)
+* [1] Premeditation
+   * Libra
+   * Haste-Bravery Sazh
+   * Haste-Faith Vanille
+
+* [4] Matador
+   * Fire-Thunder-Fire-Thunder
+   * Quake
+   * Repeat few times with ATB refresh
+
+* [3] or [6] Delta Attack/Dirty Fighting
+   * Attack or Blitz depending on distance
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Paradigms
+ * COM (COM)(COM)
+ * RAV  SEN (RAV)
+ * SYN  SEN (COM)  <--Default
+ *(RAV) SEN  RAV
+ * RAV (RAV) SAB
+ * COM  SEN  MED
+
+Equipment  
+* Sazh
+   * Remove Power Glove lvl 9
+* Snow
+   * Full strength
+* Sazh
+   * Diamond Bangle
+* Vanille
+   * Shield Talisman -> Black Belt
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+==Battle: Tiamat Eliminator========================
+This fight is whack, please figure out something better
+
+* [1] Strategic Warfare
+   * Libra
+   * Auto-support Sazh
+   * Auto-support Vanille
+   * Faith-Vigilance Vanille
+   * Bravery-Vigilance Sazh
+   * Bravery Snow
+
+* [2] Mystic Tower
+   * Cold Blood
+   * Repeat
+   * Quake at some point
+
+* [3] Mystic Tower
+   * Repeat until almost stagger
+   * Cold Blood
+
+* [2] Mystic Tower
+   * Repeat
+
+* [5] Cerberus
+   * Librascope
+   * Blitz-Blitz
+   * Keep Repeating
+
+* [2] Mystic Tower
+   * Fire-Thunder
+   * ATB refreshes with Solidarity
+   * Shift to Smart Bomb in Stagger
+   * Cerberus when Deprotect is inflicted
+
+* [2] Cerberus COM/COM/COM
+   * Repeat
+   * Keep Tiamat interrupted and launched until victory
+===================================================
+
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M 
+Crystarium
+* Sazh
+   * SEN -- Provoke
+   * COM -- until out
+* Snow
+   * COM--Until out
+* Vanille
+   * MED--Until out
+
+Paradigms
+* COM  COM (MED)
+*(COM)(COM) RAV
+* SYN (SYN)(MED)  <--Default
+* RAV (RAV) RAV  
+* RAV  RAV  SAB 
+*(SEN) SEN  MED
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+Sell
+* Accessories
+   * Imperial Armlet
+
+Eden Pharmaceuticals
+   * Librascope x2
+S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
+
+==Battle: Barthandelus (3)=========================
+* [4] Protection
+   * Haste Bravery Sazh
+   * Repeat Snow
+   * Haste-Faith Vanille
+* [5] Tri-Disaster
+   * Fire-Thunder-Fire-Thunder-Fire
+* [3] Consolidation
+   * Quake
+   * Elixir after Ultima
+* [5] Smart Bomb
+   * Repeat until near stagger and Debuffs complete
+* [2] or [4] depending on time
+   * Librascope Ultima
+   * Any% ending
+===================================================
+
+==Battle: Orphan (1)===============================
+* [4] Recuperation
+   * Haste-Vigilance Sazh
+   *MERCILESS JUDGMENT*
+   * Auto-Support (Up-X-Triangle)
+   * Auto-Support (should be Haste on Snow)
+   *SLAP (1)*
+
+* [3] Consolidation
+   * Librascope
+
+* [4] Recuperation
+   * Bravery Enthunder Sazh
+   * Repeat Snow
+   *SLAP (2)*
+
+* [1] Tireless Charge
+   * Attack-Blitz into ---
+
+* [6] Tri-Disaster
+   * Fire-Thunder-Fire-Thunder-Fire
+
+* [3] Consolidation
+   * Wait for 1 Cura
+
+* [6] Tri-Disaster
+   * Repeat x2
+   * Tank all attacks in [2] Consolidation
+   
+etc.
+===================================================
+
+==Battle: Orphan (2)===============================
+* [3] Protection
+   * Haste-Enfire Sazh
+   * Repeat Snow
+   * Auto-Support Vanille
+
+* [6] Tri-Disaster
+   * Fire-Thunder-Fire-Thunder-Fire
+   * Repeat
+
+* [5] Smart Bomb
+   * Repeat until stagger
+   * If HP is fine, Cold Blood
+   * If HP is not fine, Renew
+   * If Sazh is Pained and Fogged, throw a Painkiller and Auto-chain
+   * Shift after Deprotect and Imperil inflicted
+
+* [1] Tireless Charge COM/COM/MED
+   * Auto-battle a single Attack
+   * Blitz-Blitz as Orphan lands
+   * Auto-battle if midair, Repeat if on land until victory
+   * Victory!
+===================================================
