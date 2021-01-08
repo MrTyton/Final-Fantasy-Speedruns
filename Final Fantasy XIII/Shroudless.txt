@@ -1,4 +1,4 @@
-﻿Battle: Anima
+Battle: Anima
 * Select Blitz and hover over the Right Manipulator (to the left).
    * After Snow and Sazh start attacking, execute the Blitz on Anima.
 * One auto on right manip 
@@ -171,8 +171,6 @@ Grab Librascope
 
 Chapter 7
 
-Get Fiber-Optic Cables.
-
 Menu with Snow on rooftop
 * Paradigms
  COM  RAV ← default
@@ -192,10 +190,6 @@ Menu with Snow on rooftop
          * Thundara
       * (3) SYN
          * Barfire
-* Equipment
-   * Snow
-      * Equip
-         * Accessory: Power Wristband*. (1)
 
 Shop
   * Sell
@@ -203,7 +197,6 @@ Shop
          * 4 bottom items.
       * 2 Incentive chips
       * Phoenix Downs?
-      * Fiber-optic Cables
 * Lenora’s Garage
    * Buy
       * Turbojet x16
@@ -440,6 +433,9 @@ Equipment
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 Mah'habara
+
+From here on out, get whatever chests you want; everything is going into the Magnums.
+
 S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
 Sell 
 * Weapons
@@ -534,26 +530,30 @@ Ruin x4 on Bellows, Refresh, repeat with refreshes to kill
  -It is possible for him to kill Vanille before staggering him. Just retry.
 ============================================
 
+==Battle: Mushussu & Pals===================
+Any%
+============================================
+
 Can do Penanggalan now if you want. I think it makes the menu a bit better,
 since there's a special paradigm setup to save the Renew on Vetala. There is
 TP for a Renew, but if you use it, you won't have one for Dahaka.
 
 Pre-Vetala
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
-* SYN  SAB (SEN)<--default
-* COM  MED (SEN)
-*(RAV)(RAV)(SEN)
-* COM  SAB (SEN)
-*(RAV) SAB (SEN)
-* COM  RAV  COM
+* SYN (SEN) SAB <--default
+* COM (SEN)(MED)
+*(RAV)(SEN)(RAV)
+* COM (SEN) RAV 
+*(RAV)(SEN) SAB
+* COM  COM  RAV
 
 Crystarium
 * Sazh
-   * RAV--Until out (magic +5)
-* Vanille
-   * SAB--Jinx OOR (Important for debuff duration on later fights
+   * RAV -- Until out (magic +5)
 * Snow
-   * SEN- Until start of last stage
+   * SEN -- Mediguard, Until out (start of last stage)
+* Vanille
+   * MED -- HP OoR, until out
 
 Equip
 * Fang
@@ -567,43 +567,24 @@ Equip
    * Shield Talisman → Warrior’s Wristband*
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
-S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
-Sell 
-   * Everything BUT: 	Particle Accelerators, Doctor's Codes, Warriors Wristband,
-						Silver Bangle, Shield Talisman
-
-* Lenora's Garage
-   * Superconductor x37+2
-
-* Creature Comforts (This is split up with next menu, could be combined?)
-   * Sturdy Bone x36
-
-* B&W Outfitters
-   * Sorcerer's Mark
-S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
-
-U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
-Upgrade
-Accessories
-* Warriors Wristband Lv1
-   * Sturdy Bones x36
-   * Superconductor x37
-* Doctor's Code Lv1
-   * Superconductor x1
-* Doctor's Code Lv1
-   * Superconductor x1
-Dismantle
-* Doctors Code* x2
-M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+==Battle: Vetala===================================
+* [1] Premediation
+   * Auto-support Sazh
+   * Auto-support Vanille
+   * Shift to 5 if no imperil
+* [3/5] Mystic Tower/Matador
+   * Fire-Thunder-Fire-Thunder till Stagger
+* [1] Premeditation
+   * Bravery-Enspell Sazh, Vanille Deprotects
+* [4] Delta Attack
+   * Blitz-Blitz with Refreshes
+===================================================
 
 ==Battle: Penanggalan & Chonchon x4================
 Any%
 ===================================================
 
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
-Battle Team
- * (Sazh)/(Snow)/(Vanille)
-
 Paradigms
  * SYN  SEN  RAV
  * COM  RAV  RAV  <--set default
@@ -614,11 +595,7 @@ Paradigms
 
 Equipment
 * Snow
-   * Warrior’s Wristband*
-   * Warrior’s Wristband Lv8
-* Vanille
-   * Diamond Bangle
-   * Sorcerer’s Mark
+   * Soulfont Talisman -> Warriors Wristband Lv1
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: Dahaka===================================
@@ -653,12 +630,13 @@ Bridge Vetala:
  -DaspharaohToday at 11:50 AM
  -hug the left wall and pray
  -also console
+-> Can be fought for necessary CP + 13,500 Taming Pole. Improvise, may be better with Bart 2 setup.
 
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 Paradigms
  *(COM) SEN  RAV  
- * COM (SEN) RAV  
- * SYN  SEN (MED)  <--Set default
+ * RAV  RAV  RAV/MED
+ *(SYN) SEN (MED)  <--Set default
  *(RAV)(SEN) RAV
  * RAV  SEN  SAB
  * COM (SEN)(MED)
@@ -673,7 +651,7 @@ Crystarium
 
 Equipment
 * Vanille
-   * Diamond Bangle → Shaman’s Mark
+   * Diamond Bangle → Silver Bangle
 * Snow
    * Black Belt
    * Diamond Bangle
@@ -683,18 +661,30 @@ Equipment
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
-Sell
-* Accessories
-   * Tetradic Tiara
-   * Soulfont Talisman
-* Components
-   * Everything BUT: Perfect Conductors, Particle Accelerators, Perovskite
+Sell 
+	* Everything BUT:
+		* Weapons:
+			Pleiades Hi-Powers
+		* Accessories:
+			Warriors Wristbads
+			Black Belt
+			Shield Talisman
+			Soulfont Talisman?
+			Doctor's Codes
+		* Components
+			Particle Accelerators
+			Perovskite
 
-Creature Comforts
-* Sturdy Bone x91
+* Creature Comforts (This is split up with next menu, could be combined?)
+   * Sturdy Bone x91
+   * Barbed Tail x72
+   * (Vibrant Ooze x36) (if you want extra HM power)
 
-Lenora's Garage
-* Superconductor xMAX
+* Lenora's Garage
+   * Superconductor x99
+
+* B&W Outfitters
+   * Sorcerer's Mark (NO?)
 S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
 
 U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
@@ -707,6 +697,21 @@ Weapons
    * Sturdy Bones x55
    * Particle Accelerator x3
    * Superconductor xAll (56/62/68 are Lv34/35/36)
+Accessories
+* Doctor's Code Lv1
+   * Superconductor x1
+* Doctor's Code Lv1
+   * Superconductor x1
+Dismantle
+* Doctors Code* x2
+M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+
+If desired, you can double back and buy more Superconductors to use with the Vibrant Oozes.
+I would recommend doing this, you can get around 40+ SC's, which can be worth 100 Str or more.
+You need 107 total SC's from here on to max (together with the 7 PA's later) so keep track if you want.
+
+U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
+Upgrade
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: Barthandelus (2)=========================
@@ -745,24 +750,21 @@ Paradigms
 
 Crystarium
 * Vanille
-   * COM --  Ruin
-   * MED-- Accessory, HP +100
+   * MED-- Accessory, Curaja, RL4, two HP nodes
 * Snow
    * RAV -- Accessory
    * SEN -- Towards ATB Level
 * Sazh
    * RAV -- Towards Cold Blood
 
-Equipment
-* Snow
-   * Unequip
+Equipment (Can be more defensive here but probably not worth bothering)
 * Vanille
-   * Silver Bangle 
-   * Black Belt
    * Shield Talisman
+* Sazh
+   * Diamond Bangle
+   * Black Belt*
 * Snow
-   * Warrior’s Wristband
-   * Warrior’s Wristband
+   * Warrior’s Wristband x3
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: Bulwarker & Sanctum Seraph x2============
@@ -789,25 +791,16 @@ Battle Team
  *(Sazh) / Snow/ (Vanille)
 
 Paradigms
- * COM  COM  MED  
+ * COM (COM) MED  
  * COM  COM  COM  <--set default
- * SYN  SEN  SAB
+ * SYN  SEN (SAB)
  * SYN  RAV  SAB
- * RAV  RAV  MED 
- * RAV  RAV  RAV
+ * RAV (RAV)(MED)
+ * RAV (RAV) RAV
 
 Crystarium
 * Snow
    * SEN - ATB
-
-Equipment
-* Vanille
-   * Black Belt -> Sorcerer's Mark
-* Sazh
-   * Black Belt*
-   * Diamond Bangle
-* Snow
-   * Warrior's Wristband* x3
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: Behemoth King============================
@@ -835,7 +828,7 @@ Battle Team
 Any%
 
 Paradigms
- Any% but with Tireless
+ Any% but with Tireless. Try to save the Renew
 
 Equipment
 * Sazh
@@ -900,7 +893,7 @@ M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
    * Finisher
 ===================================================
 
-Grab Gil and Perfect Conductors.
+Grab Gil and Perfect Conductors. (Optional)
 
 Make COM/COM/SAB (default), COM/COM/RAV, SYN/RAV/SAB
 
@@ -935,8 +928,6 @@ Sell
 Buy
 * B&W Outfitters
    * Black Belt x2
-* Creature Comforts
-   * Sturdy Bone x72
 * Lenora’s Garage
    * Superconductors xMAX
 S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
@@ -944,7 +935,7 @@ S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
 U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
 Accessories
 * Goddess’s Favor
-   * Perfect Conductor x3
+   * Perfect Conductor x3 or Superconductor x5
 * Power Glove Lv1
    * Not worth upgrading compared to the Magnums
 * Black belts
@@ -959,9 +950,9 @@ Accessories
 <Buy some more Superconductors if desired>
 
 * Hyades Magnums
-   * Sturdy Bones x54
-   * Perfect Conductors
-   * Particle Accelerator
+   * Barbed Tail x36
+   * Particle Accelerator x7
+   * Barbed Tail x36
    * Superconductors
 U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
 
@@ -969,11 +960,9 @@ M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 Crystarium
 * Snow
    * SYN -- Protect
-   * COM--Until out, Smite 
+   * COM -- Until out (optional)
 * Sazh
-   * COM--Until out
-* Vanille
-   * SAB- HP
+   * COM -- Until out
 
 Battle Team
 * (Sazh)/(Snow)/Vanille
@@ -983,72 +972,65 @@ Paradigms
 * COM  COM  COM
 * SYN (SYN)(MED)  <-Set default
 * RAV  COM (RAV)
-* RAV  RAV  RAV
 *(COM)(SEN)(MED)
+* RAV  RAV  RAV
 
 Equipment
 * Vanille
    * Double Black Belt
-* Snow
-   * Power Glove
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: The Proudclad (2)========================
 
-* [6] Recuperation
+* [3] Recuperation
    * Haste-Bravery Sazh
    * Repeat Snow
    * Haste-Faith Vanille
+   * Shift when a Muon Blaster animation is starting
 
 * [5] Solidarity
-   * Librascope
-   * Attack-Blitz into--
+   * Libra
+   * Attack-Blitz buffer (when MB starts)
 
-* [3] Tri-Disaster
+* [6] Tri-Disaster
+   * Fire-Thunder-Fire-Thunder (to ~130% chain)
+
+* [5] Solidarity
+   * Attack Blitz buffer (after a single Snow Mediguard)
+
+* [6] Tri-Disaster
+   * Cold Blood
+   * Shift to Aggression to maximize Launches
+
+* [2] Aggression
+   * Blitzes to keep him juggled and damaged
+   * Elixir (full HP here isn't super critical, even finishing)
+   * Keep attacking until out of stagger, hit the Scourge if you want
+   * Need to reach 213xxx to trigger Limiters
+
+--- aerial phase ----
+* [3] Recuperation
+   * Haste-Vigilance everyone
+
+* [1] Tireless Charge
+   * Attack-Blitz into ---
+
+* [6] Tri-Disaster
    * Fire-Thunder-Fire-Thunder
 
 * [5] Solidarity
-   * Attack Blitz into--
+   * Blitz-Blitz to setup cursor, buffer first blitz
 
-* [3] Tri-Disaster
-   * Cold Blood
-   * Shift to Relentless Assault to maximize Launches
-
-* [2] Relentless Assault
-   * Repeat
-
-* [1] Cerberus
-   * Attack x3 to keep him juggled.
-   * Elixir
-   * Keep attacking until out of stagger, hit the Scourge
-
---- aerial phase ----
-* [6] Recuperation
-   * Haste-Vigilance everyone
-
-* [4] Tireless Charge
-   * Attack-Blitz into ---
-
-* [3] Tri-Disaster
-   * Fire-Thunder-Fire-(Thunder)
-   * Reason for 3 spells is that it ensure you won’t stagger early. You’ll have less chain in the end so try to learn the timing and judge.
-
-* [6] Tireless Charge
-   * Repeat into- 
-
-* [3] Tri-Disaster
+* [6] Tri-Disaster
    * Cold Blood
 
-* [2] Relentless Assault
+* [4] Relentless Assault
    * Renew
    * Cold Blood
 
-* [1] or [4] Cerberus or Tireless Charge
+* [1] or [2] Aggression or Tireless Charge
    * Blitzes with ATB Refreshes.
    * Possibly shift to Relentless Assault in time for stagger extend
-
-* [5] Cerberus
-   * Shift to this to maximize damage and pray he dies
 ===================================================
 
 Chapter 13
@@ -1067,20 +1049,18 @@ Paradigms
 
 Crystarium
 * Vanille
-   * MED - Curaja, Role lvl
-   * Sab-> Towards Fog
+   * MED -- HP
 * Snow
    * Rav -- lvl 4
    * Sen -- lvl 4
    * Com -- Until out
 * Sazh
-   * COM -- HP OOR, Adrenaline OOR, Accessory
-   * SYN-Until out
+   * COM -- Adrenaline OOR, Accessory
+   * SYN -- Until out
 
 Equipment
 * Sazh
    * Warrior’s Wristband
-	
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: Bandersnatch & Jabberwocky===============
@@ -1126,7 +1106,7 @@ Crystarium
 * Sazh
    * SYN -- Until out
 * Vanille
-   * Med -- HP
+   * Med -- HP?
 
 Equipment
 * Snow
@@ -1180,20 +1160,36 @@ This fight *can* be dodged with the party swap trick
 
 Battle: Sanctum Templars (2:00-2:30)
 * [1] Premeditation
-   * Libra
+   * Librascope
    * Haste-Bravery Sazh
-   * Haste-Faith Vanille
+   * Haste Vanille, shift
 
-* [4] Matador
-   * Fire-Thunder-Fire-Thunder
+* [2] Matador
+   * FTFTF
    * Quake
-   * Repeat few times with ATB refresh
 
-* [3] or [6] Delta Attack/Dirty Fighting
-   * Attack or Blitz depending on distance
+Pattern:
+ [2/6] Matador with refreshes to stagger one
+ [1/4] Dirty Fighting with refreshes to kill one
+ [5] Solidarity to heal if needed
+ 
+ Vanille will distribute debuffs to maintain staggers
+ Sazh kills one at a time
 
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 Paradigms
+Paradigms
+* COM  COM (MED)
+*(COM)(COM) RAV
+* SYN (SYN)(MED)  <--Default
+* RAV (SEN) MED  
+* RAV  RAV  SAB 
+*(SEN) SEN  MED
+
+(and do basically any% fight)
+
+OR 
+
  * COM (COM)(COM)
  * RAV  SEN (RAV)
  * SYN  SEN (COM)  <--Default
@@ -1203,15 +1199,14 @@ Paradigms
 
 Equipment  
 * Sazh
-   * Remove Power Glove lvl 9
+   * PG9, DB, BB*
 * Snow
    * Full strength
-* Sazh
-   * Diamond Bangle
 * Vanille
    * Shield Talisman -> Black Belt
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
+Old strat; leaving it for posterity
 ==Battle: Tiamat Eliminator========================
 This fight is whack, please figure out something better
 
@@ -1255,11 +1250,11 @@ M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 Crystarium
 * Sazh
    * SEN -- Provoke
-   * COM -- until out
+   * COM -- until out (this is mostly for HP)
 * Snow
-   * COM--Until out
+   * COM -- Until out (Probably not necessary)
 * Vanille
-   * MED--Until out
+   * MED -- Until out, if you want HP
 
 Paradigms
 * COM  COM (MED)
