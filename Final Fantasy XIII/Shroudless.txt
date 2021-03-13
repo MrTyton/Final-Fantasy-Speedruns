@@ -1,16 +1,3 @@
-#2 The Seven Goodbyes - Part 1 
-#3 The Seven Goodbyes - Part 2
-#4 The Seven Goodbyes - Part 3
-#5  "Good Work Today"  -  adapts Chapters #51 - #54 
-#6  "The Last Exam"
-#6  "The Last Exam" - No OP & ED. Adapts Chapter #54 - #59 (Partial) 
-#7  "The Conquest Begins" - Nino's episode
-#8  "Scrambled Eggs"
-#9		Filler
-#10		Filler
-#11		Sisters War
-#12		Sisters War
-
 Battle: Anima
 * Select Blitz and hover over the Right Manipulator (to the left).
    * After Snow and Sazh start attacking, execute the Blitz on Anima.
