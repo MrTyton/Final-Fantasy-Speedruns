@@ -1,3 +1,16 @@
+#2 The Seven Goodbyes - Part 1 
+#3 The Seven Goodbyes - Part 2
+#4 The Seven Goodbyes - Part 3
+#5  "Good Work Today"  -  adapts Chapters #51 - #54 
+#6  "The Last Exam"
+#6  "The Last Exam" - No OP & ED. Adapts Chapter #54 - #59 (Partial) 
+#7  "The Conquest Begins" - Nino's episode
+#8  "Scrambled Eggs"
+#9		Filler
+#10		Filler
+#11		Sisters War
+#12		Sisters War
+
 Battle: Anima
 * Select Blitz and hover over the Right Manipulator (to the left).
    * After Snow and Sazh start attacking, execute the Blitz on Anima.
@@ -9,12 +22,8 @@ Chapter 3
 
 Post-Manasvin Menu
 * Paradigms
- COM RAV RAV ← default
- COM MED RAV
-[RAV]RAV RAV
-[RAV]RAV RAV
-[COM]RAV RAV
-	
+Any%
+
 * Crystarium
    * Lightning
       * Commando
@@ -23,13 +32,13 @@ Post-Manasvin Menu
       * Ravager
          * Water
 
-Frogs (x, dodged, 0)
+Frogs (45, dodged, 0 total)
 * Blitz Breshan Bass (green frogs)
 
-Battle Bike + Watchdrone (34, killed, 34)
+Battle Bike + Watchdrone (34, dodged, 0 total)
 * Blitz the bike
 
-Watchdrones (30, killed, 64)
+Watchdrones (30, killed, 0 total)
 * Blitz +Refresh
 
 (all of these CAN be dodged, but fight them if caught)
@@ -54,7 +63,7 @@ Menu with Light & Hope
 
 Fight Watchdrone fights if caught.
 
-Battle: Watchdrones (30, killed, 94)
+Battle: Watchdrones (30, killed, 0 total)
 * [1] Slash and Burn (COM/RAV)
    * Blitz Watchdrone A. 1x down
    * Blitz
@@ -63,7 +72,7 @@ Battle: Watchdrones (30, killed, 94)
 * [1] Slash and Burn (COM/RAV)
    * Blitz with ATB Refresh, heal when needed.
 
-Similar for Watchdrones + Thexteron. (36, dodged, 94)
+Similar for Watchdrones + Thexteron. (36, dodged, 0 total)
  -This dodge isn't too bad; everything charges in the direction they face.
 
 Any% for the rest of the chapter
@@ -122,14 +131,12 @@ Menu
       * (1) COM
          * Magic +6 OOR
          * Until out (either HP+25 or Magic+10)
-   * Hope
+   * Hop
+   e
       * (1) RAV
          * Fearsiphon
       * (2) SYN
-         * Until out (Shell) (Not sure this is strictly necessary? Only helps seed)
-* Equipment
-   * Lightning
-         * Accessory: Magician’s Mark (2)
+         * Until out (Shell)
 
 Battle: Aster Protoflorian
  - 
@@ -151,7 +158,7 @@ Battle: Aster Protoflorian
 
 Chapter 6
 
-Pretty much any%
+Pretty much any%, but get 72 Sturdy Bones
 
 * Crystarium
    * Vanille
@@ -174,11 +181,13 @@ Chapter 7
 Menu with Snow on rooftop
 * Paradigms
  COM  RAV ← default
- COM (RAV)
-(COM) MED
+ COM  MED
+ SEN  MED
 (COM) SYN
 (RAV) RAV
 (RAV) RAV
+
+Equip: DC on Snow (Potion instead of healing with Hope against Snipers, they interrupt him)
 	
 * Crystarium
    * Snow
@@ -208,12 +217,13 @@ Upgrade
          * Sturdy Bone x36
          * Turbojet x16
 
-Battle: Bike
+Battle: Bike (90, killed, 90 total)
 * Stagger and kill
 
-(probably try the bike + Aerial Sniper dodge till you get it)
+(probably try the bike + Aerial Sniper dodge till you get it... otherwise:)
+Protect, kill sniper, sentinel gatling gun, kill the bike (148, killed, 238 total)
 
-Battle: 3 Aerial Snipers (172, killed)
+Battle: 3 Aerial Snipers (174, killed, 412 total)
 * [1] Slash & Burn
    * Attack x4
 * [4] Supersoldier
@@ -223,19 +233,7 @@ Battle: 3 Aerial Snipers (172, killed)
 Battle: Bike + soldier(s)
  * Chain
  * Summon
- * Stagger bike and kill
-
-Shop
-* Lenora's Garage
-   * Sell
-      * Weapons
-         * Vidofnir
-   * Buy
-      * Turbojet x11
-* Creature Comforts
-      * Sturdy Bones to x45
-
-Upgrade BF
+ * Stagger bike and zantet lv3
 
 Battle: Ushumgal Subjugator (1)
 * [1] Slash & Burn (COM/RAV)
@@ -244,6 +242,20 @@ Battle: Ushumgal Subjugator (1)
    * Repeat, Potion, Repeat
    * Shift while mid-air (after protect)
 * Try to Potion to stay on the ground for Tail Hammers. Keep Hope alive.
+
+Shop
+* Lenora's Garage
+   * Sell
+      * Weapons
+         * Vidofnir
+	  * Components
+		 * Everything but Thrust Bearings
+   * Buy
+      * Turbojet x11
+* Creature Comforts
+      * Sturdy Bones to x49
+
+Upgrade BF (14+15+3+11)
 
 * Ushus 2 menu, paradigms as any%
 * Crystarium
@@ -421,6 +433,13 @@ Chapter 11
 
 Unequip people after Alex
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
+Paradigms
+ * COM  MED (COM)
+ * RAV (SAB) RAV
+ * SYN  MED (COM)
+ *[COM] SAB  COM
+ *[SYN] SAB  COM <--default
+ *[COM](RAV) COM 
 Equipment
 * Vanille
    * Unequip all
@@ -453,6 +472,7 @@ Sell
    * Superconductor x92
 
 * Creature Comforts
+   * Sturdy Bone x72
    * Barbed Tail x72
 
 * B&W Outfitters
@@ -462,9 +482,6 @@ S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
 
 U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
 Accessories
-   * Vega 42s Lv19 
-      * Barbed Tail x36
-      * Superconductor x6
    * Wild Boar Lv21
       * Barbed Tail x36
       * Superconductor x4
@@ -479,16 +496,16 @@ Accessories
 U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
 
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
-Paradigms as any%
+Paradigms
+1->2, 1->(SYN)/SAB/RAV, 2->4
 
 Crystarium
 * Sazh
-   * COM--Jeopardize OOR Scourge OOR, Role Lv3
-   * RAV--Until out (magic+5)
+   * COM--Jeopardize OOR (Scourge OOR), Role Lv3
 * Vanille
    * MED--ATB Level
 * Snow
-   * RAV--Overwhelm, Str+5 after double HP+80 on stage 7
+   * RAV--Overwhelm, double HP+80 on stage 7
    * SEN--Role Lv2, Deathward OOR, Challenge OOR
 
 Equipment
@@ -513,7 +530,7 @@ After Gelatitan:
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 Sazh/Snow/Vanille
 * SYN  RAV  SAB
-* COM  RAV  RAV
+* COM  COM (MED)
 * SYN  COM  MED
 * COM  COM (RAV)
 * SYN  COM  SAB <--default
@@ -529,6 +546,8 @@ Repeat on Sazh, shift to [4] Aggression
 Ruin x4 on Bellows, Refresh, repeat with refreshes to kill
  -It is possible for him to kill Vanille before staggering him. Just retry.
 ============================================
+
+Swap back to Sazh/Vanille/Snow
 
 ==Battle: Mushussu & Pals===================
 Any%
@@ -559,12 +578,13 @@ Equip
 * Fang
    * Unequip
 * Snow
-   * Warrior’s Wristband→ Soulfont Talisman
+   * Warrior’s Wristband* -> Soulfont Talisman
+   * Warrior's Wristband* -> Warrior's Wristband 8
 * Vanille
    * Shaman's Mark
    * Tungsten/Diamond Bangle
 * Sazh
-   * Shield Talisman → Warrior’s Wristband*
+   * Warrior’s Wristband* x2
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: Vetala===================================
@@ -682,6 +702,7 @@ Sell
 
 * Lenora's Garage
    * Superconductor x99
+   * Perfect Conductor x3
 
 * B&W Outfitters
    * Sorcerer's Mark (NO?)
@@ -696,7 +717,7 @@ Weapons
    * Perovskite
    * Sturdy Bones x55
    * Particle Accelerator x3
-   * Superconductor xAll (56/62/68 are Lv34/35/36)
+   * Superconductor xAll but 2 (56/62/68 are Lv34/35/36)
 Accessories
 * Doctor's Code Lv1
    * Superconductor x1
@@ -708,7 +729,7 @@ M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 If desired, you can double back and buy more Superconductors to use with the Vibrant Oozes.
 I would recommend doing this, you can get around 40+ SC's, which can be worth 100 Str or more.
-You need 107 total SC's from here on to max (together with the 7 PA's later) so keep track if you want.
+You need 80+106 total SC's to max (together with the 3+7 PA's) so keep track if you want.
 
 U~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~U
 Upgrade
@@ -976,8 +997,8 @@ Paradigms
 * RAV  RAV  RAV
 
 Equipment
-* Vanille
-   * Double Black Belt
+* Snow/Vanille
+   * Black Belt*
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: The Proudclad (2)========================
@@ -1051,8 +1072,7 @@ Crystarium
 * Vanille
    * MED -- HP
 * Snow
-   * Rav -- lvl 4
-   * Sen -- lvl 4
+   * Sen -- Backtrack Reprieve
    * Com -- Until out
 * Sazh
    * COM -- Adrenaline OOR, Accessory
@@ -1064,22 +1084,23 @@ Equipment
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 ==Battle: Bandersnatch & Jabberwocky===============
-* [5] Smart Bomb
+* [2] Smart Bomb
    * Imperil x5 Bandersnatch
    * Shift once Imperil is inflicted, after Vanille's fifth cast
+* [3] Premeditation
+   * Do whatever until Snow has Haste. This is so he runs up to Jabberwocky faster after summon.
+   * Summon
 
 * [6] Tri-Disaster RAV/RAV/RAV
-   * Summon
-   * Fira-Aerora Bandersnatch, Extra Firas to stall until Jabberwockys action
+   * Chain Bandersnatch, Extra Firas to stall until Jabberwockys action
    * Gestalt when Jabberwocky is taking an action
-   * Force Blasters
+   * Force Blasters until you'll kill (one more for each level below Lv)
    * Finisher
    * Auto-chain
-   * Shift after Snow's fifth -strike (cancel his ready animation)
+   * Shift after Snow's reaches Jabberwocky (not sure if after 5 strikes is safe for positioning)
 
 * [6] Premeditation
-   * Spam Imperils
-   * Shift after Haste x3 and Imperil
+   * Debuff
 
 * [5] Mystic Tower
    * Auto-chain until near-stagger
@@ -1110,20 +1131,20 @@ Crystarium
 
 Equipment
 * Snow
-   * Remove all
+   * Remove PG9, WW*
+* Vanille
+   * Remove BB*
 * Sazh
    * Power Glove
    * Warrior's Wristband
    * Shield Talisman
-* Vanille
-   * Sorcerer’s Mark
 * Snow
-   * Black Belt
+   * Diamond Bangle
    * Black Belt
    * Black Belt
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
-BUY PHOENIX DOWNS
+BUY PHOENIX DOWNS?
 ==Battle: Wladislaus===============================
 Note: Sazh should barely survive a single attack
 
@@ -1179,23 +1200,12 @@ Pattern:
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 Paradigms
 Paradigms
-* COM  COM (MED)
-*(COM)(COM) RAV
-* SYN (SYN)(MED)  <--Default
-* RAV (SEN) MED  
-* RAV  RAV  SAB 
-*(SEN) SEN  MED
-
-(and do basically any% fight)
-
-OR 
-
- * COM (COM)(COM)
- * RAV  SEN (RAV)
- * SYN  SEN (COM)  <--Default
- *(RAV) SEN  RAV
- * RAV (RAV) SAB
- * COM  SEN  MED
+* COM (COM)(MED)
+* RAV (RAV)(RAV)
+* SYN  SEN (MED)  <--Default
+* COM (COM) RAV 
+*(RAV)(RAV) MED 
+* RAV  SEN  SAB
 
 Equipment  
 * Sazh
@@ -1206,44 +1216,10 @@ Equipment
    * Shield Talisman -> Black Belt
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
-Old strat; leaving it for posterity
 ==Battle: Tiamat Eliminator========================
-This fight is whack, please figure out something better
-
-* [1] Strategic Warfare
-   * Libra
-   * Auto-support Sazh
-   * Auto-support Vanille
-   * Faith-Vigilance Vanille
-   * Bravery-Vigilance Sazh
-   * Bravery Snow
-
-* [2] Mystic Tower
-   * Cold Blood
-   * Repeat
-   * Quake at some point
-
-* [3] Mystic Tower
-   * Repeat until almost stagger
-   * Cold Blood
-
-* [2] Mystic Tower
-   * Repeat
-
-* [5] Cerberus
-   * Librascope
-   * Blitz-Blitz
-   * Keep Repeating
-
-* [2] Mystic Tower
-   * Fire-Thunder
-   * ATB refreshes with Solidarity
-   * Shift to Smart Bomb in Stagger
-   * Cerberus when Deprotect is inflicted
-
-* [2] Cerberus COM/COM/COM
-   * Repeat
-   * Keep Tiamat interrupted and launched until victory
+Haste self, Vanille, Bravery-Vigilance Sazh/Snow
+Use Cold Bloods and ATB refreshes to stagger, then do as much damage as you can
+Use Matador + Flamestrikes to keep out of range and inflict debuffs, then repeat first part
 ===================================================
 
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M 
@@ -1257,12 +1233,12 @@ Crystarium
    * MED -- Until out, if you want HP
 
 Paradigms
+* COM  COM  MED
+* RAV  RAV  RAV
+* SYN (SYN) MED   <--Default
 * COM  COM (MED)
-*(COM)(COM) RAV
-* SYN (SYN)(MED)  <--Default
-* RAV (RAV) RAV  
-* RAV  RAV  SAB 
-*(SEN) SEN  MED
+* RAV  RAV (SAB)
+*(SEN) SEN (MED)
 M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~M
 
 S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
@@ -1275,7 +1251,8 @@ Eden Pharmaceuticals
 S~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S
 
 ==Battle: Barthandelus (3)=========================
-* [4] Protection
+Shift immediately
+* [2] Hero's Charge
    * Haste Bravery Sazh
    * Repeat Snow
    * Haste-Faith Vanille
