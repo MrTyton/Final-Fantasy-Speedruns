@@ -1,23 +1,11 @@
 \chapter{Chapter 12}
 
-\begin{battle}[0:27]{Anavatapta Warmech}
-	\begin{itemize}
-		\item Down+A
-		\item Side+A
-		\item \textit{If Chain died:}
-		      \begin{itemize}
-			      \item Side+A until \stagger
-			      \item Y - Zantetsuken
-		      \end{itemize}
-		\item \textit{Otherwise:}
-		      \begin{itemize}
-			      \item Side+A, wait for the meter to reset before triggering
-			      \item Down+A when 18 Gestalt points remain
-			      \item Side+A, wait for meter to reset before triggering.
-			      \item If you didn't stagger with the 12 point Gestalt, immediately Y - Zantetsuken
-		      \end{itemize}
-	\end{itemize}
-\end{battle}
+\ifthenelse{\equal{\platformtype}{pc}}
+	{ \input{./Chapters/chapter12-pc-anavatapa.tex} }
+	{ \ifthenelse{\equal{\platformtype}{console}}
+	  {\input{./Chapters/chapter12-console-anavatapa.tex}
+	}
+}
 
 \decep{the maze}{the circling Bulwarker}
 
@@ -272,41 +260,13 @@
 	\end{itemize}
 	\itemdrop{0.38}{Deceptisol}
 \end{battle}
+\ifthenelse{\equal{\notetype}{snow_turtle}}
+	{ \input{./Chapters/chapter12-snow-menu1.tex} }
+	{ \ifthenelse{\equal{\notetype}{lightning_turtle}}
+	  {\input{./Chapters/chapter12-lightning-menu1.tex}
+	}
+}
 
-\begin{menu}
-	\begin{itemize}
-			      \paradigm
-			      \begin{itemize}
-				      \item Battle Team
-				            \begin{itemize}
-					            \item Switch Sazh with Snow (1 $\leftrightarrow$ 2)
-				            \end{itemize}
-				      \item Make the last paradigm the default
-			      \end{itemize}
-	\end{itemize}
-\end{menu}
-\vfill
-\begin{battle}[0:54]{Adamanchelid (Snow)}
-	\begin{itemize}
-		\item \sixth
-		      \begin{itemize}
-			      \item Froststrike-Blizzard-Water-Blizzard- Water
-			      \item Summon
-			      \item Repeat
-		      \end{itemize}
-		\item \fifth
-		      \begin{itemize}
-			      \item Repeat until \stagger, refresh with [6] when needed
-			      \item If Quake, ready and use Blizzard-Water-Blizzard-Water-Blizzard after Quake hits
-			      \item X - Gestalt
-			      \item Up + A - Wheelie, time to when Adamanchelid starts to move its head downwards
-			      \item Down + A - Spin Freeze until out of summon points
-			      \item Y - Diamond Dust
-			      \item If survived, Froststrike x5, repeat or retry
-		      \end{itemize}
-	\end{itemize}
-	\itemdrop{23.75}{Gold Dust}\itemdrop{ 5}{Scarletite}\itemdrop{ 0.38}{Deceptisol}
-\end{battle}
 
 Consult the following chart to determine which chests to get. Add 6,000 to the total for the Shield Talisman. If you got the Gold Dust, add 15,000 to your gil total. Random drops from Chapter 12 also add to this total, such as: Scarletite (7,000), Incentive Chip (2,500), Credit Chip (500), Chobham Armor (500), Electrolytic Capacitor (160).
 
@@ -356,61 +316,13 @@ Push VH+T to the side.
 		      \end{itemize}
 	\end{itemize}
 \end{upgrade}
-	\begin{menu}
-		\begin{itemize}
-			\paradigm
-			\begin{itemize}
-				\item Battle Team
-				      \begin{itemize}
-					      \item Switch Sazh with Snow (1 $\leftrightarrow$ 2)
-				      \end{itemize}
-				\item \paradigmdeck{%
-					      \paradigmline{Sazh}{Snow}{Vanille}}%
-				      {\paradigmline{(\rav)}{\com}{\com}}%
-				      {\paradigmline[2]{\textit{\com}}{\textit{\com}}{\textit{\com}}}%
-				      {\paradigmline{(\rav)}{\sen}{(\rav)}}%
-				      {\paradigmline{(\com)}{(\sen)}{\med}}%
-				      {\paradigmline{\rav}{(\com)}{(\rav)}}%
-				      {\paradigmline{\rav}{\rav}{\rav}}
-			\end{itemize}
-			\crystarium
-			\begin{itemize}
-				\item Sazh
-				      \begin{itemize}
-					      \item Commando
-					            \begin{itemize}
-						            \item 5 nodes, HP +70
-					            \end{itemize}
-				      \end{itemize}
-				\item Snow
-				      \begin{itemize}
-					      \item Commando
-					            \begin{itemize}
-						            \item ($\downarrow$) 15 nodes, HP +30 end of stage 7
-					            \end{itemize}
-				      \end{itemize}
-				\item Vanille
-				      \begin{itemize}
-					      \item Medic
-					            \begin{itemize}
-						            \item 1 left, Curaja
-						            \item 1 Node, Role Level
-					            \end{itemize}
-				      \end{itemize}
-			\end{itemize}
-			\equip
-			\begin{itemize}
-				\item Snow
-				      \begin{itemize}
-					      \item WW Lv 8 $\rightarrow$ Power Glove *
-				      \end{itemize}
-				\item Vanille ($\rightarrow$)
-				      \begin{itemize}
-					      \item Shield Talisman $\rightarrow$ Black Belt *
-				      \end{itemize}
-			\end{itemize}
-		\end{itemize}
-	\end{menu}
+\ifthenelse{\equal{\notetype}{snow_turtle}}
+	{ \input{./Chapters/chapter12-snow-menu2.tex} }
+	{ \ifthenelse{\equal{\notetype}{lightning_turtle}}
+	  {\input{./Chapters/chapter12-lightning-menu2.tex}
+	}
+}
+
 Activate \textbf{Ethersol, Fortisol, Aegisol}.
 \vfill
 \renewcommand{\first}{[1] Aggression (\rav/\com/\com)}

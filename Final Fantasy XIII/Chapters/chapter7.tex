@@ -1,19 +1,14 @@
 \chapter{Chapter 7}
 
 	\pickup{Warding Talisman}{after the 3 Flans}
-	\begin{battle}[0:17]{Corps Pacifex x2 \& Corps Tranquifex x2 \& Orion \& PSICOM Predator x2}
-		\begin{itemize}
-			\item Right + A
-			\item Loop the following until 174.9\% chain:
-			      \begin{itemize}
-				      \item Up + A
-				      \item Down + A
-				      \item B
-			      \end{itemize}
-			\item Y
-		\end{itemize}
-		 \itemdrop{34.4}{Credit Chip} \itemdrop{25}{Superconductor} \itemdrop{19}{Incentive Chip}
-	\end{battle}
+	
+\ifthenelse{\equal{\platformtype}{pc}}
+	{ \input{./Chapters/chapter7-pc-shivastadium.tex} }
+	{ \ifthenelse{\equal{\platformtype}{console}}
+	  {\input{./Chapters/chapter7-console-shivastadium.tex}
+	}
+}
+
 
 	\pickup{2 Incentive Chips}{up the ledge}
 
