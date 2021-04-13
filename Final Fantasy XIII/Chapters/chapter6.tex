@@ -49,11 +49,11 @@
 		\begin{itemize}
 			\paradigm
 			\begin{itemize}
-				\item If you're using a \textbf{Fortisol} on Enki and Enlil, don't change the second paradigm and instead make [3] default.
+				\item If you're using a \textbf{Fortisol} on Enki and Enlil, don't change the second paradigm and  make [3] default.
 				\item \paradigmdeck{%
 					      \paradigmline{Vanille}{Sazh}{}}%
-				      {\paradigmline{\rav}{\com}{}}%
-				      {\paradigmline[2]{\textit{(\sab)}}{\textit{(\syn)}}{}}%
+				      {\paradigmline[1]{\textit{\rav}}{\textit{\com}}{}}%
+				      {\paradigmline{\med}{(\syn)}{}}%
 				      {\paradigmline{\sab}{\syn}{}}%
 				      {\paradigmline{\rav}{\rav}{}}%
 				      {\paradigmline{[\sab]}{(\rav)}{}}%
@@ -63,14 +63,13 @@
 			\begin{itemize}
 				\item Vanille
 				      \begin{itemize}
-					      \item Ravager
-					            \begin{itemize}
-						            \item 6 nodes left 1, Fire on the side
-						            \item 1 node, HP +10
-					            \end{itemize}
 					      \item Saboteur
 					            \begin{itemize}
 						            \item 7 nodes, Poison
+					            \end{itemize}
+					      \item Medic
+					            \begin{itemize}
+						            \item 8 nodes, Magic +5
 					            \end{itemize}
 				      \end{itemize}
 				\item Sazh
@@ -105,74 +104,73 @@ If you have at least 2 \textbf{Fortisols}, can use it on this fight.
 \ 
 
 \renewcommand{\first}{[1] Slash \& Burn (\rav/\com)}
-\renewcommand{\second}{[2] Tide Turner (\sab/\syn)}
+\renewcommand{\second}{[2] Symbiosis (\med/\syn)}
 \renewcommand{\third}{[3] Tide Turner (\sab/\syn)}
 \renewcommand{\fourth}{[4] Dualcasting (\rav/\rav)}
 \renewcommand{\fifth}{[5] Undermine (\sab/\rav)}
 \renewcommand{\sixth}{[6] Divide \& Conquer (\sab/\com)}
-\begin{battle}[1:43]{Enki \& Enlil}
+\begin{battle}[1:39]{Enki \& Enlil}
 		\begin{itemize}
-			\item If both Enki and Enlil target the same character, Potion after every hit or retry
-
+			\item If both Enki and Enlil target the same character, Potion after every hit
 			      \begin{itemize}
-				      \item \textit{If Deprotect}: Poison-Deshell-Poison
-				      \item \textit{If Poison}: Deshell-Deprotect-Deshell
-				      \item \textit{If All}: Deprotect-Deshell-Deprotect
-			      \end{itemize}
-			\item \second
-			      \begin{itemize}
-				      \item Librascope
-				      \item Deprotect-Poison-Deprotect
-				      \item Shift after Sazh's second spell (second Enthunder)
-			      \end{itemize}
-			\item \third
-			      \begin{itemize}
-				      \item Debuff as above
-				      \item Debuff as above
-				      \item Potion when both are red. Shift after Sazh casts Vigilance on himself.
-			      \end{itemize}
-			\item \second
-			      \begin{itemize}
-				      \item Debuff as above
-				      \item Potion. Shift after Sazh has Bravery
-			      \end{itemize}
-			\item \fourth
-			      \begin{itemize}
-				      \item Auto-chain until \stagger
-			      \end{itemize}
-			\item \sixth
-			      \begin{itemize}
-				      \item Ready Poison x3 and execute after Sazh's third attack
-				      \item Potion if needed
-				      \item ATB refresh after Sazh's third Attack in his second string
-			      \end{itemize}
 			\item \first
 			      \begin{itemize}
-				      \item Sazh should kill, Auto-chain if he doesn't.
+				      \item Shift immediately
 			      \end{itemize}
-			\item Throw potions as needed, Enlil starts attacking more frequently. Be liberal.
-			\item \third
+			\item \second
 			      \begin{itemize}
-				      \item Deprotect-Deshell-Deprotect
-				      \item Shift after Sazh has Enwater
+				      \item Hover Librascope, use when Sazh casts the third buff on himself (Bravery)
+				      \item Potion through Enki's/Enlil's attack and shift (heal should come in after the hit)
 			      \end{itemize}
 			\item \fifth
 			      \begin{itemize}
-				      \item Repeat until two debuffs as above
+				      \item Deprotect x3, repeat if not inflicted
+				      \item Shift after Sazh's string
 			      \end{itemize}
 			\item \fourth
 			      \begin{itemize}
-				      \item Auto-chain until \stagger
-			      \end{itemize}
-			\item \sixth
-			      \begin{itemize}
-				      \item Poison x3 after Sazh's third Attack
-				      \item Shift after Sazh's third Attack in his second string.
+				      \item Auto-chain
 			      \end{itemize}
 			\item \first
 			      \begin{itemize}
-				      \item Sazh should kill, Auto-chain if doesn't.
+				      \item Auto-chain
+				      \item Auto-chain 2 spells, animation cancel Sazh after his third attack post stagger
 			      \end{itemize}
+			\item \sixth
+			      \begin{itemize}
+				      \item Potion
+				      \item Repeat slightly after Bellow happens and Deprotect is removed to reinflict
+				      \item If Enki survived, animation cancel Sazh into [1] and then go to [2]
+			      \end{itemize}
+			\item \second
+			      \begin{itemize}
+				      \item Wait for Sazh to cast Enwater on himself
+				      \item Potion before the shift if Enlil attacks
+			      \end{itemize}
+			\item \fifth
+			      \begin{itemize}
+				      \item Potion if you didn't before
+				      \item Repeat, animation cancel Sazh after his third Fire
+			      \end{itemize}
+			\item \fourth
+			      \begin{itemize}
+				      \item Auto-chain 5 spells total (2 post stagger to keep him interrupted)
+				      \item Slightly delay the shift to get a refresh
+			      \end{itemize}
+			\item \first
+			      \begin{itemize}
+				      \item Auto-chain 1 spell during Sazh's string, shift during his third attack
+			      \end{itemize}
+			\item \sixth
+			      \begin{itemize}
+				      \item Repeat slightly after Bellow happens and Deprotect is removed to reinflict
+				      \item Animation cancel Sazh after his third attack
+			      \end{itemize}
+			\item \first
+			      \begin{itemize}
+				      \item Auto-chain to kill if needed
+			      \end{itemize}
+		\end{itemize}
 		\end{itemize}
 	\itemdrop{3}{Aegisol}
 \end{battle}
