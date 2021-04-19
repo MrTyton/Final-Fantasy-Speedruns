@@ -45,5 +45,23 @@ Some information about Spheres:
 \item Bombs - 6
 \end{itemize}
 \item The sphere grid route requires 17 Speed Spheres. For the most part it doesn't matter when you get them, but keep track of all the ones that you get dropped. There are points to get backup speed spheres that are stated throughout the run.
+\ifthenelse{%
+		\equal{\blitzresult}{win}
+	}{%
+		\item These are the \blitzwin\ version of the notes. These notes have the strategies assuming that you have Won Blitzball. If you end up losing Blitzball, then you should switch to the \blitzloss\ set of notes.
+	}{%
+		\ifthenelse{%
+			\equal{\blitzresult}{loss}
+		}{%
+			\item These are the \blitzloss\ version of the notes. These notes have the strategies assuming that you have Lost Blitzball. If you end up Winning Blitzball, then you should switch to the \blitzwin\ set of notes.
+		}{%
+			\ifthenelse{%
+				\equal{\blitzresult}{both}
+			}{
+				\item These set of notes contain both the \blitzwin\ and \blitzloss\ strategies. At various points, the strategies that you have to do are different depending on whether or not you won or lost blitzball.
+			}{}
+		}
+	}
 \end{itemize}
+
 \newpage

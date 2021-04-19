@@ -68,67 +68,51 @@
 \end{spheregrid}
 \vfill
 \begin{encounters}
+	The actions that you do here to charge \valefor's overdrive will change depending on the enemies. Follow the flow chart.
 	\begin{itemize}
-		\item Raptor, Gandarewa, Red Element
-		      \begin{itemize}
-			      \switch{\tidus}{\kimahri} if didn't get a Funguar \od, else Defend
-			      \kimahrif Defend
-			      \wakkaf Attack Raptor
-			      \summon{\valefor}
-			      \valeforf  Water Gandarewa
-			      \valeforf Boost
-			      \valeforf Blizzard Red Element
-		      \end{itemize}
-		\item Raptor, Funguar, Red Element
-		      \begin{itemize}
-			      \switch{\tidus}{\kimahri} if didn't get a Funguar \od, else Defend
-			      \kimahrif Defend
-			      \wakkaf Attack Raptor
-			      \summon{\valefor}
-			      \valeforf  Fire Funguar
-			      \valeforf Boost
-			      \valeforf Blizzard Red Element
-		      \end{itemize}
-		\item Raptor, Lamashtu, Red Element
-		      \begin{itemize}
-			      \switch{\tidus}{\kimahri}
-			      \kimahrif  Attack Lamashtu
-			      \wakkaf Attack Raptor
-			      \switch{\auron}{\yuna}
-			      \summon{\valefor}
-			      \valeforf Fire Lamashtu
-			      \valeforf Boost
-			      \valeforf Blizzard Red Element
-		      \end{itemize}
-		\item Gandarewa, Funguar, Red Element
-		      \begin{itemize}
-			      \switch{\tidus}{\kimahri} if didn't get a Funguar \od, else Defend
-			      \kimahrif Lancet Gandarewa
-			      \wakkaf  Attack Gandarewa
-			      \switch{\auron}{\yuna}
-			      \summon{\valefor}
-			      \valeforf Fire Funguar
-			      \valeforf Boost
-			      \valeforf Blizzard Red Element
-		      \end{itemize}
-		\item Gandarewa, Lamashtu, Red Element
-		      \begin{itemize}
-			      \switch{\tidus}{\kimahri}
-			      \kimahrif  Attack Lamashtu
-			      \wakkaf  Attack Gandarewa
-			      \switch{\auron}{\yuna}
-			      \summon{\valefor}
-			      \valeforf Fire Lamashtu
-			      \valeforf Boost
-			      \valeforf Blizzard Red Element
-		      \end{itemize}
-		\item Garuda: Flee
+		\item \textit{If the enemy is a Garuda:}
+		\begin{itemize}
+			\item Flee
+		\end{itemize}
+		\item \textit{If there is a Lamashtu, a Gandarewa and no Raptor, or you didn't get a Funguar \od\ in the previous fight}:
+		\begin{itemize}
+			\switch{\tidus}{\kimahri}
+		\end{itemize}
+		\item \textit{If there is a Lamashtu:}
+		\begin{itemize}
+			\kimahrif Attack Lamashtu
+		\end{itemize}
+		\item \textit{Otherwise:}
+		\begin{itemize}
+			\item \kimahri\ or \tidus: Defend
+		\end{itemize}
+		\item \textit{If there is a Raptor:}
+		\begin{itemize}
+			\wakkaf Attack Raptor
+		\end{itemize}
+		\item \textit{If there is a Gandarewa and no Raptor:}
+		\begin{itemize}
+			\kimahrif Lancet Gandarewa \textit{If you didn't attack a Lamashtu}
+			\wakkaf Attack Gandarewa
+			\item \textit{If the Gandarewa is still alive:} Flee
+		\end{itemize}
+		\switch{\auron}{\yuna}
+		\summon{\valefor}
+		\item \textit{If there is still a Gandarewa:}
+		\begin{itemize}
+			\valeforf Water Gandarewa
+		\end{itemize}
+		\item \textit{Otherwise, if there is a Lamashtu or a Funguar}
+		\begin{itemize}
+			\valeforf Fire the Lamashtu or the Funguar
+		\end{itemize}
+		\valeforf Boost
+		\valeforf Blizzard Red Element
 	\end{itemize}
 \end{encounters}
-\newpage
 \begin{enumerate}[resume]
 	\item Keep the \formation{\kimahri}{\wakka}{\yuna}
-	\item While Yuna still needs AP, do the following
+	\item Keep on fighting encounters until Yuna can do the next Sphere Grid menu, which is at 3 S. Levels, as you progress through the area.
 \end{enumerate}
 \begin{encounters}
 	\begin{itemize}
@@ -148,7 +132,7 @@
 	\end{itemize}
 \end{spheregrid}
 \begin{enumerate}[resume]
-	\item \formation{\tidus}{\yuna}{\wakka}
+	\item After the Sphere Grid, \formation{\tidus}{\yuna}{\wakka}, and you can stop grinding encounters.
 	\item Speak to the man to the left, right before the elevator that brings you up the to HQ Elevator, on the second screen, for 400 Gil. Go on lift, go to HQ.
 	\item Walk down and \sd. Walk right to next screen, then right, \sd. Walk right to O'aka
 \end{enumerate}
@@ -170,9 +154,8 @@
 \end{shop}
 \begin{enumerate}[resume]
 	\item \save
-	\item \sd, go right, \cs[1:00], \sd\ after Seymour. Go down to guard, confirm Yes, \sd
+	\item \sd, go right, \cs[1:00], \sd\ after Seymour. Go down to guard, use the \nth{2} option to confirm Yes, \sd
 \end{enumerate}
-\vfill
 \begin{battle}[12000]{Sinspawn Gui 1}
 	\begin{itemize}
 		\switch{\yuna}{\auron}
@@ -198,7 +181,7 @@
 		\item \textit{If Power Break Failed}
 		      \begin{itemize}
 			      \valeforf Energy Blast
-			      \summon{\ifrit}
+			      \summon{\ifrit} once \valefor\ dies.
 			      \ifritf Fire Main Body until 3000 HP
 			      \ifritf Hellfire
 		      \end{itemize}
@@ -228,7 +211,4 @@
 	\item \sd, \cs+\skippablefmv[2:00] (press Start immediately after the skip. Do not use it on the upcoming scenes, as you will crash your game). Walk left and up to Gatta, \sd. \fmv+\cs[1:30], \sd\ during \tidus\ monologue. \cs[1:00], \sd
 	\item Walk left, \sd. Walk left, speak to \auron, \sd. \save\ if \auron\ is in critical HP. Go up and right, \sd, exit area, \sd.
 \end{enumerate}
-\vfill
-\
-\columnbreak
 

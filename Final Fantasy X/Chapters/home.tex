@@ -8,10 +8,9 @@
 		\tidusf Haste \tidus
 		\tidusf Attach each, starting with Guado
 		\auronf Attack Guado if it didn't die to \tidus
-		\item \textit{\blitzloss:}
-		      \begin{itemize}
+		\blitzballdetermination[true]{}{%
 			      \rikkuf Grenade
-		      \end{itemize}
+		}
 	\end{itemize}
 	Guaranteed 6 Power Spheres.
 \end{battle}
@@ -27,11 +26,10 @@
 \end{battle}
 \begin{enumerate}[resume]
 	\item Heal \tidus\ without Elixirs
-	\item \textit{If you \lostblitz:}
-	      \begin{itemize}
+	\blitzballdetermination[true]{}{%
 		      \item Go down the stairs. Once the camera flips, \formation{\tidus}{\rikku}{\auron}, go back up the stairs into the door.
 		      \item Do the following Dual Horn encounter
-		            \begin{battle}{Dual Horns - \blitzloss}
+		            \begin{battle}{Dual Horns}
 			            \begin{itemize}
 				            \tidusf Haste \tidus\ \textit{If no Petrify Grenade else } Defend
 				            \tidusf Attack Dual Horns
@@ -40,7 +38,7 @@
 			            \end{itemize}
 		            \end{battle}
 		      	\item Open the rear chest for a \textbf{Friend Sphere}, with the codes: Bottom Middle (up x2), Middle Right (up x4), Middle (down x4) %wtf does this line mean
-	      \end{itemize}
+	}
 	\item \formation{\tidus}{\lulu}{\auron}
 	\item Go down and left, \cs[0:50]
 \end{enumerate}
@@ -51,6 +49,7 @@
 		\kimahrif \od\ Stone Breath
 	\end{itemize}
 \end{battle}
+\winvfill
 \begin{enumerate}[resume]
 	\item Walk down steps, \cs[1:30]
 	\item Before going further, \pickup{Level 2 Key Sphere}

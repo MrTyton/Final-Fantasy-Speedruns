@@ -2,32 +2,27 @@
 \begin{spheregrid}
 	\begin{itemize}
 		\yunaf
-		\item \textit{If you \wonblitz:}
-		      \begin{itemize}
-			      \item Teleport to Strength Sphere $\uparrow\uparrow$ or $\nearrow$
-			      \item Str+4, Str+4, Def+3
-			      \item Move $\leftarrow\leftarrow$
-			      \item Str+4, HP+200, Agi+2
-			      \item Move $\leftarrow$
-			      \item Str+4
-			      \item Move $\leftarrow\leftarrow\leftarrow\leftarrow$
-			      \item Str+4
-		      \end{itemize}
-		      \includegraphics[width=.9\columnwidth]{graphics/Yuna_blitz_WIN_highroad}
-		\item \textit{If you \lostblitz:}
-		      \begin{itemize}
-			      \item Teleport to Tidus Str+4 by Mental Break $\leftarrow$
-			      \item Str+4, HP+200
-			      \item Friend Sphere to \tidus\ $\uparrow$
-			      \item Agi+2, Str+4
-			      \item Move $\rightarrow\rightarrow$
-			      \item Str+4
-			      \item Move $\rightarrow\rightarrow\rightarrow\rightarrow$
-			      \item Str+4
-			      \item Move $\uparrow$
-			      \item Str+4
-		      \end{itemize}
-		      \includegraphics[width=.9\columnwidth]{graphics/Yuna_blitz_loss_highbridge_1}
+		\blitzballSphereGrid{%
+		      \item Teleport to Strength Sphere $\uparrow\uparrow$ or $\nearrow$
+		      \item Str+4, Str+4, Def+3
+		      \item Move $\leftarrow\leftarrow$
+		      \item Str+4, HP+200, Agi+2
+		      \item Move $\leftarrow$
+		      \item Str+4
+		      \item Move $\leftarrow\leftarrow\leftarrow\leftarrow$
+		      \item Str+4
+		}{.9}{graphics/Yuna_blitz_WIN_highroad}{%
+		      \item Teleport to Tidus Str+4 by Mental Break $\leftarrow$
+		      \item Str+4, HP+200
+		      \item Friend Sphere to \tidus\ $\uparrow$
+		      \item Agi+2, Str+4
+		      \item Move $\rightarrow\rightarrow$
+		      \item Str+4
+		      \item Move $\rightarrow\rightarrow\rightarrow\rightarrow$
+		      \item Str+4
+		      \item Move $\uparrow$
+		      \item Str+4\newline
+		}{.9}{graphics/Yuna_blitz_loss_highbridge_1}
 	\end{itemize}
 \end{spheregrid}
 \begin{enumerate}
@@ -36,6 +31,7 @@
 	\item \formation{\tidus}{\yuna}{\auron}
 	\item Need 4 Maze Larva/YKT-63 Kills total, Overkills add 1 to the count.
 \end{enumerate}
+%\winvfill
 \begin{encounters}
 	\begin{itemize}
 		\item YKT-63:
@@ -46,6 +42,7 @@
 		      \end{itemize}
 	\end{itemize}
 \end{encounters}
+\bothvfill
 \begin{battle}[36000]{Seymour Natus}
 	\begin{itemize}
 		\item \textit{If \lulu\ has less than 35 levels:}

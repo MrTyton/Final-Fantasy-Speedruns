@@ -6,21 +6,19 @@
 	\item \save. Make sure that \rikku\ has \od. If she doesn't, you can get encounters on Rin's first screen.
 \end{enumerate}
 \begin{battle}[32000]{Evrae}
+	Turns in this fight can be a bit random at times - Treat each character indepdendantly of each other, doing their action as their turn comes up.
 	\begin{itemize}
-		\item \textit{If you \wonblitz:}
-		      \begin{itemize}
+		\blitzballdetermination[true]{%
 			      \tidusf Haste \tidus
 			      \tidusf Cheer
-			      \tidusf If \tidus\ is still going next, Change Armor
+			      \tidusf If \tidus\ is still going next, immediately after his previous action, Change Armor
 			      \rikkuf \od\ Mix Luck Sphere + Map
 			      \tidusf Attack x2
 			      \tidusf Cheer
 			      \tidusf Attack x3
 			      \kimahrif Heal \tidus\ if he was hit in the first attack, Steal otherwise
 			      \rikkuf Steal
-		      \end{itemize}
-		\item \textit{If you \lostblitz:}
-		      \begin{itemize}
+			}{%
 			      \tidusf Haste \tidus
 			      \tidusf Cheer x2
 			      \tidusf Equip Baroque Sword
@@ -28,13 +26,9 @@
 			      \rikkuf \od\ Mix Luck Sphere + Map
 			      \item \kimahri\ or \rikku: Full Heal \tidus, Lunar Curtain \tidus
 			      \item \kimahri\ or \rikku: Steal
-		      \end{itemize}
+		      }
 	\end{itemize}
 \end{battle}
 \begin{enumerate}[resume]
 	\item \sd, \skippablefmv[3:00] - Press Start immediately after the FMV.
 \end{enumerate}
-\vfill
-\ 
-\columnbreak
-\newline
