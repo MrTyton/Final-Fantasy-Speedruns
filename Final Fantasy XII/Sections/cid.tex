@@ -1,72 +1,72 @@
 \chapter{Cid}
 
 \begin{enumerate}
-\item In Archades, do the shop chain as:
-\begin{itemize}
-	\item Senior Researcher $\rightarrow$ Failed Researcher
-	\item Gentleman Onlooker $\rightarrow$ Eager Crier (in the North Zone)
-	\item Talented Woman $\rightarrow$ Akademickan
-	\item Look-alike $\rightarrow$ Look-alike
-\end{itemize}
+	\item In Archades, do the shop chain as:
+	      \begin{itemize}
+		      \item Senior Researcher $\rightarrow$ Failed Researcher
+		      \item Gentleman Onlooker $\rightarrow$ Eager Crier (in the North Zone)
+		      \item Talented Woman $\rightarrow$ Akademickan
+		      \item Look-alike $\rightarrow$ Look-alike
+	      \end{itemize}
 \end{enumerate}
 \begin{shop}{6800}
-Until you have enough Gil:
-\sell{Gaia Hat, Officer's Hat, Maudin Gear, Shielded Amor, Low-Selling Armor, Loot; make sure to keep 2 Teleport Stones, Ruby Ring, Megalixir, Elixirs; keeping as many as you can, Brigadine; would need to be unequiped from \basch}
-\buy{Aeroga}
+	Until you have enough Gil:
+	\sell{Gaia Hat, Officer's Hat, Maudin Gear, Shielded Amor, Low-Selling Armor, Loot; make sure to keep 2 Teleport Stones, Ruby Ring, Megalixir, Elixirs; keeping as many as you can, Brigadine; would need to be unequiped from \basch}
+	\buy{Aeroga}
 \end{shop}
 \begin{enumerate}[resume]
-\item Continue the chain
-\begin{itemize}
-\item Proud Mother $\rightarrow$ Tutor
-\item Poor Husband $\rightarrow$ Poor Wife (in the South Zone)
-\item Aspiring Starlet $\rightarrow$ Faded Star
-\item Determined Researcher $\rightarrow$ Ex-Researcher
-\item Worried Husband $\rightarrow$ Materialistic Woman
-\end{itemize}
-\item Once you're in \textbf{Draklor}, you can \decoy{\ashe}{\ashe} in case the first elevator decides to open up. You can also use a Warp Mote to get rid of the enemies.
-\penelof Hi-Potion \vaan\ as needed, making sure to keep at least 2 Hi-Potions for \enemy{cid}
+	\item Continue the chain
+	      \begin{itemize}
+		      \item Proud Mother $\rightarrow$ Tutor
+		      \item Poor Husband $\rightarrow$ Poor Wife (in the South Zone)
+		      \item Aspiring Starlet $\rightarrow$ Faded Star
+		      \item Determined Researcher $\rightarrow$ Ex-Researcher
+		      \item Worried Husband $\rightarrow$ Materialistic Woman
+	      \end{itemize}
+	\item Once you're in \textbf{Draklor}, you can \decoy{\ashe}{\ashe} in case the first elevator decides to open up. You can also use a Warp Mote to get rid of the enemies.
+	      \penelof Hi-Potion \vaan\ as needed, making sure to keep at least 2 Hi-Potions for \enemy{cid}
 \end{enumerate}
 \begin{menu}
-\begin{itemize}
-\battlefast
-\end{itemize}
+	\begin{itemize}
+		\battlefast
+	\end{itemize}
 \end{menu}
 \begin{equip}
-\begin{itemize}
-\vaanf Remove Mirror Mail
-\ashef Remove Staff
-\penelof Remove Staff
-\end{itemize}
+	\begin{itemize}
+		\vaanf Remove Mirror Mail
+		\ashef Remove Staff
+		\penelof Remove Staff
+	\end{itemize}
 \end{equip}
 \begin{liscense}
-\begin{itemize}
-	\startLic{balthier}{%
-	\item Arcane Magick 1
-	}
-	\nextLic{penelo}{%
-	\item Black Magick 4
-	}
-	\nextLic{ashe}{%
-	\item Black Magick 4
-	\ifc{you couldn't afford them before and can get them now}{%
+	\begin{itemize}
+		\startLic{balthier}{%
+		\item Arcane Magick 1
+		      }
+		      \nextLic{penelo}{%
+		\item Black Magick 4
+		      }
+		      \nextLic{ashe}{%
+		\item Black Magick 4
+		      \ifc{you couldn't afford them before and can get them now}{%
 		\item Headsman
 		\item Swiftness
 		\item Spellbound
-	}
-	}
-	\nextLic{penelo}{%
-		\ifc{you got them for \ashe}{%
+		      }
+		      }
+		      \nextLic{penelo}{%
+		      \ifc{you got them for \ashe}{%
 		\item Headsman
 		\item Swiftness
-		\item Spellbound		
-		}
-	}
-	\nextLic{vaan}{%
+		\item Spellbound
+		      }
+		      }
+		      \nextLic{vaan}{%
 		\item Spellbound
 		\item Swiftness 30
 		\item HP+150
-	}
-\end{itemize}
+		      }
+	\end{itemize}
 \end{liscense}
 \begin{gambit}
 	\begin{itemize}
@@ -76,52 +76,52 @@ Until you have enough Gil:
 \end{gambit}
 \begin{enumerate}
 	\item \castprotect{\vaan}{\vaan}. \save
-	\decoy{\ashe}{\vaan}
-	\penelof \fira\ \ashe
-	\vaanf Run Away
+	      \decoy{\ashe}{\vaan}
+	      \penelof \fira\ \ashe
+	      \vaanf Run Away
 	\item After the girls are in critial:
 \end{enumerate}
 \begin{menu}
-\begin{itemize}
-\optimize{\vaan, \ashe, \penelo}
-\battlewait
-\item \GirlsGambitOn
-\end{itemize}
+	\begin{itemize}
+		\optimize{\vaan, \ashe, \penelo}
+		\battlewait
+		\item \GirlsGambitOn
+	\end{itemize}
 \end{menu}
 \begin{enumerate}[resume]
-\item Let the girls Reflect themselves. \travelerensure{30}
+	\item Let the girls Reflect themselves. \travelerensure{30}
 \end{enumerate}
 \begin{battle}{Cid}
 	\begin{itemize}
 		\item Move everyone into a line to try and Reflect \bio\ onto a Single \enemy{Rook}
-		\beliasfreeze{}
-		\ifc{all \bio s hit the same \enemy{Rook} and it doesn't die}{%
-			\item ATB Reset \penelo\ and \fira\ the Rook that you hit
-			\vaanf Hi-Potion
-		}
-		\ifc{1 or 2 \bio s miss the \enemy{Rook}}{%
-			\item Have both girls \bio\ it again
-			\vaanf Hi-Potion
-		}
-		\ifc{more than 2 \bio s missed}{%
-			\item Reflect \bio s onto it again
-		}
+		      \beliasfreeze{}
+		      \ifc{all \bio s hit the same \enemy{Rook} and it doesn't die}{%
+		\item ATB Reset \penelo\ and \fira\ the Rook that you hit
+		      \vaanf Hi-Potion
+		      }
+		      \ifc{1 or 2 \bio s miss the \enemy{Rook}}{%
+		\item Have both girls \bio\ it again
+		      \vaanf Hi-Potion
+		      }
+		      \ifc{more than 2 \bio s missed}{%
+		\item Reflect \bio s onto it again
+		      }
 		\item After you kill the first Rook:
-		\begin{itemize}
-			\vaanf Hi-Potion
-			\penelof \bio\ \enemy{Rook C} (D if C is dead)
-			\ashef \bio\  \enemy{Rook C} (D if C is dead)
-			\vaanf Traveler \enemy{Rook C} (D if C is dead)
-			\item ATB Reset \vaan\ as soon as the Hi-Potion goes off
-			\item Let the girls cast 2 rounds of \bio\ on \enemy{Cid}
-			\begin{menu}
-			\begin{itemize}
-				\item Remove \ashe, \penelo\ weapons
-				\battleactive
-			\end{itemize}
-			\end{menu}
-			\item Let the girls get one more round of \bio s off
-			\item \GirlsGambitOff		
-		\end{itemize}
+		      \begin{itemize}
+			      \vaanf Hi-Potion
+			      \penelof \bio\ \enemy{Rook C} (D if C is dead)
+			      \ashef \bio\  \enemy{Rook C} (D if C is dead)
+			      \vaanf Traveler \enemy{Rook C} (D if C is dead)
+			      \item ATB Reset \vaan\ as soon as the Hi-Potion goes off
+			      \item Let the girls cast 2 rounds of \bio\ on \enemy{Cid}
+			            \begin{menu}
+				            \begin{itemize}
+					            \item Remove \ashe, \penelo\ weapons
+					                  \battleactive
+				            \end{itemize}
+			            \end{menu}
+			      \item Let the girls get one more round of \bio s off
+			      \item \GirlsGambitOff
+		      \end{itemize}
 	\end{itemize}
 \end{battle}
