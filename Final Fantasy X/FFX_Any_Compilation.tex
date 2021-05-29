@@ -21,6 +21,8 @@
 \usepackage{etoolbox}
 \usepackage{titlepic}
 \usepackage[super]{nth}
+\usepackage{setspace}
+\usepackage[document]{ragged2e}
 
 \hypersetup{
     colorlinks,
@@ -88,19 +90,19 @@
 \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
 \makeatother
 
-\newenvironment{battle}[2][]{\begin{tcolorbox}[title=\begin{center}#2 \ifthenelse{\isempty{#1}}{}{- \num{#1} HP}\end{center},colbacktitle=red!50!white,colframe=red!55]}{\end{tcolorbox}}
+\newenvironment{battle}[2][]{\begin{tcolorbox}[title=\begin{center}\MakeUppercase{#2} \ifthenelse{\isempty{#1}}{}{- \num{#1} HP}\end{center},colbacktitle=red!50!white,colframe=red!55,coltitle=black]}{\end{tcolorbox}}
 
-\newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=blue!50!white]}{\end{tcolorbox}}
+\newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=blue!50!white,coltitle=black,colframe=blue!50!white]}{\end{tcolorbox}}
 
-\newenvironment{spheregrid}{\begin{tcolorbox}[title=\begin{center}SPHERE GRID\end{center},colbacktitle=purple!50!white,colframe=purple!55]}{\end{tcolorbox}}
+\newenvironment{spheregrid}{\begin{tcolorbox}[title=\begin{center}SPHERE GRID\end{center},colbacktitle=purple!50!white,colframe=purple!55,coltitle=black]}{\end{tcolorbox}}
 
-\newenvironment{encounters}{\begin{tcolorbox}[title=\begin{center}ENCOUNTERS\end{center},colbacktitle=VioletRed!50!white,colframe=VioletRed!55]}{\end{tcolorbox}}
+\newenvironment{encounters}{\begin{tcolorbox}[title=\begin{center}ENCOUNTERS\end{center},colbacktitle=VioletRed!50!white,colframe=VioletRed!55,coltitle=black]}{\end{tcolorbox}}
 
-\newenvironment{trial}{\begin{tcolorbox}[title=\begin{center}Cloister of Trials\end{center},colbacktitle=Bittersweet!50!white,colframe=Bittersweet!55]}{\end{tcolorbox}}
+\newenvironment{trial}{\begin{tcolorbox}[title=\begin{center}CLOISTER OF TRIALS\end{center},colbacktitle=Bittersweet!50!white,colframe=Bittersweet!55,coltitle=black]}{\end{tcolorbox}}
 
-\newenvironment{blitzball}{\begin{tcolorbox}[title=\begin{center}Blitzball\end{center},colbacktitle=Maroon!50!white]}{\end{tcolorbox}}
+\newenvironment{blitzball}{\begin{tcolorbox}[title=\begin{center}BLITZBALL\end{center},colbacktitle=Maroon!50!white,coltitle=black,colframe=Maroon!50!white]}{\end{tcolorbox}}
 
-\newenvironment{equip}{\begin{tcolorbox}[title=\begin{center}EQUIPMENT\end{center},colbacktitle=Gray!50!white]}{\end{tcolorbox}}
+\newenvironment{equip}{\begin{tcolorbox}[title=\begin{center}EQUIPMENT\end{center},colbacktitle=Gray!50!white,coltitle=black,colframe=Gray!50!white]}{\end{tcolorbox}}
 
 \newcommand{\save}{\textbf{Touch the Save Sphere}}
 
@@ -268,6 +270,9 @@
 
 CloseToWar, Flobberworm, Roosta, Keeano, TheMixedHerb, Madhyama
 \newpage
+
+
+\onehalfspacing
 
 \input{Chapters/introduction.tex}
 
