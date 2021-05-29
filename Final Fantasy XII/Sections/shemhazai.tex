@@ -1,23 +1,60 @@
 \chapter{Shemhazai}
 
 \begin{enumerate}
-	\item Heal \vaan to full
-	      \vaanf Protect \vaan
-	      \penelof Reflect \vaan
-	      \ashef Decoy \vaan
-	\item Gambits on for the Girls. take the girls out of the party
+\item Float Mote on \vaan
+\end{enumerate}
+\begin{menu}
+\party{\vaan, \basch}
+\begin{itemize}
+\battleslow
+\end{itemize}
+\end{menu}
+\begin{enumerate}[resume]
+	\item \pickup{Black Mask (50/50)}{somewhere}
+	\item Run past the \enemy{Oses}, do Potion Warps at the gate.
+	\item Can use your Regular Potions to heal up, and use Phoenix Downs when someome dies.
+	\item When running past enemies, \leader{\basch}. When using the gates, \leader{\vaan}
+	\item Once you're past all of the enemies:
+\end{enumerate}
+\begin{menu}
+\party{\vaan, \ashe, \penelo}
+\begin{itemize}
+\battlefast
+\end{itemize}
+\end{menu}
+\begin{equip}
+\begin{itemize}
+\item Remove Mirror Mail
+\end{itemize}
+\end{equip}
+\begin{enumerate}[resume]
+\item Have \ashe, \penelo\ both cure \vaan
+\ifc{\vaan is Silenced}{\penelof Remedy \vaan}
+\item On the Save Crystal screen, after the cutscene skip:
+\begin{itemize}
+\penelof Reflect \ashe
+\penelof Reflect \penelo
+\vaanf Protect \vaan
+\decoy{\ashe}{\vaan}
+\girlsout
+\optimize{\vaan}
+\item Set Cursor onto Immobilize
+\end{itemize}
 \end{enumerate}
 \begin{battle}{Shemhazai}
 	\begin{itemize}
-		\item Bring the girls back in.
+	\vaanf Immobilize \enemy{Shemhazai} and run closer
+	\girlsin
 		      \begin{gambit}
 			      \begin{itemize}
 				      \ashegambit{Bio}
 				      \penelogambit{Bio}
 			      \end{itemize}
 		      \end{gambit}
-		      \vaanf Immobilize Shemhazai
-		      \vaanf Belias Freeze whiel the Bios are hitting. Start when they charge, stop when the numbers disappear.
-		      \vaanf Traveler at the very end.
+		      \vaanf Run out of \enemy{Shemazai's} range, and start running in circles to regain MP.
+		      \ifc{\vaan got Syphoned}{%
+		      	\item You can Elixir \vaan\ instead. If you don't have one, then remove the Mirror Mail and have \ashe\ Decoy \vaan\ after \enemy{Shemazai} starts reading Shock, and skip the Belias Freezing.
+		      }
+		      \beliasfreeze{while the Bios are hitting, once \vaan\ MP is full. Start when they charge, stop when the numbers disappear by targeting \enemy{Shemhazai}}
 	\end{itemize}
 \end{battle}

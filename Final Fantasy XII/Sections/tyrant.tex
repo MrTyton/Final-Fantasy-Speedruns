@@ -1,14 +1,38 @@
 \chapter{Tyrant}
-
+\begin{enumerate}
+\penelof Dispell and Immobilize on \penelo
+\item Immobilize despawn all enemies as before
+\item At the second intersection, have \ashe\ Cure \vaan\ twice to keep her standing still until \enemy{Diakon Entite} is close
+\ifc{Diakon Entite is already close}{%
+\item \leader{\ashe}
+\balthierf First Aid \balthier\ and First Aid \ashe\ to stand still
+}
+\item Have the moving character touch the switch, then switch the leader back to the standing still character and leave.
+\item At the start of the second zone, \penelo\ Immobilize \penelo. Don't start moving until that has been input.
+\item At the second gate, \balthier\ First Aid \balthier\ and First Aid \ashe\ to stand still
+\ashef Keep moving forwards, touch the switch, then \leader{\ashe} to leave.
+\end{enumerate}
+\begin{menu}
+\party{\vaan, \ashe, \penelo}
+\begin{itemize}
+\item Can remove the Mirror Mail if you want.
+\end{itemize}
+\end{menu}
 \begin{liscense}
-	RL3, Swiftness
-	L1					Ch50... Sw50
-	ML55
-	Ch50...Sw50	L1
-	ML55
-	AM2				R1	R1
-
-	Check the spreadsheet
+\begin{itemize}
+	\startLic{balthier}{\item Nothing}
+	\nextLic{vaan}{%
+		\item Arcane Magick 2
+	}
+	\nextLic{penelo}{\item Channeling 50}
+	\nextLic{ashe}{\item Channeling 50 \item Magick Lore 55}
+	\nextLic{penelo}{\item Magick Lore 55 \item Gambit Slot 50}
+	\nextLic{ashe}{\item Gambit Slot 50 \item Swiftness 50}
+	\nextLic{penelo}{\item Swiftness 50}
+	\nextLic{vaan}{\item HP+150 \item Potion Lore 3 \item Swiftness 50}
+	\nextLic{ashe}{\item Headsman \item Swiftness 30 \item Spellbound}
+	\nextLic{penelo}{\ifc{you got them for \ashe}{\item Headsman \item Swiftness 30 \item Spellbound}}
+\end{itemize}
 \end{liscense}
 \begin{gambit}
 	\begin{itemize}
@@ -16,14 +40,17 @@
 		\penelogambit{Blizzara}
 	\end{itemize}
 \end{gambit}
-\begin{enumerate}
-	\item Immobilize warp/despawn throughout this area.
-	\item Reflect \ashe, \penelo\ after the door
+\begin{enumerate}[resume]
+\item Run past the final enemies.
+\item Optionally, you can Protect and Decoy \vaan and Optimize him. Without these, he has about a 25\% chance to die at the start of the next battle
+\item Reflect both \ashe, \penelo. Do this at the start of the first screen after the enemies if you have Spellbound, just before the fight otherwise.
 \end{enumerate}
 \begin{battle}{Tyrant}
 	\begin{itemize}
 		\penelof Dispel
 		\vaanf Once it's charged a bit, start spamming Confuse
+		\item After the first Confuse, \GirlsGambitOn
 		\item Try to keep the girls a bit away, and keep him confuse looped.
+		\item At the end of the fight, \GirlsGambitOff
 	\end{itemize}
 \end{battle}

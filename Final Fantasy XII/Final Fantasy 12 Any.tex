@@ -85,6 +85,8 @@
 \newcommand{\ashef}{\item \textbf{\textcolor{SkyBlue}{Ashe}}: }
 \newcommand{\penelof}{\item \textbf{\textcolor{WildStrawberry}{Penelo}}: }
 
+\newcommand{\enemy}[1]{\textbf{\textcolor{Red}{#1}}}
+
 \newcommand{\leader}[1]{Set #1 as Leader}
 
 \newenvironment{equip}{\begin{tcolorbox}[title=\begin{center}EQUIPMENT\end{center},colbacktitle=Gray!50!white]}{\end{tcolorbox}}
@@ -101,13 +103,89 @@
 \newcommand{\ashegambit}[1]{\charactergambit{\ashe}{\gambitline{Ally: \ \ashe\ \ }{Reflect}}{\gambitline{Ally: \ \ashe\ \ }{(#1)}}}
 \newcommand{\penelogambit}[1]{\charactergambit{\penelo}{\gambitline{Ally: \penelo}{Reflect}}{\gambitline{Ally: \penelo}{(#1)}}}
 
+\newcommand{\party}[1]{\begin{itemize}\item Party: #1\end{itemize}}
+
+\newcommand{\decoy}[2]{\item #1: Decoy #2}
+\newcommand{\castprotect}[2]{#1 Protect #2}
+\newcommand{\optimize}[1]{\item Optimize #1}
+\newcommand{\gambiton}[1]{\item #1\ Gambit \textbf{ON}}
+\newcommand{\gambitoff}[1]{\item #1\ Gambit \textbf{OFF}}
+\newcommand{\GirlsGambitOn}{Turn \textbf{ON} \ashe\ and \penelo's Gabmits.}
+\newcommand{\GirlsGambitOff}{Turn \textbf{OFF} \ashe\ and \penelo's Gabmits.}
+\newcommand{\AllGambitsOff}{Turn \textbf{OFF} all Gambits.}
+
+\newcommand{\girlsin}{\item Bring in \ashe, \penelo\ into the party.}
+\newcommand{\girlsout}{\item Remove \ashe, \penelo\ from the party.}
+\newcommand{\fira}{\textbf{Fira}}
+\newcommand{\bio}{\textbf{Bio}}
+
+\newcommand{\ifc}[2]{\item \textit{If #1}: \begin{itemize}{#2}\end{itemize}}
+
 \newcommand{\upl}[1]{\item $\uparrow$: #1}
 \newcommand{\downl}[1]{\item $\downarrow$: #1}
+\newcommand{\downll}[1]{\item $\downarrow$: #1}
 \newcommand{\leftl}[1]{\item $\leftarrow$: #1}
+\newcommand{\leftll}[1]{\item $\leftarrow\leftarrow$: #1}
 \newcommand{\rightl}[1]{\item $\rightarrow$: #1}
 \newcommand{\downleftl}[1]{\item $\downarrow\leftarrow$ #1}
 \newcommand{\uprightl}[1]{\item $\uparrow\rightarrow$ #1}
 
+\newcommand{\travelercheck}{Check your Traveler Step Count.}
+\newcommand{\travelerensure}[1]{Check your Traveler Step Count. You should be about #1 steps to the maximal Traveler number.}
+\newcommand{\battlefast}{\item Config: Battle Speed Fast}
+\newcommand{\battleslow}{\item Config: Battle Speed Slow}
+\newcommand{\battlewait}{\item Config: Battle Mode Wait}
+\newcommand{\battleactive}{\item Config: Battle Mode Active}
+\newcommand{\beliasfreeze}[1]{\vaanf Belias Freeze - Put \textbf{Belias} in the Queue, cancel it before it goes off #1}
+\newcommand{\atbresetgirls}{\item ATB Reset \ashe, \penelo, by removing their Hats then Optimizing both.}
+
+\newcommand{\prevCharacter}{none}
+% Placement Statements
+\newcommand{\startLic}[2]{%
+\ifthenelse{\equal{#1}{vaan}}{\vaanf \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{vaan}}{}
+\ifthenelse{\equal{#1}{balthier}}{\balthierf \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{balthier}}{}
+\ifthenelse{\equal{#1}{fran}}{\franf \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{fran}}{}
+\ifthenelse{\equal{#1}{basch}}{\baschf \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{basch}}{}
+\ifthenelse{\equal{#1}{ashe}}{\ashef \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{ashe}}{}
+\ifthenelse{\equal{#1}{penelo}}{\penelof \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{penelo}}{}}
+
+\newcommand{\nextLic}[2]{%
+\ifthenelse{\equal{\prevCharacter}{vaan}}{%
+\ifthenelse{\equal{#1}{balthier}}{\balthierf ($\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{balthier}}{%
+\ifthenelse{\equal{#1}{fran}}{\franf ($\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{fran}}{%
+\ifthenelse{\equal{#1}{basch}}{\baschf ($\rightarrow\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{basch}}{%
+\ifthenelse{\equal{#1}{ashe}}{\ashef ($\leftarrow\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{ashe}}{%
+\ifthenelse{\equal{#1}{penelo}}{\penelof ($\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{penelo}}{}}}}}}{}%
+\ifthenelse{\equal{\prevCharacter}{balthier}}{%
+\ifthenelse{\equal{#1}{vaan}}{\vaanf ($\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{vaan}}{%
+\ifthenelse{\equal{#1}{fran}}{\franf ($\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{fran}}{%
+\ifthenelse{\equal{#1}{basch}}{\baschf ($\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{basch}}{%
+\ifthenelse{\equal{#1}{ashe}}{\ashef ($\rightarrow\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{ashe}}{%
+\ifthenelse{\equal{#1}{penelo}}{\penelof ($\leftarrow\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{penelo}}{}}}}}}{}%
+\ifthenelse{\equal{\prevCharacter}{fran}}{%
+\ifthenelse{\equal{#1}{vaan}}{\vaanf ($\leftarrow\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{vaan}}{%
+\ifthenelse{\equal{#1}{balthier}}{\balthierf ($\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{balthier}}{%
+\ifthenelse{\equal{#1}{basch}}{\baschf ($\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{basch}}{%
+\ifthenelse{\equal{#1}{ashe}}{\ashef ($\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{ashe}}{%
+\ifthenelse{\equal{#1}{penelo}}{\penelof ($\rightarrow\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{penelo}}{}}}}}}{}%
+\ifthenelse{\equal{\prevCharacter}{basch}}{%
+\ifthenelse{\equal{#1}{vaan}}{\vaanf ($\rightarrow\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{vaan}}{%
+\ifthenelse{\equal{#1}{balthier}}{\balthierf ($\leftarrow\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{balthier}}{%
+\ifthenelse{\equal{#1}{fran}}{\franf ($\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{fran}}{%
+\ifthenelse{\equal{#1}{ashe}}{\ashef ($\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{ashe}}{%
+\ifthenelse{\equal{#1}{penelo}}{\penelof ($\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{penelo}}{}}}}}}{}%
+\ifthenelse{\equal{\prevCharacter}{ashe}}{%
+\ifthenelse{\equal{#1}{vaan}}{\vaanf ($\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{vaan}}{%
+\ifthenelse{\equal{#1}{balthier}}{\balthierf ($\rightarrow\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{balthier}}{%
+\ifthenelse{\equal{#1}{fran}}{\franf ($\leftarrow\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{fran}}{%
+\ifthenelse{\equal{#1}{basch}}{\baschf ($\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{basch}}{%
+\ifthenelse{\equal{#1}{penelo}}{\penelof ($\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{penelo}}{}}}}}}{}%
+\ifthenelse{\equal{\prevCharacter}{penelo}}{%
+\ifthenelse{\equal{#1}{vaan}}{\vaanf ($\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{vaan}}{%
+\ifthenelse{\equal{#1}{balthier}}{\balthier ($\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{balthier}}{%
+\ifthenelse{\equal{#1}{fran}}{\franf ($\rightarrow\rightarrow\rightarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{fran}}{%
+\ifthenelse{\equal{#1}{basch}}{\baschf ($\leftarrow\leftarrow$) \begin{itemize} #2 \end{itemize}\renewcommand{\prevCharacter}{basch}}{%
+\ifthenelse{\equal{#1}{ashe}}{\ashef ($\leftarrow$) \begin{itemize} #2 \end{itemize} \renewcommand{\prevCharacter}{ashe}}{}}}}}}{}}
 
 \newcommand{\leftb}{($\leftarrow$)}
 \newcommand{\leftbb}{($\leftarrow\leftarrow$)}
@@ -137,7 +215,7 @@
 }
 
 \title{FF12 Any\%}
-\author{Mr.Tyton}
+\author{Mr.Tyton, zer0skar\_i}
 \titlepic{\includegraphics[width=.6\textwidth]{final_fantasy_xii_logo_by_eldi13_d41jlwy}}
 
 \begin{document}
@@ -145,7 +223,8 @@
 \maketitle
 \tableofcontents
 \newpage
-
+\input{Sections/introduction.tex}
+\newpage
 \input{Sections/prologue.tex}
 \input{Sections/roguetomato.tex}
 \input{Sections/firemane.tex}

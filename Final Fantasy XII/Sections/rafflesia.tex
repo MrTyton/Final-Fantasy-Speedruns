@@ -1,20 +1,48 @@
 \chapter{Rafflesia}
 
 \begin{enumerate}
-	\item Remove \vaan\ armor, protect him with \penelo
-	\item Get the girls down to crit with Blizzara. Decoy \vaan\ by removing the armor, then re-equip and take the girls out of the party.
-	\item Optimize everyone
+	\item \pickup{5040 Gil}{Balfonheim}
+	\item Teleport to Mr. Bur-Omisace
+	\item If you weren't able to buy the Glacial Staves before, then by them now
+	\item Take the Chocobo to the Feywood. Dismount before the First Zone Line in the Feywood
+	\item After the Zone Line:
+		\begin{itemize}
+			\penelof \fira\ \ashe, stop running
+			\ashef Cure Reserve, start running
+			\ashef Cure \vaan, so that we can do too-far-away despawning
+			\item Despawn enemies along the entire way by switching the leader to \ashe\ and then back to \vaan
+			\vaanf Remove Mirror Mail
+		\end{itemize}
+	\item Once you get to the Save Crystal Zone:
+	\begin{itemize}
+		\decoy{\ashe}{\vaan}
+		\item \castprotect{\vaan}{\vaan}
+		\item \GirlsGambitOn, so that they both start to cast Reflect at approximately the same time.
+		\item Once the Reflects land:
+		\begin{equip}
+			\begin{itemize}
+			\optimize{\vaan}
+			\penelof Cherry Staff
+			\ashef Cherry Staff
+			\end{itemize}
+		\end{equip}
+		\begin{menu}
+			\party{\vaan}
+		\end{menu}
+	\end{itemize}
 \end{enumerate}
+\begin{battle}{Rafflesia}
+	\begin{itemize}
+		\vaanf Run up, make sure that \enemy{Rafflesia} starts with a normal attack.
+		\ifc{he doesn't}{\item Wait for the animation of whatever he's casting to finish before continuing}
+		\girlsin
 \begin{gambit}
 	\begin{itemize}
 		\ashegambit{Aeroga}
 		\penelogambit{Aeroga}
 	\end{itemize}
 \end{gambit}
-\begin{battle}{Rafflesia}
-	\begin{itemize}
-		\vaanf Run up
-		\item Bring the girls in
-		\item Turn the gambits off when the fight is about to end.
+\item Set up cursor on Immobilize, Dispel, and Remedy
+		\item After the second round of Aerogas, \GirlsGambitOff\
 	\end{itemize}
 \end{battle}

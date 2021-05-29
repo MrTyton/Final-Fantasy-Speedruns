@@ -1,13 +1,119 @@
 \chapter{Ahriman}
+\begin{menu}
+\party{\vaan}
+\end{menu}
+\begin{enumerate}
+	\item Setup Traveler on the first Zombie Knight, making note of your number.
+	\item \pickup{Officer's Hat, 12.5\% chance, selling for 3,500}{Somewhere}
+	\item Setup a Hi-Potion warp with \basch. Despawn glitch through the area.
+\end{enumerate}
+\begin{menu}
+\party{\vaan, \balthier, \ashe}
+\begin{itemize}\item \leader{\balthier}\end{itemize}
+\end{menu}
+\begin{equip}
+\begin{itemize}
+\vaanf Remove Mirror Mail
+\end{itemize}
+\end{equip}
 \begin{liscense}
 	\begin{itemize}
-		\ashef Warmage, Headsman, Swiftness
-		\penelof Warmage, Headsman, Swiftness
-		\vaanf Belias
+		\startLic{ashe}{%
+			\item Magick Lore 40
+			\item Channeling 30
+			\item Warmage
+			\item Headsman
+			\item Swiftness 30
+		}
+		\nextLic{penelo}{%
+			\item CHannelin 30
+			\item Warmage
+			\item Swiftness 30 \textit{if you got it on \ashe\ as well}
+		}
+		\nextLic{vaan}{%
+			\item Libra
+			\item Belias
+			\item Poenix Lore 1
+			\item Potion Lore 2
+			\item Spellbound
+			\item Swiftness 30
+		}
 	\end{itemize}
 \end{liscense}
-\begin{enumerate}
-	\item Setup Traveler.
-	\item Setup a Hi-Potion warp with \basch. Despawn glitch through the area.
-	\item Bring in \ashe\ to Decoy onto \vaan
+\begin{enumerate}[resume]
+	\decoy{\ashe}{\vaan}
+	\item \balthier\ can Protect \vaan\ for safety
+	\item \vaan\ Hi-Potion
+\end{enumerate}
+\begin{menu}
+\party{\vaan}
+\end{menu}
+\begin{enumerate}[resume]
+\optimize{\vaan}
+\item Run past the last group of enemies
+\gambiton{\vaan}
+\item Enter the fight
+\end{enumerate}
+\begin{battle}{Ahriman}
+\begin{itemize}
+\ifc{\enemy{Ahriman} opens with \textbf{Phantasmal Gaze}}
+	{
+		\item Wait for the animation to start, then continue
+	}
+\ifc{\vaan\ gets confused}{\item Remove his Weapon}
+\begin{menu}
+\begin{itemize}
+\girlsin
+\item \GirlsGambitOn
+\end{itemize}
+\end{menu}
+\vaanf Run behind \enemy{Ahriman} so that \enemy{Ahriman} is facing away from the girls, so that \textbf{Phantasmal Gaze} doesn't hit them.
+\item Let exactly 2 \fira s hit \enemy{Ahriman}, 1 per cast off of a single Reflect, not a full round. Letting 3 reset
+\atbresetgirls
+\battlewait
+\gambitoff{\vaan} once he gets a successful scteal.
+\item Let a full round of \fira s hit \enemy{Ahriman}, so that a total of 8-9 have hit.
+\beliasfreeze\ so that \enemy{Ahriman} doesn't Teleport.
+\item Let another full round of \fira s hit, pay attention to who gets off the \fira\ first.
+\beliasfreeze{when both caster's ATB reaches the ``F'' in \fira}
+\item After the \fira s are done, then:
+\begin{itemize}
+\item Whoever got the first \fira\ off (usually \penelo): Hi-Potion \enemy{Ahriman}
+\item Whoever got the second \fira\ off (usually \ashe): Warp Mote
+\vaanf Steal \enemy{Ahriman}
+\end{itemize}
+\item \enemy{Ahriman} Teleports
+\vaanf Run behind \enemy{Ahriman}, paying attention to which way that he's facing.
+\begin{menu}
+\begin{itemize}
+\girlsout
+\gambitoff{Turn the Hi-Potion user's}
+\end{itemize}
+\end{menu}
+\item Close the menu and immediately reopen it
+\begin{menu}
+\begin{itemize}
+\girlsin \gambiton{Turn the Hi-Potion user's}
+\end{itemize}
+\end{menu}
+\item Do another round of \fira s
+\beliasfreeze{the same way that you did before.}
+\item After the damage lands:
+\begin{menu}
+\begin{itemize}
+	\item ATB Reset everyone by removing their Armor and then Optimizing them all
+	\item Config: Battle Speed Slowest \textit{if Swiftness is on both girls else} Battle Speed Second Slowest
+\end{itemize}
+\end{menu}
+\item Let the \fira s charge slowly.
+\item As soon as \enemy{Ahriman}\ teleports to you briefly:
+\begin{itemize}
+\beliasfreeze{should be about when the ATB is charged to the ``r'' in \fira}
+\end{itemize}
+\item Once \enemy{Ahriman} dies, \GirlsGambitOff
+\end{itemize}
+\end{battle}
+\begin{enumerate}[resume]
+\item Config: Battle Mode Active
+\item \pickup{Elixir (100\%), Gaia Hat/Elixir (50/50)}{in the room}
 \end{enumerate}
