@@ -37,7 +37,7 @@
 \begin{enumerate}[resume]
 	\item \formation{\tidus}{\wakka}{\auron}
 \end{enumerate}
-\vfill
+\bothvfill\winvfill\lossvfill
 \begin{spheregrid}
 	\begin{itemize}
 		\yunaf (8 S.Lvl)
@@ -57,16 +57,16 @@
 			\item Move $\leftarrow$
 			\item +200 HP
 		\end{itemize}
-		\includegraphics[width=.8\columnwidth]{graphics/kimahrimmr}
+		\ifthenelse{\equal{\colstyle}{multi}}{\includegraphics[width=.8\columnwidth]{graphics/kimahrimmr}}{\includegraphics[width=.4\columnwidth]{graphics/kimahrimmr}}
 		\wakkaf (7 S.Lvl)
 		\begin{itemize}
 			\item Move $\rightarrow x4 (\downarrow)$Silence Attack
 			\item +2 Strength
 		\end{itemize}
-		\includegraphics[width=.9\columnwidth]{graphics/Wakka_Grid}
+		\ifthenelse{\equal{\colstyle}{multi}}{\includegraphics[width=.9\columnwidth]{graphics/Wakka_Grid}}{\includegraphics[width=.45\columnwidth]{graphics/Wakka_Grid}}
 	\end{itemize}
 \end{spheregrid}
-\vfill
+\bothvfill\winvfill\lossvfill
 \begin{encounters}
 	The actions that you do here to charge \valefor's overdrive will change depending on the enemies. Follow the flow chart.
 	\begin{itemize}
@@ -125,7 +125,7 @@
 		\item Flee
 	\end{itemize}
 \end{encounters}
-\vfill
+\bothvfill\winvfill\lossvfill
 \begin{spheregrid}
 	\begin{itemize}
 		\yunaf (3 S.Lvl)
@@ -161,7 +161,7 @@
 	\item \save
 	\item \sd, go right, \cs[1:00], \sd\ after Seymour. Go down to guard, use the \nth{2} option to confirm Yes, \sd
 \end{enumerate}
-\vfill
+\bothvfill\winvfill\lossvfill
 \begin{battle}[12000]{Sinspawn Gui 1}
 	\begin{itemize}
 		\switch{\yuna}{\auron}
@@ -217,7 +217,7 @@
 	\item \sd, \cs+\skippablefmv[2:00] (press Start immediately after the skip. Do not use it on the upcoming scenes, as you will crash your game). Walk left and up to Gatta, \sd. \fmv+\cs[1:30], \sd\ during \tidus\ monologue. \cs[1:00], \sd
 	\item Walk left, \sd. Walk left, speak to \auron, \sd. \save\ if \auron\ is in critical HP. Go up and right, \sd, exit area, \sd.
 \end{enumerate}
-\vfill
+\bothvfill\winvfill\lossvfill
 \ 
-\columnbreak
+\bothcb\wincb\losscb
 

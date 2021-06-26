@@ -203,22 +203,24 @@
 \ 
 }
 
-\newcommand{\bothnewline}{\ifthenelse{\equal{\blitzresult}{both}}{\newline}{}}
-\newcommand{\winnewline}{\ifthenelse{\equal{\blitzresult}{win}}{\newline}{}}
-\newcommand{\lossnewline}{\ifthenelse{\equal{\blitzresult}{loss}}{\newline}{}}
+\newcommand{\bothnewline}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{both}}{\newline}{}}{}}
+\newcommand{\winnewline}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{win}}{\newline}{}}{}}
+\newcommand{\lossnewline}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{loss}}{\newline}{}}{}}
 
+\newcommand{\bothvfill}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{both}}{\vfill}{}}{}}
+\newcommand{\winvfill}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{win}}{\vfill}{}}{}}
+\newcommand{\lossvfill}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{loss}}{\vfill}{}}{}}
 
-\newcommand{\bothvfill}{\ifthenelse{\equal{\blitzresult}{both}}{\vfill}{}}
-\newcommand{\winvfill}{\ifthenelse{\equal{\blitzresult}{win}}{\vfill}{}}
-\newcommand{\lossvfill}{\ifthenelse{\equal{\blitzresult}{loss}}{\vfill}{}}
+\newcommand{\bothcb}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{both}}{\columnbreak}{}}{}}
+\newcommand{\wincb}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{win}}{\columnbreak}{}}{}}
+\newcommand{\losscb}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{loss}}{\columnbreak}{}}{}}
 
-\newcommand{\bothcb}{\ifthenelse{\equal{\blitzresult}{both}}{\columnbreak}{}}
-\newcommand{\wincb}{\ifthenelse{\equal{\blitzresult}{win}}{\columnbreak}{}}
-\newcommand{\losscb}{\ifthenelse{\equal{\blitzresult}{loss}}{\columnbreak}{}}
+\newcommand{\bothnp}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{both}}{\newpage}{}}{}}
+\newcommand{\winnp}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{win}}{\newpage}{}}{}}
+\newcommand{\lossnp}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{loss}}{\newpage}{}}{}}
 
-\newcommand{\bothnp}{\ifthenelse{\equal{\blitzresult}{both}}{\newpage}{}}
-\newcommand{\winnp}{\ifthenelse{\equal{\blitzresult}{win}}{\newpage}{}}
-\newcommand{\lossnp}{\ifthenelse{\equal{\blitzresult}{loss}}{\newpage}{}}
+\newcommand{\colstart}{\ifthenelse{\equal{\colstyle}{multi}}{\begin{multicols}{2}}{}}
+\newcommand{\colend}{\ifthenelse{\equal{\colstyle}{multi}}{\end{multicols}}{}}
 
 \newcommand{\blitzballSphereGrid}[6]{%
 \ifthenelse{%
@@ -276,7 +278,7 @@ CloseToWar, Flobberworm, Roosta, Keeano, TheMixedHerb, Madhyama
 
 \input{Chapters/introduction.tex}
 
-\begin{multicols}{2}
+\colstart
 	\input{Chapters/zanarkand.tex}
 	\input{Chapters/baajtemple.tex}
 	\input{Chapters/besaid.tex}
@@ -303,6 +305,6 @@ CloseToWar, Flobberworm, Roosta, Keeano, TheMixedHerb, Madhyama
 	\input{Chapters/zanarkand2.tex}
 	\input{Chapters/airship2.tex}
 	\input{Chapters/insidesin.tex}
-\end{multicols}
+\colend
 
 \end{document}

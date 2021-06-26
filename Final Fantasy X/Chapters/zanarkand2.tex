@@ -42,8 +42,7 @@
 				      \item Move $\nearrow\uparrow\uparrow$
 				      \item Agi+4, Agi+4, Str+3
 			      \end{itemize}
-			      \includegraphics[width=.5\columnwidth]{graphics/4_returns_w_luck_pt1}
-			      \columnbreak
+			      \ifthenelse{\equal{\colstyle}{multi}}{\includegraphics[width=.5\columnwidth]{graphics/4_returns_w_luck_pt1}}{\includegraphics[width=.2\columnwidth]{graphics/4_returns_w_luck_pt1}}
 			\item \textit{If you got \textbf{2 Return Spheres}:}
 			      \begin{itemize}
 				      \item Return Sphere to Str+2 in \wakka's grid, $\nearrow$
@@ -57,17 +56,17 @@
 				      \item Move $\downarrow$
 				      \item Str+2
 			      \end{itemize}
-			      \includegraphics[width=.5\columnwidth]{graphics/2_and_2_with_luck}
+			      \ifthenelse{\equal{\colstyle}{multi}}{\includegraphics[width=.5\columnwidth]{graphics/2_and_2_with_luck}}{\includegraphics[width=.2\columnwidth]{graphics/2_and_2_with_luck}}
 			\item \textit{If you got \textbf{0 Return Spheres}:}
 			      \begin{itemize}
 				      \item Move $\downarrow\downarrow$
 				      \item Luck Sphere, Fortune Sphere
 			      \end{itemize}
-			      \includegraphics[width=.7\columnwidth]{graphics/0_return_w_luck}
+			      \ifthenelse{\equal{\colstyle}{multi}}{\includegraphics[width=.7\columnwidth]{graphics/0_return_w_luck}}{\includegraphics[width=.25\columnwidth]{graphics/0_return_w_luck}}
 		\end{itemize}
 	\end{itemize}
 \end{spheregrid}
-\columnbreak
+\bothcb \wincb \losscb
 \begin{enumerate}[resume]
 	\item \formation{\tidus}{\auron}{\yuna}
 	\item \textit{If you had 0 Return Spheres:}
@@ -100,7 +99,7 @@
 		\bahamutf Attack
 	\end{itemize}
 \end{battle}
-\vfill
+\bothvfill\winvfill\lossvfill
 \begin{spheregrid}
 	\begin{itemize}
 		\item \textit{If you had 4 \textbf{Return Spheres}}:
@@ -113,7 +112,7 @@
 		      \end{itemize}
 		\item \yuna\ should have 70 Str and 35 Agi. If short, then the key Str Nodes are near \tidus's Armor Break and the end of \wakka's grid, and Agi is near \lulu\ (+8), \rikku\ (+3) and \wakka (+3 near Mag+3). If you need more Return Spheres to do these, then you can attack Sinspawn Genais for an extra one, though it costs 26 seconds
 	\end{itemize}
-	\includegraphics[width=.5\columnwidth]{graphics/4_return_before_yunalesca}
+	\ifthenelse{\equal{\colstyle}{multi}}{\includegraphics[width=.5\columnwidth]{graphics/4_return_before_yunalesca}}{\includegraphics[width=.25\columnwidth]{graphics/4_return_before_yunalesca}}
 \end{spheregrid}
 \begin{enumerate}[resume]
 	\item \save, Run up, \sd by mashing another button (like \textbf{R1}) at the same time as confirm, walk up to Yunalesca's room, \sd

@@ -7,13 +7,13 @@
 			\item Move $\rightarrow\uparrow$
 			\item Str+1, HP+200, Agil+2
 		\end{itemize}
-		\includegraphics[width=.6\columnwidth]{graphics/Tidus_post_gui}
+		\ifthenelse{\equal{\colstyle}{multi}}{\includegraphics[width=.6\columnwidth]{graphics/Tidus_post_gui}}{\includegraphics[width=.35\columnwidth]{graphics/Tidus_post_gui}}
 		\wakkaf
 		\begin{itemize}
 			\item Move $\uparrow\uparrow\uparrow$ (PC) or $\uparrow\uparrow$ (PS2)
 			\item Str +2
 		\end{itemize}
-		\includegraphics[width=.6\columnwidth]{graphics/djosewakka}
+		\ifthenelse{\equal{\colstyle}{multi}}{\includegraphics[width=.6\columnwidth]{graphics/djosewakka}}{\includegraphics[width=.35\columnwidth]{graphics/djosewakka}}
 	\end{itemize}
 \end{spheregrid}
 \begin{enumerate}
@@ -35,7 +35,7 @@
 	\item Continue walking north, \sd, walk up to the next screen.
 	\item Walk along bridge to next screen, \sd, walk into temple. Speak to \auron\ at the doorway, \sd, walk up the stairs.
 \end{enumerate}
-\vfill
+\bothvfill\winvfill\lossvfill
 \begin{trial}
 	\begin{itemize}
 		\item Take the sphere from the left wall
