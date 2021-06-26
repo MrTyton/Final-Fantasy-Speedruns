@@ -164,7 +164,7 @@
 
 
 \newcommand{\blitzballdetermination}[3][]{%
-\ifthenelse{%
+	\ifthenelse{%
 		\equal{\blitzresult}{win}
 	}{%
 		#2
@@ -200,7 +200,7 @@
 			}
 		}
 	}
-\ 
+	\
 }
 
 \newcommand{\bothnewline}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{both}}{\newline}{}}{}}
@@ -220,10 +220,10 @@
 \newcommand{\lossnp}{\ifthenelse{\equal{\colstyle}{multi}}{\ifthenelse{\equal{\blitzresult}{loss}}{\newpage}{}}{}}
 
 \newcommand{\colstart}{\ifthenelse{\equal{\colstyle}{multi}}{\begin{multicols}{2}}{}}
-\newcommand{\colend}{\ifthenelse{\equal{\colstyle}{multi}}{\end{multicols}}{}}
+			\newcommand{\colend}{\ifthenelse{\equal{\colstyle}{multi}}{\end{multicols}}{}}
 
 \newcommand{\blitzballSphereGrid}[6]{%
-\ifthenelse{%
+	\ifthenelse{%
 		\equal{\blitzresult}{win}
 	}{%
 		\begin{itemize}
@@ -244,26 +244,26 @@
 			}{
 				\newline
 				\ifthenelse{\isempty{#1}}{}{%
-						\blitzwin: 
-						\begin{itemize}
-							#1
-						\end{itemize}
-						 \includegraphics[width=#2\columnwidth]{#3}
+					\blitzwin:
+					\begin{itemize}
+						#1
+					\end{itemize}
+					\includegraphics[width=#2\columnwidth]{#3}
 				}
 				\ifthenelse{\isempty{#4}}{}{%
-						\ifthenelse{\isempty{#1}}{}{\newline}
-						\blitzloss:
-						\begin{itemize}
-							#4
-						\end{itemize}
-						\includegraphics[width=#5\columnwidth]{#6}
-					
-					
+					\ifthenelse{\isempty{#1}}{}{\newline}
+					\blitzloss:
+					\begin{itemize}
+						#4
+					\end{itemize}
+					\includegraphics[width=#5\columnwidth]{#6}
+
+
 				}
 			}
 		}
 	}
-\ 
+	\
 }
 
 \setlength{\columnsep}{.5cm}
@@ -279,32 +279,32 @@ CloseToWar, Flobberworm, Roosta, Keeano, TheMixedHerb, Madhyama
 \input{Chapters/introduction.tex}
 
 \colstart
-	\input{Chapters/zanarkand.tex}
-	\input{Chapters/baajtemple.tex}
-	\input{Chapters/besaid.tex}
-	\input{Chapters/ssliki.tex}
-	\input{Chapters/kilika.tex}
-	\input{Chapters/sswinno.tex}
-	\input{Chapters/luca.tex}
-	\input{Chapters/miihenhighroad.tex}
-	\input{Chapters/mushroomrockroad.tex}
-	\input{Chapters/djose.tex}
-	\input{Chapters/moonflow.tex}
-	\input{Chapters/guadosalam.tex}
-	\input{Chapters/thunderplains.tex}
-	\input{Chapters/macalaniawoods.tex}
-	\input{Chapters/lakemacalania.tex}
-	\input{Chapters/bikaneldesert.tex}
-	\input{Chapters/home.tex}
-	\input{Chapters/airship.tex}
-	\input{Chapters/bevelle.tex}
-	\input{Chapters/viapurifico.tex}
-	\input{Chapters/highbridge.tex}
-	\input{Chapters/calmlands.tex}
-	\input{Chapters/mtgagazet.tex}
-	\input{Chapters/zanarkand2.tex}
-	\input{Chapters/airship2.tex}
-	\input{Chapters/insidesin.tex}
+\input{Chapters/zanarkand.tex}
+\input{Chapters/baajtemple.tex}
+\input{Chapters/besaid.tex}
+\input{Chapters/ssliki.tex}
+\input{Chapters/kilika.tex}
+\input{Chapters/sswinno.tex}
+\input{Chapters/luca.tex}
+\input{Chapters/miihenhighroad.tex}
+\input{Chapters/mushroomrockroad.tex}
+\input{Chapters/djose.tex}
+\input{Chapters/moonflow.tex}
+\input{Chapters/guadosalam.tex}
+\input{Chapters/thunderplains.tex}
+\input{Chapters/macalaniawoods.tex}
+\input{Chapters/lakemacalania.tex}
+\input{Chapters/bikaneldesert.tex}
+\input{Chapters/home.tex}
+\input{Chapters/airship.tex}
+\input{Chapters/bevelle.tex}
+\input{Chapters/viapurifico.tex}
+\input{Chapters/highbridge.tex}
+\input{Chapters/calmlands.tex}
+\input{Chapters/mtgagazet.tex}
+\input{Chapters/zanarkand2.tex}
+\input{Chapters/airship2.tex}
+\input{Chapters/insidesin.tex}
 \colend
 
 \end{document}
