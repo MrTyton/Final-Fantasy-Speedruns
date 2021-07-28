@@ -1,0 +1,61 @@
+\chapter{Macalania Woods}
+\restartlist{enumerate}
+\begin{enumerate}
+	\item \sd, walk north, \sd, \save
+	\item \formation{\tidus}{\rikku}{\auron}
+	\item Follow path, \pickup{2000 Gil}
+	\item Cure \tidus\ if he ever gets damaged.
+	\item Make sure that you build up \rikku\ and \yuna\ \od\ before Spherimorph, and that you do the following steals.
+\end{enumerate}
+\begin{encounters}
+	\begin{itemize}
+		\item Chimera: Steal Arctic Wind, Flee (Steal up to 3 total)
+		\item Blue Elemental: Steal Fish Scale x2, Flee (Steal up to 5 total)
+		\item Else: Flee
+	\end{itemize}
+\end{encounters}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item Follow path, \sd\ twice
+	\item Catch butterfly near the exit to avoid encounters
+	\item \formation{\tidus}{\auron}{\kimahri}
+	\item \save, talk to Oaka. Say his ``Prices are too expensive'', go in again.
+\end{enumerate}
+}
+\liteversiondetermination{Include}{%
+\begin{enumerate}[resume]
+	\item \formation{\tidus}{\auron}{\kimahri}
+	\item \save, talk to Oaka. Say his ``Prices are too expensive'', go in again.
+\end{enumerate}
+}
+\begin{shop}{9075}
+	\begin{itemize}
+		\item Sell: Stunning Steel
+		\item If less than 9075 Gil, Sell: Yellow Shield
+		\item Buy: Sonic Steel, Equip
+	\end{itemize}
+\end{shop}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item Run up, \sd. Enter the hidden path, walk to \auron, \sd
+\end{enumerate}
+}
+\begin{battle}[12000]{Spherimorph}
+	\begin{itemize}
+		\switch{\tidus}{\rikku}
+		\rikkuf Grenade, check the Element
+		\rikkuf \od, Mag Def Sphere with
+		\begin{itemize}
+			\item Fire: Arctic Wind
+			\item Ice: Bomb Core
+			\item Water: Lightning Marble
+			\item Thunder: Fish Scale
+		\end{itemize}
+	\end{itemize}
+\end{battle}
+\begin{enumerate}[resume]
+	\liteversiondetermination{Exclude}{\item \cs[1:50], \sd, \sd}
+	\item heal \rikku and any other party members who are damaged
+	\item \formation{\tidus}{\kimahri}{\auron}
+	\item Talk to \auron\ on the way out, then exit
+\end{enumerate}

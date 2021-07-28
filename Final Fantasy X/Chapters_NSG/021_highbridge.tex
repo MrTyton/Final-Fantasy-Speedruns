@@ -1,0 +1,53 @@
+\chapter{Highbridge}
+\restartlist{enumerate}
+\begin{enumerate}
+	\item \textbf{If you have fewer than 2 Chocobo Feathers:}
+		\begin{itemize}
+			\item \textbf{Customise and equip:}
+				\begin{itemize}
+					\item Soft Ring $\rightarrow$ SOS Nulfrost
+					\item Targe $\rightarrow$ SOS Nulfrost						
+				\end{itemize}
+		\end{itemize}
+	\item \formation{\tidus}{\yuna}{\rikku}
+	\item Walk north
+	\item Charge \yuna\ and \rikku\ Overdrive on fights
+\end{enumerate}
+\begin{encounters}
+	\begin{itemize}
+		\tidusf Escape
+		\rikkuf Attack Self
+		\yunaf Attack Self
+	\end{itemize}
+\end{encounters}
+\begin{battle}[36000]{Seymour Natus}
+	\begin{itemize}
+		\item If 2 or more Chocobo Feathers:
+			\begin{itemize}
+				\switch{\tidus}{\rikku}
+				\rikkuf Use Chocobo Feather on Yuna
+				\yunaf Summon \valefor
+				\valeforf Energy Blast
+				\enemyf Banish Valefor
+				\rikkuf Mix Grenade + Purple Sphere
+				\yunaf Grand Summon \shiva
+				\shivaf Diamond Dust
+			\end{itemize}
+		\item Otherwise:
+			\begin{itemize}
+				\switch{\tidus}{\rikku}
+				\rikkuf Use Bomb Core / Lightning Marble x2
+				\yunaf Hi-Potion Self
+				\rikkuf Mix Grenade + Purple Sphere
+				\yunaf Defend / Hi-Potion Self if less than 200 HP
+				\yunaf After 7 poison ticks on Natus: Summon \valefor
+				\valeforf Energy Blast
+			\end{itemize}
+	\end{itemize}
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \sd
+	\item Walk to \yuna, \cs+\skippablefmv[10:10]. Walk down, \cs[1:40], walk right, exit Macalania Woods
+\end{enumerate}
+}

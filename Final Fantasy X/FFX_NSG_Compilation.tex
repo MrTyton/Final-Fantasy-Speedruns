@@ -1,0 +1,339 @@
+\documentclass[a4paper]{report}
+\usepackage[group-separator={,},group-minimum-digits={3}]{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{soul}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage[margin=0.2in]{geometry}
+\usepackage{xstring}
+\usepackage{xifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\pagenumbering{gobble}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{etoolbox}
+\usepackage{titlepic}
+\usepackage[super]{nth}
+\usepackage{setspace}
+\usepackage[document]{ragged2e}
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\usepackage[default]{sourcesanspro}
+\usepackage[T1]{fontenc}
+
+\makeatletter
+\def\@makechapterhead#1{%
+  %\vspace*{5\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \large\bfseries #1
+        \par\nobreak
+%        \vskip 10\p@
+        \rule{\columnwidth}{.1pt}%
+%        \vskip 10\p@
+    \fi
+    \interlinepenalty\@M
+%    \large \bfseries \MakeUppercase{#1}\par\nobreak
+%    \vskip 5\p@
+  }}
+\makeatother
+
+\makeatletter
+ \def\SOUL@hlpreamble{%
+ \setul{}{3ex}%         !!!change this value!!! default is 2.5ex
+ \let\SOUL@stcolor\SOUL@hlcolor
+ \SOUL@stpreamble
+ }
+\makeatother
+
+\newcommand{\important}[1]{\textbf{\textcolor{Red}{\hl{#1}}}}
+
+\newcommand{\blitzloss}{\textbf{\textcolor{Magenta}{Blitz Loss}}}
+\newcommand{\lostblitz}{\textbf{\textcolor{Magenta}{lost Blitz}}}
+
+\newcommand{\blitzwin}{\textbf{\textcolor{OliveGreen}{Blitz Win}}}
+\newcommand{\wonblitz}{\textbf{\textcolor{OliveGreen}{won Blitz}}}
+
+\newcommand{\category}{FFX - No Sphere Grid (with Flee)}
+
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
+\ifthenelse{%
+		\equal{\blitzresult}{win}
+	}{%
+		\title{\category - \blitzwin}
+	}{%
+		\ifthenelse{%
+			\equal{\blitzresult}{loss}
+		}{%
+			\title{\category - \blitzloss}
+		}{%
+			\ifthenelse{%
+				\equal{\blitzresult}{both}
+			}{
+				\title{\category}
+			}{}
+		}
+	}
+\author{CrimsonInferno9 \& Mr.Tyton}
+\titlepic{\includegraphics[width=\textwidth]{final_fantasy_x_logo_by_eldi13_d4204zv}}
+\begin{document}
+\singlespacing
+\maketitle
+\tableofcontents
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+\newenvironment{battle}[2][]{\begin{tcolorbox}[title=\begin{center}\MakeUppercase{#2} \ifthenelse{\isempty{#1}}{}{- \num{#1} HP}\end{center},colbacktitle=red!50!white,colframe=red!55,coltitle=black]}{\end{tcolorbox}}
+
+\newenvironment{shop}[1]{\begin{tcolorbox}[title=\begin{center}SHOP\, #1 GIL\end{center},colbacktitle=blue!50!white,coltitle=black,colframe=blue!50!white]}{\end{tcolorbox}}
+
+\newenvironment{spheregrid}{\begin{tcolorbox}[title=\begin{center}SPHERE GRID\end{center},colbacktitle=purple!50!white,colframe=purple!55,coltitle=black]}{\end{tcolorbox}}
+
+\newenvironment{encounters}{\begin{tcolorbox}[title=\begin{center}ENCOUNTERS\end{center},colbacktitle=VioletRed!50!white,colframe=VioletRed!55,coltitle=black]}{\end{tcolorbox}}
+
+\newenvironment{trial}{\begin{tcolorbox}[title=\begin{center}CLOISTER OF TRIALS\end{center},colbacktitle=Bittersweet!50!white,colframe=Bittersweet!55,coltitle=black]}{\end{tcolorbox}}
+
+\newenvironment{blitzball}{\begin{tcolorbox}[title=\begin{center}BLITZBALL\end{center},colbacktitle=Maroon!50!white,coltitle=black,colframe=Maroon!50!white]}{\end{tcolorbox}}
+
+\newenvironment{equip}{\begin{tcolorbox}[title=\begin{center}EQUIPMENT\end{center},colbacktitle=Gray!50!white,coltitle=black,colframe=Gray!50!white]}{\end{tcolorbox}}
+
+\newcommand{\save}{\textbf{Touch the Save Sphere}}
+
+\newcommand{\pickup}[1]{open the chest for the \textbf{#1}}
+
+\newcommand{\sd}{\textbf{SD}}
+
+\newcommand{\cs}[1][]{\textbf{CS}%
+	\ifthenelse{\isempty{#1}}{}{ (#1)}%
+}
+
+\newcommand{\skippablecs}[1][]{\textbf{Skippable CS}%
+	\ifthenelse{\isempty{#1}}{}{ (#1)}%
+}
+
+\newcommand{\fmv}[1][]{\textbf{FMV}%
+	\ifthenelse{\isempty{#1}}{}{ (#1)}%
+}
+
+\newcommand{\skippablefmv}[1][]{\textbf{Skippable FMV}%
+	\ifthenelse{\isempty{#1}}{}{ (#1)}%
+}
+
+\newcommand{\od}{\textbf{Overdrive}}
+
+\newcommand{\formation}[3]{\textcolor{Mulberry}{\textbf{Formation: }}#1, #2, #3}
+
+
+\newcommand{\lulu}{\textbf{\textcolor{purple}{Lulu}}}
+\newcommand{\yuna}{\textbf{\textcolor{gray}{Yuna}}}
+\newcommand{\auron}{\textbf{\textcolor{red}{Auron}}}
+\newcommand{\tidus}{\textbf{\textcolor{blue}{Tidus}}}
+\newcommand{\wakka}{\textbf{\textcolor{BurntOrange}{Wakka}}}
+\newcommand{\rikku}{\textbf{\textcolor{ForestGreen}{Rikku}}}
+\newcommand{\kimahri}{\textbf{\textcolor{Tan}{Kimahri}}}
+
+\newcommand{\luluf}{\item \textbf{\textcolor{purple}{Lulu}}: }
+\newcommand{\yunaf}{\item \textbf{\textcolor{gray}{Yuna}}: }
+\newcommand{\auronf}{\item \textbf{\textcolor{red}{Auron}}: }
+\newcommand{\tidusf}{\item \textbf{\textcolor{blue}{Tidus}}: }
+\newcommand{\wakkaf}{\item \textbf{\textcolor{BurntOrange}{Wakka}}: }
+\newcommand{\rikkuf}{\item \textbf{\textcolor{ForestGreen}{Rikku}}: }
+\newcommand{\kimahrif}{\item \textbf{\textcolor{Tan}{Kimahri}}: }
+\newcommand{\enemyf}{\item \textbf{\textcolor{RubineRed}{Enemy}}: }
+\newcommand{\valeforf}{\item \textbf{\textcolor{Salmon}{Valefor}}: }
+\newcommand{\bahamutf}{\item \textbf{\textcolor{RoyalPurple}{Bahamut}}: }
+\newcommand{\ixilonf}{\item \textbf{\textcolor{Lavender}{Ixion}}: }
+\newcommand{\ifritf}{\item \textbf{\textcolor{OrangeRed}{Ifrit}}: }
+\newcommand{\shivaf}{\item \textbf{\textcolor{Cyan}{{Shiva}}}: }
+\newcommand{\switch}[2]{\item Switch #1 for #2}
+\newcommand{\summon}[1]{\yunaf Summon #1}
+
+\newcommand{\valefor}{\textbf{\textcolor{Salmon}{Valefor}}}
+\newcommand{\ixilon}{\textbf{\textcolor{Lavender}{Ixion}}}
+\newcommand{\shiva}{\textbf{\textcolor{Cyan}{Shiva}}}
+\newcommand{\bahamut}{\textbf{\textcolor{RoyalPurple}{Bahamut}}}
+\newcommand{\ifrit}{\textbf{\textcolor{OrangeRed}{Ifrit}}}
+
+
+
+\newcommand{\blitzballdetermination}[3][]{%
+\ifthenelse{%
+		\equal{\blitzresult}{win}
+	}{%
+		#2
+	}{%
+		\ifthenelse{%
+			\equal{\blitzresult}{loss}
+		}{%
+			#3
+		}{%
+			\ifthenelse{%
+				\equal{\blitzresult}{both}
+			}{
+				\ifthenelse{\isempty{#2}}{}{%
+					\ifthenelse{\isempty{#1}}{%
+						\blitzwin: #2 \ifthenelse{\isempty{#3}}{}{\newline}
+					}{%
+						\item \textit{If you \wonblitz:}
+						\begin{itemize}
+							#2
+						\end{itemize}
+					}
+				}
+				\ifthenelse{\isempty{#3}}{}{%
+					\ifthenelse{\isempty{#1}}{%
+						\blitzloss: #3
+					}{%
+						\item \textit{If you \lostblitz:}
+						\begin{itemize}
+							#3
+						\end{itemize}
+					}
+				}
+			}
+		}
+	}
+\ 
+}
+
+\newcommand{\liteversiondetermination}[2]{%
+	\ifthenelse{%
+		\equal{#1}{Exclude}
+	}{%
+		\ifthenelse{%
+			\equal{\liteversion}{True}
+		}{}{#2}
+	}{%
+		\ifthenelse{%
+			\equal{#1}{Include}
+		}{%
+			\ifthenelse{%
+				\equal{\liteversion}{True}
+			}{#2}{}
+		}{}
+	}
+}
+		
+
+\newcommand{\bothnewline}{\ifthenelse{\equal{\blitzresult}{both}}{\newline}{}}
+\newcommand{\winnewline}{\ifthenelse{\equal{\blitzresult}{win}}{\newline}{}}
+\newcommand{\lossnewline}{\ifthenelse{\equal{\blitzresult}{loss}}{\newline}{}}
+
+
+\newcommand{\bothvfill}{\ifthenelse{\equal{\blitzresult}{both}}{\vfill}{}}
+\newcommand{\winvfill}{\ifthenelse{\equal{\blitzresult}{win}}{\vfill}{}}
+\newcommand{\lossvfill}{\ifthenelse{\equal{\blitzresult}{loss}}{\vfill}{}}
+
+\newcommand{\bothcb}{\ifthenelse{\equal{\blitzresult}{both}}{\columnbreak}{}}
+\newcommand{\wincb}{\ifthenelse{\equal{\blitzresult}{win}}{\columnbreak}{}}
+\newcommand{\losscb}{\ifthenelse{\equal{\blitzresult}{loss}}{\columnbreak}{}}
+
+\newcommand{\bothnp}{\ifthenelse{\equal{\blitzresult}{both}}{\newpage}{}}
+\newcommand{\winnp}{\ifthenelse{\equal{\blitzresult}{win}}{\newpage}{}}
+\newcommand{\lossnp}{\ifthenelse{\equal{\blitzresult}{loss}}{\newpage}{}}
+
+\newcommand{\blitzballSphereGrid}[6]{%
+\ifthenelse{%
+		\equal{\blitzresult}{win}
+	}{%
+		\begin{itemize}
+			#1
+		\end{itemize}
+		\includegraphics[width=#2\columnwidth]{#3}
+	}{%
+		\ifthenelse{%
+			\equal{\blitzresult}{loss}
+		}{
+			\begin{itemize}
+				#4
+			\end{itemize}
+			\includegraphics[width=#5\columnwidth]{#6}
+		}{%
+			\ifthenelse{%
+				\equal{\blitzresult}{both}
+			}{
+				\newline
+				\ifthenelse{\isempty{#1}}{}{%
+						\blitzwin: 
+						\begin{itemize}
+							#1
+						\end{itemize}
+						 \includegraphics[width=#2\columnwidth]{#3}
+				}
+				\ifthenelse{\isempty{#4}}{}{%
+						\ifthenelse{\isempty{#1}}{}{\newline}
+						\blitzloss:
+						\begin{itemize}
+							#4
+						\end{itemize}
+						\includegraphics[width=#5\columnwidth]{#6}
+					
+					
+				}
+			}
+		}
+	}
+\ 
+}
+
+\setlength{\columnsep}{.5cm}
+
+\section*{Acknowledgements}
+
+CloseToWar, Flobberworm, Roosta, Keeano, TheMixedHerb, Madhyama
+\newpage
+
+
+\onehalfspacing
+
+\input{Chapters_NSG/000_introduction.tex}
+
+\begin{multicols}{2}
+	\input{Chapters_NSG/001_zanarkand.tex}
+	\input{Chapters_NSG/002_baajtemple.tex}
+	\input{Chapters_NSG/003_besaid.tex}
+	\input{Chapters_NSG/004_ssliki.tex}
+	\input{Chapters_NSG/005_kilika.tex}
+	\input{Chapters_NSG/006_sswinno.tex}
+	\input{Chapters_NSG/007_luca.tex}
+	\input{Chapters_NSG/008_miihenhighroad.tex}
+	\input{Chapters_NSG/009_mushroomrockroad.tex}
+	\input{Chapters_NSG/010_djose.tex}
+	\input{Chapters_NSG/011_moonflow.tex}
+	\input{Chapters_NSG/012_guadosalam.tex}
+	\input{Chapters_NSG/013_thunderplains.tex}
+	\input{Chapters_NSG/014_macalaniawoods.tex}
+	\input{Chapters_NSG/015_lakemacalania.tex}
+	\input{Chapters_NSG/016_bikaneldesert.tex}
+	\input{Chapters_NSG/017_home.tex}
+	\input{Chapters_NSG/018_airship.tex}
+	\input{Chapters_NSG/019_bevelle.tex}
+	\input{Chapters_NSG/020_viapurifico.tex}
+	\input{Chapters_NSG/021_highbridge.tex}
+	\input{Chapters_NSG/022_calmlands.tex}
+	\input{Chapters_NSG/023_mtgagazet.tex}
+	\input{Chapters_NSG/024_zanarkand2.tex}
+	\input{Chapters_NSG/025_airship2.tex}
+	\input{Chapters_NSG/026_insidesin.tex}
+\end{multicols}
+
+\end{document}
