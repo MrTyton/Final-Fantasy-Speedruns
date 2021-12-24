@@ -29,10 +29,10 @@
 					      \item Switch Sazh with Vanille (1 $\leftrightarrow$ 3)
 					      \item \paradigmdeck{%
 						            \paradigmline{Vanille}{Snow}{Sazh}}%
-					            {\paradigmline{(\med)}{\com}{(\com)}}%
-					            {\paradigmline{(\sab)}{\com}{\com}}%
-					            {\paradigmline{(\sab)}{\sen}{(\syn)}}%
 					            {\paradigmline{(\rav)}{(\rav)}{(\syn)}}%
+					            {\paradigmline{\com)}{\com}{\com}}%
+					            {\paradigmline{\rav)}{\sen}{\rav}}%
+					            {\paradigmline{\med}{\com}{\com}}%
 					            {\paradigmline[5]{\textit{(\sab)}}{\textit{(\rav)}}{\textit{\rav}}}%
 					            {\paradigmline{\rav}{\rav}{\rav}}
 				      \end{itemize}
@@ -76,8 +76,9 @@
 	Activate \textbf{Deceptisol} during the jump to the left, don't cancel.
 	Activate \textbf{Fortisol, Aegisol} before the statue.
 	\vfill
-	\renewcommand{\second}{[2] Devastation (\sab/\com/\com)}
-	\renewcommand{\third}{[3] Premeditation (\sab/\sen/\syn)}
+	\renewcommand{\first}{[1] Malevolence (\rav/\rav/\syn)}
+	\renewcommand{\second}{[2] Cerberus (\com/\com/\com)}
+	\renewcommand{\third}{[3] Mystic Tower (\rav/\sen/\rav)}
 	\renewcommand{\fifth}{[5] Smart Bomb (\sab/\rav/\rav)}
 	\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 	\begin{battle}[0:55]{Bandersnatch \& Jabberwocky}
@@ -125,19 +126,30 @@
 	\begin{menu}
 		\begin{itemize}
 			\paradigm
+			\begin{itemize}
+				\item Battle Team
 				      \begin{itemize}
-					      \item Set the third paradigm as default
+					      \item \paradigmdeck{%
+						            \paradigmline{Vanille}{Snow}{Sazh}}%
+					            {\paradigmline{\rav}{\rav}{\syn}}%
+					            {\paradigmline{(\sab)}{\com}{\com}}%
+					            {\paradigmline{\textit{(\sab)}}{\textit{\sen}}{\textit{(\syn)}}}%
+					            {\paradigmline{\med}{\com}{\com}}%
+					            {\paradigmline{\sab}{\rav}{\rav}}%
+					            {\paradigmline{\rav}{\rav}{\rav}}
 				      \end{itemize}
+			\end{itemize}
 		\end{itemize}
 	\end{menu}
 	
 	Activate \textbf{Ethersol, Fortisol, Aegisol}.
-
+	\vfill
 	\renewcommand{\second}{[2] Devastation (\sab/\com/\com)}
 	\renewcommand{\fifth}{[5] Smart Bomb (\sab/\rav/\rav)}
 	\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 	\renewcommand{\third}{[3] Premeditation (\sab/\sen/\syn)}
-	\renewcommand{\first}{[1] Tireless Charge (\med/\com/\com)}
+	\renewcommand{\fourth}{[4] Tireless Charge (\med/\com/\com)}
+	\renewcommand{\first}{[1] Malevolence (\rav/\rav/\syn)}
 
 	\begin{battle}[0:45]{Wladislaus}
 		\begin{itemize}
@@ -159,7 +171,7 @@
 				      \item If no Deprotect, Repeat
 				      \item Shift after Snow is hit by Mounting Contempt
 			      \end{itemize}
-			\item \first
+			\item \fourth
 			      \begin{itemize}
 				      \item Auto-heal
 				      \item Auto-heal after Wladislaus's attack
@@ -172,8 +184,7 @@
 			      \end{itemize}
 		\end{itemize}
 	\end{battle}
-	\vfill
-	\newpage
+	
 	Take the left elevator, then \textbf{Ethersol} and \textbf{Deceptisol} while it rises. On the jumps, activate \textbf{Fortisol}, \textbf{Aegisol}, Menu.
 	\begin{menu}
 		\begin{itemize}
@@ -228,10 +239,10 @@
 			
 					      \item \paradigmdeck{%
 						            \paradigmline{Vanille}{Snow}{Sazh}}%
-					            {\paradigmline{\med}{\com}{\com}}%
+					            {\paradigmline{\rav}{\rav}{\syn}}%
 					            {\paradigmline[2]{\textit{(\rav)}}{\textit{\com}}{\textit{\com}}}%
 					            {\paradigmline{(\med)}{\sen}{(\sen)}}%
-					            {\paradigmline{\rav}{\rav}{\syn}}%
+					            {\paradigmline{\med}{\com}{\com}}%
 					            {\paradigmline{\sab}{\rav}{\rav}}%
 					            {\paradigmline{\rav}{\rav}{\rav}}
 				\item Battle Team
@@ -242,10 +253,10 @@
 		\end{itemize}
 	\end{menu}
 	\vfill
-	\renewcommand{\first}{[1] Tireless Charge (\com/\com/\med)}
+	\renewcommand{\fourth}{[4] Tireless Charge (\com/\com/\med)}
 	\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
 	\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
-	\renewcommand{\fourth}{[4] Malevolence (\syn/(\rav)/\rav)}
+	\renewcommand{\first}{[1] Malevolence (\syn/\rav/\rav)}
 	\renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
 	\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 	\begin{battle}[1:55]{Tiamat Eliminator}
@@ -265,7 +276,7 @@
 				      \item Blitz-Blitz
 				      \item Repeat
 			      \end{itemize}
-			\item \first
+			\item \fourth
 			      \begin{itemize}
 				      \item Repeat
 				      \item Shift as soon as he uses ``Descend''
@@ -344,7 +355,7 @@
 						                  \item Throw Potions until Imperil inflicts
 						                  \item If \stagger\ Retry
 					                  \end{itemize}
-					            \item \first
+					            \item \fourth
 					                  \begin{itemize}
 						                  \item Repeat until close to Ultima
 					                  \end{itemize}
@@ -373,7 +384,7 @@
 			      \begin{itemize}
 				      \item Repeat twice, Shift after Snow's ready animation (don't animation cancel)
 			      \end{itemize}
-			\item \first
+			\item \fourth
 			      \begin{itemize}
 				      \item Repeat until Laughter
 				      \item If Snow would jump before Laughter hits, shift to [2] and back to [1] to have him stay on the ground
@@ -391,7 +402,7 @@
 			      \end{itemize}
 			\item \textit{If Bart is close to death}:
 			      \begin{itemize}
-				      \item \first
+				      \item \fourth
 				            \begin{itemize}
 					            \item Repeat until victory
 				            \end{itemize}
@@ -419,6 +430,13 @@
 }
 
 \end{multicols*}
+
+\renewcommand{\fourth}{[4] Tireless Charge (\com/\com/\med)}
+\renewcommand{\second}{[2] Aggression (\com/\com/\rav)}
+\renewcommand{\third}{[3] Consolidation (\sen/\sen/\med)}
+\renewcommand{\first}{[1] Malevolence (\syn/\rav/\rav)}
+\renewcommand{\fifth}{[5] Smart Bomb (\rav/\rav/\sab)}
+\renewcommand{\sixth}{[6] Tri-Disaster (\rav/\rav/\rav)}
 \begin{battle}[1:05]{Orphan 2}
 	\begin{multicols}{2}
 		\begin{itemize}
@@ -427,7 +445,7 @@
 				      \item Attack x1
 				      \item Shift after the bullets hit Orphan
 			      \end{itemize}
-			\item \fourth
+			\item \first
 			      \begin{itemize}
 				      \item Auto-support Vanille ($\downarrow$, Haste)
 				      \item Auto-support Sazh (Haste)
@@ -438,7 +456,7 @@
 			      \begin{itemize}
 				      \item Auto-chain, shift after the third spell
 			      \end{itemize}
-			\item \fourth
+			\item \first
 			      \begin{itemize}
 				      \item Bravery-Enthunder Sazh, shift Immediately
 			      \end{itemize}
@@ -461,7 +479,7 @@
 				\item Cold Blood, should \stagger during the animation
 				\item Wait for Deprotect and Imperil
 			\end{itemize}
-			\item \first
+			\item \fourth
 			      \begin{itemize}
 				      \item Blitz-Blitz, make sure to not miss Bullets
 				      \item Auto-battle 2-3 Attacks if just Launched
