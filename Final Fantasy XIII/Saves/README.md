@@ -1,7 +1,7 @@
 # Practice Saves for FF13 Speedrun
 
 ### Whenever possible: these saves will always be done without the preceeding menu done.
-### These saves were created by LewdDolphin
+### These saves were created by LogicDolphin
 ### 
 
 #### In order to use these saves, first diable `cloud saves`, then copy these files into `X:\Users\USERNAME\AppData\Local\SquareEnix\FinalFantasyXIII\save`
