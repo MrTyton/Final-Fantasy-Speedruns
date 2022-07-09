@@ -1,0 +1,64 @@
+\chapter{Moonflow}
+\restartlist{enumerate}
+\liteversiondetermination{Exclude}{%
+	\begin{enumerate}
+		\item Walk north, \sd\ on Kimahri Scene.
+		\item If \blitzloss: Near the end of the screen, go left through the hidden path. \pickup{Magic Def Sphere}.
+		\item Walk north, \sd, walk left, \sd
+		\item Talk to O'aka if no Lightning Steel or Thunder Ball
+		\begin{shop}{975}
+			\begin{itemize}
+				\item Buy
+					\begin{itemize}
+						\item Switch Hitter, Equip
+					\end{itemize}
+			\end{itemize}
+		\end{shop}
+		\item walk left past 2 screens, \sd.  Potion/Cure \tidus\ if he got injured. Walk right and use the \nth{2} option to ride ze shoopuf, \sd.
+	\end{enumerate}
+}
+\liteversiondetermination{Include}{%
+	\begin{enumerate}
+		\item If \blitzloss: \pickup{Magic Def Sphere}.
+		\item Talk to O'aka at South Wharf, if no Lightning Steel or Thunder Ball
+		\begin{shop}{975}
+			\begin{itemize}
+				\item Buy
+					\begin{itemize}
+						\item Switch Hitter, Equip
+					\end{itemize}
+			\end{itemize}
+		\end{shop}
+	\end{enumerate}
+}
+\begin{battle}[4000]{Extractor}
+In this fight you need to apply Slow to extractor with Stunning Steel. You can check after each of Tidus' Attacks if Slow has been applied by looking at the turn order. If Slow has been applied Tidus and Wakka will get more than one turn each after some boss turns.
+\newline \ \newline
+On Extractor's 3rd turn it will rise. After extractor falls back down it will always use Aqua shooter on it's next turn and then it will randomly choose between Aqua Shooter and Rise on subequent turns. You need to deal 500 damage to Extractor once it has risen to force it back down and this is only possible with 4 Attacks, 2 from each of Wakka and Tidus. You need to make sure you always have 4 turns following a turn in which Extractor can rise, so you will need to pay attention to the turn order and use Switch Weapon, where necessary, to fix the turn order to make the fight safe.
+\newline \ \newline
+	\begin{itemize}
+		\tidusf Attack
+		\wakkaf Attack
+		\tidusf After Slow Applied: Switch Weapon to Lightning Steel/Brotherhood
+		\wakkaf Hi-Potion anybody who falls below 250
+	\end{itemize}
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \sd, walk left to next screen, walk left and talk to \rikku, \sd
+	\item Walk up to the forced encounter
+\end{enumerate}
+}
+\begin{battle}{Rikku Tutorial}
+	\begin{itemize}
+		\item Mash through the tutorial
+		\rikkuf Steal from the Treasure Chest
+		\rikkuf \od\ Two Potions
+		\item Flee
+	\end{itemize}
+\end{battle}
+\begin{enumerate}[resume]
+	\item Walk North
+	\item \formation{\tidus}{\rikku}{\auron}
+	\item Steal from Wolfs / Bees as they have rare steals of Sleeping Powders / Poison Fangs respectively
+\end{enumerate}

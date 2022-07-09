@@ -1,0 +1,60 @@
+\chapter{Calm Lands}
+\restartlist{enumerate}
+\begin{enumerate}
+	\item \sd, walk left then at the bottom of ramp run towards the lady sat on the chocobo in the north west Calm Lands
+\end{enumerate}
+\begin{enumerate}[resume]
+	\item \formation{\tidus}{\kimahri}{\auron}
+	\item Charge \rikku\, \lulu\ \& \kimahri\ Overdrive
+	\item Steal Poison Fangs from Wasps
+\end{enumerate}
+\begin{encounters}
+After every fight heal and reset \formation{\tidus}{\kimahri}{\auron}
+	\begin{itemize}
+		\item If fight contains a Wasp:
+		      \begin{itemize}
+				\tidusf Escape
+				\item Switch whoever survives for \rikku
+				\rikkuf Steal from Wasp
+		      \end{itemize}
+	\end{itemize}
+\end{encounters}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item Talk to the lady on the chocobo and do Wobbly Chocobo training
+	\item Get on a chocobo and run back to the south west Calm Lands, up the ramp and to the far right
+	\item Interact with the chocobo feather on the ground to jump down
+	\item Run into the passageway and on to Remiem Temple
+	\item Run across the bridge and to the left hand side of the temple and interact with the sphere on the ground
+	\item \sd\ and run to the chocobo on the right hand side of the table
+	\item Interact with the chocobo and do the chocobo races. Win with 0 chests and then 3 chests.
+	\item Auto-sort items and then manual sort Phoenix Down to slot 2 and Wings to Discovery to slot 1
+	\item \formation{\tidus}{\wakka}{\yuna}
+	\item Run back to Calm Lands and get on the chocobo then run to Calm Lands exit
+\end{enumerate}
+}
+\liteversiondetermination{Include}{%
+\begin{enumerate}[resume]
+	\item Talk to the lady on the chocobo and do Wobbly Chocobo training
+	\item Go to Remiem Temple
+	\item Do Chocobo Races and Win with 0 chests and then 3 chests.
+	\item Auto-sort items and then manual sort Phoenix Down to slot 2 and Wings to Discovery to slot 1
+	\item \formation{\tidus}{\wakka}{\yuna}
+	\item Run back to Calm Lands and get on the chocobo then run to Calm Lands exit
+\end{enumerate}
+}
+\begin{battle}[64000]{Defender X}
+	\begin{itemize}
+		\tidusf Spiral Cut if available otherwise Attack
+		\enemyf Attack
+		\switch{anyone}{\lulu}, Swap Weapon
+		\switch{anyone}{\rikku}, Mix 2x Wings to Discovery
+		\luluf Thunder Fury (7 hits required)
+	\end{itemize}
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \sd, walk across bridge and up to Mt. Gagazet, \sd
+\end{enumerate}
+\newpage
+}

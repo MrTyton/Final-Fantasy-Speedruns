@@ -1,0 +1,71 @@
+\chapter{Djose}
+\restartlist{enumerate}
+\begin{enumerate}
+	\item Talk to the guard in Burgundy just to the left and get Soft Ring
+	\item \formation{\tidus}{\yuna}{\auron}
+	\item Walk North.
+\end{enumerate}
+\begin{encounters}
+	\begin{itemize}
+		\item Basilisk:
+		      \begin{itemize}
+			      \switch{anyone}{\kimahri}
+			      \kimahrif Lancet Basilisk, learn \textbf{Stone Breath}
+			      \item Flee.
+		      \end{itemize}
+		\item Else Flee
+	\end{itemize}
+\end{encounters}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item Continue walking north, \sd, walk up to the next screen.
+	\item Walk along bridge to next screen, \sd, walk into temple. Speak to \auron\ at the doorway, \sd, walk up the stairs.
+\end{enumerate}
+%\vfill
+%\ 
+%\columnbreak
+%\ \newline
+\begin{trial}
+	\begin{itemize}
+		\item Take the sphere from the left wall
+		\item Place into door
+		\item Take the sphere from the right wall
+		\item Place into door
+		\item Take the sphere from the left wall
+		\item Push pedestal to the right
+		\item Put sphere into the far right wall
+		\item Take right sphere
+		\item Place into the far right wall
+		\item \cs
+		\item Take sphere from far right wall
+		\item Reset puzzle with the far left tile
+		\item Place sphere into pedestal
+		\item Take the pedestal sphere
+		\item Put sphere into right wall
+		\item Take the far right sphere
+		\item Put into pedestal
+		\item Push pedestal through the door
+		\item Jump onto pedestal
+		\item Push the second pedestal, return to main room
+		\item Take the charged sphere from the right wall
+		\item Place charged sphere into the left wall
+		\item Reset
+		\item Place the two pedestal spheres in the first left and right walls
+		\item Go onto the lift in the center
+		\item Push all the pedestals in, walk up the stairs
+	\end{itemize}
+\end{trial}
+\begin{enumerate}[resume]
+	\item Talk to \auron, wait. \sd, try to leave, \sd, name \ixilon
+	\item Speak to \auron, enter the temple and go to the left room. Open the chest for a \textbf{Remedy}. Speak to the priest, \sd. Exit the temple, \sd
+	\item Go left, \pickup{4000 Gil}
+	\item Cross the bridges, \sd, exit, \sd, go up to Moonflow.
+\end{enumerate}
+}
+\liteversiondetermination{Include}{%
+\begin{enumerate}[resume]
+	\item Do Auron Affection
+	\item Don't need Remedy
+	\item Grab 4000 Gil Chest outside temple
+\end{enumerate}
+}

@@ -1,0 +1,123 @@
+\chapter{Mushroom Rock Road}
+\restartlist{enumerate}
+\begin{enumerate}
+	\liteversiondetermination{Exclude}{%
+	\item \sd, \cs.
+	\item Clasko Skip
+		\begin{itemize}
+			\item Run forward to the 3 Soldiers
+			\item Wedge yourself behind the right soldier by holding Left for a second
+			\item Tap Down-Right, X to speak to the bottom soldier
+			\item If the Soldier got away:
+			\begin{itemize}
+				\item Run up near the white spot on the wall near the trigger
+				\item Talk to the Soldier right after he pushes you into the trigger
+				\item Mash until trigger dialogue during the \cs
+			\end{itemize}
+		\end{itemize}
+	}
+	\item Flee from all encounters, go to the next screen.
+	\item \save. Go up the lift. Follow path.
+	\item \formation{\tidus}{\wakka}{\auron}
+	\item Early on there is a crusader stood next to a chest, through a rock arch. Open the chest for 1000 Gil
+	\item At the end of the first path go up the lift.
+	\item Speak to the man immediately ahead of you for an X-Potion
+	\item Speak to the man to the left of the next elevator that takes you up to the HQ Elevator, for 400 Gil.
+	\item Speak to the man next to the HQ elevator for a Mega-Potion. Go on lift, go to HQ.
+	\item Walk down and \sd. Walk right to next screen, then right, \sd. Walk right to O'aka.
+	\item Before talking to O'aka:
+	\begin{itemize}
+		\item Auto-sort Items
+		\item \formation{\tidus}{\wakka}{\yuna}
+	\end{itemize}
+\end{enumerate}
+\begin{shop}{10890}
+	\begin{itemize}
+		\item Sell
+			\begin{itemize}
+				\item Ethers
+				\item X-Potions
+				\item Elixirs
+				\item Mega-Potions
+				\item Hunter's Spear
+				\item Anything other than Official Ball, Lightning Steel, Thunder Ball
+			\end{itemize}
+		\item Buy
+			\begin{itemize}
+				\item Sentry, Equip
+			\end{itemize}
+	\end{itemize}
+\end{shop}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \save
+	\item \sd, go right, \cs[1:00], \sd\ after Seymour. Go down to guard, use the \nth{2} option to confirm Yes, \sd
+\end{enumerate}
+}
+\vfill\ \columnbreak
+\begin{battle}[12000]{Sinspawn Gui 1}
+	\begin{itemize}
+		\item If \yuna\ hit by Thunder:
+			\begin{itemize}
+				\tidusf Switch Weapon to Stunning Steel
+				\switch{\yuna}{\auron}
+				\auronf Power Break Main Body
+				\switch{\wakka}{\kimahri}
+				\kimahrif Self Destruct main body
+				\switch{\tidus}{\yuna}
+				\summon{\valefor}
+			\end{itemize}
+		\item Otherwise:
+			\begin{itemize}
+				\switch{\tidus}{\auron}
+				\auronf Power Break Main Body
+				\yunaf Switch Weapon to Staff
+				\switch{\wakka}{\kimahri}
+				\kimahrif Self Destruct main body
+				\summon{\valefor}
+			\end{itemize}
+		\valeforf Energy Blast
+		\enemyf Attack
+		\enemyf Demi
+		\valeforf Thunder
+		\enemyf Attack / Demi
+		\valeforf Thunder
+		\enemyf Attack / Demi
+		\valeforf Thunder (If HP < 329 and last action was Demi, use shield until gui attacks then use Thunder)
+		\valeforf Energy Blast
+		\item \textit{If Self Destruct Crit \textit{(3864)}:}
+			\begin{itemize}
+				\valeforf Energy Blast
+				\valeforf Boost
+				\valeforf Energy Blast
+			\end{itemize}
+		\item \textit{If Power Break Failed}
+			\begin{itemize}
+				\valeforf Energy Blast
+				\summon{\ifrit} once \valefor\ dies.
+				\ifritf Fire Main Body until 3000 HP
+			 	\ifritf Hellfire
+			\end{itemize}
+	\end{itemize}
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \cs+\skippablefmv[2:20]. \sd\ Seymour dialogue.
+\end{enumerate}
+}
+\begin{battle}[6000]{Sinspawn Gui 2}
+	\begin{itemize}
+		\item \textbf{\textcolor{YellowGreen}{Seymour}}: Thundara Head ($\leftarrow$)
+		\item \textbf{\textcolor{YellowGreen}{Seymour}}: Thundara Body x5
+		\yunaf Defend
+		\auronf Defend
+	\end{itemize}
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \sd, \cs+\skippablefmv[2:00] (press Start immediately after the skip. Do not use it on the upcoming scenes, as you will crash your game). Walk left and up to Gatta, \sd. \fmv+\cs[1:30], \sd\ during \tidus\ monologue. \cs[1:00], \sd
+	\item Walk left, \sd. Walk left, speak to \auron, \sd. \save\ if \auron\ is in critical HP. Go up and right, \sd, exit area, \sd.
+\end{enumerate}
+\vfill\ \columnbreak
+}
+

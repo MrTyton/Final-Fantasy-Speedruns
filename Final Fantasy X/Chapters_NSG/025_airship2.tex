@@ -1,0 +1,130 @@
+\chapter{Airship}
+\restartlist{enumerate}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}
+	\item \sd, walk out of the cockpit past Rin, along the corridors to \yuna\ and \kimahri. \sd. Walk back to the cockpit, \sd. Talk to Cid to travel to Highbridge.
+	\item Walk up to the Bevelle entrance, \sd. In the Fayth room, pick the \nth{1} option ``I Think So'', then pick the \nth{2} option ``Defeat Yu Yevon''
+	\item Walk up to Cid and search for Omega Ruins (Small Islands just to the right of the mainland)
+	\item Travel to Omega Ruins
+	\formation{\tidus}{\rikku}{\lulu}
+	\item Charge \rikku , \lulu\ and \tidus Overdrives
+	\item Return to Airship
+	\item Switch \tidus\ for \auron
+	\item Walk up to Cid, travel to Sin, \sd, \skippablefmv, \sd. Go through the corridors to the outside of the airship, \sd, 3 \skippablefmv[2:10], \sd
+\end{enumerate}
+}
+\liteversiondetermination{Include}{%
+\begin{enumerate}
+	\item Go to Highbridge
+	\item Walk up to Cid and search for Omega Ruins (Small Islands just to the right of the mainland)
+	\item Travel to Omega Ruins
+	\formation{\tidus}{\rikku}{\lulu}
+	\item Charge \rikku , \lulu\ and \tidus Overdrives
+	\item Return to Airship
+	\item Switch \tidus\ for \auron
+	\item Walk up to Cid, travel to Sin
+\end{enumerate}
+}
+\begin{battle}[65000]{Sin Left Fin}
+	\begin{itemize}
+		\rikkuf Mix 2x Wings to Discovery
+		\auronf Defend entire fight
+		\switch{\lulu}{\kimahri}
+		\kimahrif Lancet x7
+		\rikkuf Defend until 6th Lancet then Switch Weapon until sin swipes
+		\enemyf Sin Swipes
+		\switch{\auron}{\lulu}, Thunder Fury
+		\luluf Spam Thunder to finish if needed
+	\end{itemize}
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \sd, \cs+\skippablefmv
+\end{enumerate}
+}
+\begin{battle}[65000]{Sin Right Fin}
+	\begin{itemize}
+		\rikkuf Mix 2x Wings to Discovery
+		\switch{\lulu}{\auron}
+		\auronf Defend entire fight
+		\rikkuf Use Al-Bhed Potion
+		\kimahrif Lancet x5
+		\rikkuf Defend until 4th Lancet then Switch Weapon until sin swipes
+		\enemyf Sin Swipes
+		\switch{\auron}{\lulu}, Spam Thunder to finish
+	\end{itemize}
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \sd, \cs+\skippablefmv
+\end{enumerate}
+}
+\begin{battle}[56000]{Sin Genais and Core}
+	\begin{itemize}
+		\switch{\rikku}{\tidus}, Switch Weapon
+		\switch{\lulu}{\rikku}, Mix 2x Wings to Discovery
+		\tidusf Slice and Dice
+		\rikkuf Use Fire Gem
+	\end{itemize}
+	Check to see if the first equipment drop listed is a weapon. If it is it will have \textbf{Zombiestrike}.
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \sd, \skippablefmv
+	\item Walk along the corridors to the outside of the ship, speak to \yuna. \cs[1:40], \sd\ \rikku\ dialogue. \skippablefmv.
+	\item Walk back into the cockpit area and talk to Cid. Travel to Omega Ruins.
+	\formation{\tidus}{\rikku}{\lulu}
+	\item Charge \rikku and \lulu\ Overdrives
+	\item Return to Airship
+	\item If no Zombiestrike weapon dropped from Yunalesca or Sinspawn Genais:
+	\begin{itemize}
+		\item Talk to Rin in the corridor and buy 70x Holy Water
+		\item Customise Claw $\rightarrow$ Zombietouch
+		\item Customse Staff $\rightarrow$ First Strike
+	\end{itemize}
+	\item Otherwise:
+	\begin{itemize}
+		\item Equip Zombiestrike Weapon
+		\item Customise Staff $\rightarrow$ First Strike
+		\item Customise Zombiestrike Weapon $\rightarrow$ First Strike
+	\end{itemize}
+	\item Switch \tidus\ for \kimahri\ in party
+	\item Go through the corridors, go outside again, \skippablefmv, \sd.
+\end{enumerate}
+}
+\liteversiondetermination{Include}{%
+\begin{enumerate}[resume]
+	\item \yuna\ cutscene outside
+	\item Walk back into the cockpit area and talk to Cid. Travel to Omega Ruins.
+	\formation{\tidus}{\rikku}{\lulu}
+	\item Charge \rikku and \lulu\ Overdrives
+	\item Return to Airship
+	\item If no Zombiestrike weapon dropped from Yunalesca or Sinspawn Genais:
+	\begin{itemize}
+		\item Talk to Rin in the corridor and buy 70x Holy Water
+		\item Customise Claw $\rightarrow$ Zombietouch
+		\item Customse Staff $\rightarrow$ First Strike
+	\end{itemize}
+	\item Otherwise:
+	\begin{itemize}
+		\item Equip Zombiestrike Weapon
+		\item Customise Staff $\rightarrow$ First Strike
+		\item Customise Zombiestrike Weapon $\rightarrow$ First Strike
+	\end{itemize}
+	\item Switch \tidus\ for \kimahri\ in party
+\end{enumerate}
+}
+\begin{battle}[140000]{Overdrive Sin}
+	\begin{itemize}
+		\rikkuf Mix 2x Wings to Discovery
+		\luluf Thunder Fury
+		\kimahrif Lancet
+		\rikkuf Use Gem
+		\item Finish with Thunder / Lancet / Attacks if needed
+	\end{itemize}
+\end{battle}
+\liteversiondetermination{Exclude}{%
+\begin{enumerate}[resume]
+	\item \skippablefmv[1:20], \sd
+\end{enumerate}
+}
