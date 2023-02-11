@@ -169,15 +169,15 @@
 		\begin{itemize}
 			\paradigm
 			\begin{itemize}
-				\item Move the first paradigm to the last slot
+				\item Generate Offensive [1] [2] [3] (\textbf{default})
 				\item \paradigmdeck{%
 					      \paradigmline{Fang}{Lightning}{Hope}}%
-				      {\paradigmline{[\com]}{\com}{\rav}}
-				      {\paradigmline{\com}{\rav}{(\rav)}}%
-				      {\paradigmline[3]{\textit{(\sab)}}{\textit{(\rav)}}{\textit{\rav}}}%
+				      {\paradigmline{\com}{\com}{\rav}}
+				      {\paradigmline{\com}{\rav}{\rav}}%
+				      {\paradigmline[3]{\textit{\sab}}{\textit{\rav}}{\textit{\rav}}}%
 				      {\paradigmline{\sen}{(\rav)}{(\rav)}}%
 				      {\paradigmline{\sab}{(\rav)}{\syn}}%
-				      {\paradigmline{\com}{\rav}{\rav}}
+				      {\paradigmline{[\com]}{\com}{\rav}}
 			\end{itemize}
 			\crystarium
 			\begin{itemize}
@@ -222,6 +222,10 @@
 				      \begin{itemize}
 					      \item Optimize: Offensive (Magician's Mark Lv2)
 				      \end{itemize}
+				\item Hope ($\rightarrow$)
+					  \begin{itemize}
+					  	  \item Optimize: Offensive (Tungsten Bangle)
+					  \end{itemize}
 			\end{itemize}
 		\end{itemize}
 	\end{menu}
@@ -231,7 +235,7 @@
 	\renewcommand{\third}{[3] Smart Bomb (\sab/\rav/\rav)}
 	\renewcommand{\fourth}{[4] Mystic Tower (\sen/\rav/\rav)}
 	\renewcommand{\fifth}{[5] Guerilla (\sab/\rav/\syn)}
-	\renewcommand{\sixth}{[6] Relentless Assault (\com/\rav/\rav)}
+	\renewcommand{\sixth}{[6] Aggression (\com/\com/\rav)}
 
 	\begin{battle}[2:25]{Ushumgal Subjugator 2-2 (Fang Lead)}
 		\begin{itemize}
@@ -314,22 +318,17 @@
 		\begin{itemize}
 			\item \first
 			      \begin{itemize}
-				      \item Hover over the Bombardier ($\downarrow$) then shift
+				      \item Blitz-Blitz PSICOM Bombardier ($\downarrow$) try to RAC Fang
 			      \end{itemize}
-			\item \second
+			\item \sixth
 			      \begin{itemize}
-				      \item Fire-Thunder-Fire-Thunder
+				      \item Repeat
+				      \item Repeat or Ruin x4, try to RAC Fang
 			      \end{itemize}
 			\item \first
 			      \begin{itemize}
-				      \item \stagger
-				      \item Blitz x2
-				      \item Repeat until Bombardier is dead
-			      \end{itemize}
-			\item \second
-			      \begin{itemize}
-				      \item Repeat with COM-buffer to win if needed
-			      \end{itemize}
+				      \item Repeat
+				  \end{itemize}
 		\end{itemize}
 		\itemdrop{27.1}{Incentive Chip} \itemdrop{2.5}{Fortisol}
 	\end{battle}
@@ -339,17 +338,6 @@
 
 	\begin{menu}
 		\begin{itemize}
-			\paradigm
-			\begin{itemize}
-				\item \paradigmdeck{%
-					      \paradigmline{Lightning}{Fang}{Hope}}%
-				      {\paradigmline[1]{\textit{\com}}{\textit{\com}}{\textit{\rav}}}
-				      {\paradigmline{\rav}{\com}{\rav}}%
-				      {\paradigmline{\rav}{\sab}{\rav}}%
-				      {\paradigmline{\rav}{\sen}{\rav}}%
-				      {\paradigmline{(\com)}{(\com)}{\syn}}%
-				      {\paradigmline{\rav}{\com}{\rav}}
-			\end{itemize}
 			\crystarium
 			\begin{itemize}
 				\item Lightning
@@ -382,13 +370,6 @@
 		\end{itemize}
 	\end{menu}
 
-	\renewcommand{\first}{[1] Aggression (\com/\com/\rav)}
-	\renewcommand{\second}{[2] Relentless Assault (\rav/\com/\rav)}
-	\renewcommand{\third}{[3] Aggression (\com/\com/\rav)}
-	\renewcommand{\fourth}{[4] Tireless Charge (\com/\com/\med)}
-	\renewcommand{\fifth}{[5] Strike Team (\com/\com/\syn)}
-	\renewcommand{\sixth}{[6] Tireless Charge (\com/\com/\med)}
-
 	Activate a \textbf{Fortisol}.
 
 	\begin{battle}[1:36]{Havoc Skytank}
@@ -397,16 +378,16 @@
 			      \begin{itemize}
 				      \item Attack x4 Starboard Hull ($\uparrow$)
 			      \end{itemize}
-			\item \fifth
+			\item \sixth
 			      \begin{itemize}
 				      \item Repeat
 				      \item Summon
-				      \item Repeat, refresh between [1] and [5]  until all are dead, targeting the Hulls first ($\downarrow$).
+				      \item Repeat, refresh between [1] and [6]  until all are dead, targeting the Hulls first ($\downarrow$).
 			      \end{itemize}
 			\item Until the second Main Cannon, after Odin Leaves:
 			      \begin{itemize}
-				      \item Repeat in [1] and [5]
-                                                 \item Potion if Hope got hit, else Potion as soon as the Main Cannon animation starts
+				      \item Repeat in [1] and [6]
+                      \item Potion as needed
 			      \end{itemize}
 			\item When Main Cannon starts:
 			      \begin{itemize}
@@ -423,3 +404,5 @@
 		\end{itemize}
 	\end{battle}
 	\save{1}
+
+	\newpage

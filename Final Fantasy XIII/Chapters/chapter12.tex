@@ -164,9 +164,8 @@
 		\item \third
 		      \begin{itemize}
 			      \item Bravery-Enfire Sazh
-			      \item Repeat Snow
-			      \item Faith-Enfire Vanille if waiting for Deprotect and Imperil
-			      \item Shift after Deprotect and Imperil, wait for Hurl if late
+			      \item Repeat Snow, Faith-Enfire Vanille if have time
+			      \item Shift after Deprotect and Imperil, wait if need
 		      \end{itemize}
 		\item \second
 		      \begin{itemize}
@@ -175,7 +174,7 @@
 	\end{itemize}
 	\itemdrop{0.38}{Aegisol}
 \end{battle}
-\vfill
+
 \begin{menu}
 	\begin{itemize}
 		\crystarium
@@ -197,8 +196,6 @@
 		\end{itemize}
 	\end{itemize}
 \end{menu}
-\decep{battle zone}{Behemoth}
-\textbf{Deceptisol} when the bird falls through the ceiling, don't cancel it.
 
 \begin{battle}[1:31]{Proudclad 1}
 	\begin{itemize}
@@ -260,6 +257,52 @@
 	\end{itemize}
 	\itemdrop{0.38}{Deceptisol}
 \end{battle}
+\vfill
+
+\begin{battle}[1:16]{(FORTISOL)Proudclad 1}
+	\begin{itemize}
+		\item \second
+		      \begin{itemize}
+			      \item Attack-Blitz asap, buffer into [6]
+		      \end{itemize}
+		\item \sixth
+			\begin{itemize}
+				\item Fire-Thunder-Fire-Thunder
+				\item Repeat
+			\end{itemize}
+		\item \fifth
+			\begin{itemize}
+				\item Repeat
+				\item Librascope
+				\item Shift to Tri-D after Snow's 5th strike (4th if interrupted)
+			\end{itemize}
+		\item \sixth
+			\begin{itemize}
+				\item Cold Blood, shift after Snow \& Vanille are done
+			\end{itemize}
+		\item \fifth
+			\begin{itemize}
+				\item Repeat, shift when Snow lands
+			\end{itemize}
+		\item \sixth
+			\begin{itemize}
+				\item Shift after Snow's 5th strike
+			\end{itemize}
+		\item \first
+			\begin{itemize}
+				\item Repeat
+				\item Renew
+				\item Blitz-Blitz
+			\end{itemize}
+		\item \second
+			\begin{itemize}
+				\item Repeat
+				\item Blitz-Attack
+			\end{itemize}
+	\end{itemize}
+\end{battle}
+\vfill
+
 \ifthenelse{\equal{\notetype}{snow_turtle}}
 	{ \input{./Chapters/chapter12-snow-menu1.tex} }
 	{ \ifthenelse{\equal{\notetype}{lightning_turtle}}
@@ -267,15 +310,10 @@
 	}
 }
 
-
-Consult the following chart to determine which chests to get. Add 6,000 to the total for the Shield Talisman. If you got the Gold Dust, add 15,000 to your gil total. Random drops from Chapter 12 also add to this total, such as: Scarletite (7,000), Incentive Chip (2,500), Credit Chip (500), Chobham Armor (500), Electrolytic Capacitor (160).
-
 \begingroup
 \includegraphics[width=9cm]{./Chapters/gil_pickups.png}
 \endgroup
 
-\pickup{Punisher}{forward and to the right if needed}
-Push VH+T to the side.
 \pickup{Particle Accelerator x6}{on the left side of the glass, then run backwards}
 \pickup{Mistilteinn}{in of the long hallway if needed}
 \pickup{Power Glove}{up the steps}
@@ -350,12 +388,12 @@ Activate \textbf{Ethersol, Fortisol, Aegisol}.
 			      \end{itemize}
 			\item \first
 			      \begin{itemize}
+			      	  \item Renew
 				      \item Cold Blood
 				      \item Shift towards the end of Cold Blood (as Sazh performs the second from last shot)
 			      \end{itemize}
 			\item \second
 			      \begin{itemize}
-				      \item Renew
 				      \item Until stagger runs out, Auto-battle 3 Attacks, alternate with Vanille to keep PC2 in the air
 				      \item Attack-Attack-Blitz, \rav-buffer the Blitz
 			      \end{itemize}
